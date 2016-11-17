@@ -98,11 +98,11 @@
     </div>  
   
 
-<div class="container-fluid trim_screen">
-    <div class="row-fluid">
-       {{page_content}}   
-    </div> <!-- END span12 -->  
-</div>
+    <div class="container-fluid trim_screen">
+        <div class="row-fluid">
+           {{page_content}}   
+        </div> <!-- END span12 -->  
+    </div>
 
         <!--Bottom Nav Dynamic-->
         <div class="hidden-phone">
