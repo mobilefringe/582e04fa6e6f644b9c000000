@@ -41,7 +41,188 @@
 
 <body>
     <header>
-        <!--Header Content-->
+        <!-- Phone/Tablet Header -->
+        <div class="mobile_header visible-phone visible-tablet top_nav row-fluid" >        
+            <li class="dropdown custom_dropdown" style="list-style-type:none;">
+                <button type="button" data-toggle="dropdown" class="btn-prime pull-right" style="height:38px;width:50px;top:7px;">
+                    <img src="/system/site_images/photos/000/000/299/original/Unknown.png?1371576041" alt="logo"/>
+                </button>
+                <ul class="dropdown-menu bottom pull-right" style="width:96%;left:2%;margin-top:47px;">                
+                    <div class="arrow" style="left:90%"></div>
+                    {% for menu_item in site.menu_items_array %}
+                        <div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+                            <a href='{{ menu_item["url"] }}' >{{menu_item["title_code"])}} </a>
+                        </div>
+                            {% for sub_menu_item in menu_item["sub_menu_items"] %}
+                                <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+                                <a href='{{sub_menu_item["url"] }}'>{{sub_menu_item["title_code"])}}</a>
+                                </div>
+                            {% endfor %}
+                    {% endfor %}
+                </ul>
+            </li>
+        </div>
+    <!-- phone/tablet header END -->
+    <!--Top Nav Dynamic-->
+    <div class="top_nav visible-desktop custom_dropdown full_header">
+        <div class="container-fluid trim_screen">              
+            <div class="row" id="site_nav">  
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <!-- BEGIN LivePerson Button Code -->
+                    <div id="lpButDivID-1373470070" style="width:156px;height:21px;overflow:hidden;padding-top:9px;"></div>
+                    <script type="text/javascript" charset="UTF-8" src="https://server.iad.liveperson.net/hc/26404326/?cmd=mTagRepstate&site=26404326&buttonID=14&divID=lpButDivID-1373470070&bt=1&c=1"></script>
+                    <!-- END LivePerson Button code -->
+                </div>
+                <div class="col-md-4">
+                    <div class="social_bar">
+                        <a class="accessible" href="#main">[Skip to Content]</a>
+                        <a class="media_icon" target="_blank" href="https://twitter.com/uppercanadamall"><img src="/system/site_images/photos/000/000/267/original/icon_twitter.png?1369778410" alt="twitter" /></a>
+                        <a class="media_icon" target="_blank" href="https://www.facebook.com/uppercanadamall"><img src="/system/site_images/photos/000/000/265/original/icon_facebook.png?1369778376" alt="facebook" /></a>
+                        <a class="media_icon" target="_blank" href="http://pinterest.com/uppercanadamall"><img src="/system/site_images/photos/000/000/266/original/icon_pinterest.png?1369778401" alt="pinterest" /></a>
+                        <a class="media_icon" target="_blank" href="http://www.youtube.com/user/UpperCanadaMall"><img src="/system/site_images/photos/000/000/298/original/icon_youtube.png?1371568582" alt="youtube" /></a>
+                        <a class="media_icon" target="_blank" href="http://instagram.com/uppercanadamall"><img src="/system/site_images/photos/000/000/661/original/icon_insta.png?1377551881" alt="instagram" /></a>
+                        <a class="media_icon" target="_blank" href="http://gorgeous.uppercanadamall.com"><img src="/system/site_images/photos/000/000/264/original/icon_blog.png?1369778362" alt="blog"/></a>
+                        <a class="media_icon" href="/newsletter"><img src="/system/site_images/photos/000/000/297/original/icon_news.png?1371568553" alt="newsletter"/></a>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+  
+
+<div class="container-fluid trim_screen">
+    <div class="row-fluid">
+       {{page_content}}   
+    </div> <!-- END span12 -->  
+</div>
+
+        <!--Bottom Nav Dynamic-->
+        <div class="hidden-phone">
+            <div class="container-fluid trim_screen">
+                <div class="row-fluid">
+                    <div class="bottom_poll feature_items_bar row-fluid">
+                            {% for feature_item in site.feature_items_array %}
+                                {% if feature_item.name == 'footer_1' %}
+                                        <div class="home_thumbnail">
+                                            <a  target="_blank" href='{{feature_item.url}}'>
+                                                <img src='{{feature_item.feature_image_path}}' alt='{{feature_item.name}}'/>
+                                            </a>
+                                            <div class="text_on_image">
+                                                <h3>{{ feature_item.description }}</h3>
+                                                {% if @can_edit == "true" %}
+                                                    <button onclick="window.location ='/feature_items/{{feature_item.id}}/edit'" class="btn btn-primary">Edit</button>            
+                                                {% endif %} 
+                                            </div>
+                                        </div>
+                                {% endif %}
+                            {% endfor %}
+                            {% for feature_item in site.feature_items_array %}
+                                {% if feature_item.name == 'footer_2' %}
+                                        <div class="home_thumbnail">
+                                            <a href='{{feature_item.url}}'>
+                                                <img src='{{feature_item.feature_image_path}}' alt='{{feature_item.name}}'/>
+                                            </a>
+                                            <div class="text_on_image">
+                                                <h3>{{ feature_item.description }}</h3>
+                                                {% if @can_edit == "true" %}
+                                                    <button onclick="window.location ='/feature_items/{{feature_item.id}}/edit'" class="btn btn-primary">Edit</button>            
+                                                {% endif %} 
+                                            </div>
+                                        </div>
+                                {% endif %}
+                            {% endfor %}
+                            {% for feature_item in site.feature_items_array %}
+                                {% if feature_item.name == 'footer_3' %}
+                                        <div class="home_thumbnail">
+                                            <a href='{{feature_item.url}}'>
+                                                <img src='{{feature_item.feature_image_path}}' alt='{{feature_item.name}}'/>
+                                            </a>
+                                            <div class="text_on_image">
+                                                <h3>{{ feature_item.description }}</h3>
+                                                {% if @can_edit == "true" %}
+                                                    <button onclick="window.location ='/feature_items/{{feature_item.id}}/edit'" class="btn btn-primary">Edit</button>            
+                                                {% endif %} 
+                                            </div>
+                                        </div>
+                                {% endif %}
+                            {% endfor %}
+                            {% for feature_item in site.feature_items_array %}
+                                {% if feature_item.name == 'footer_4' %}
+                                        <div class="home_thumbnail">
+                                            <a target="_blank" href='{{feature_item.url}}'>
+                                                <img src='{{feature_item.feature_image_path}}' alt='{{feature_item.name}}'/>
+                                            </a>
+                                            <div class="text_on_image">
+                                                <h3>{{ feature_item.description }}</h3>
+                                                {% if @can_edit == "true" %}
+                                                    <button onclick="window.location ='/feature_items/{{feature_item.id}}/edit'" class="btn btn-primary">Edit</button>            
+                                                {% endif %} 
+                                            </div>
+                                        </div>
+                                {% endif %}
+                            {% endfor %}
+                    </div>
+                    <div class="bottom_sitemap">
+                        <div class="row-fluid">
+                            {% for menu_item in site.menu_items_array limit:3%}                     
+                                <div class="span4 bottom_nav_block">
+                                    <table>
+                                        <tr>
+                                            <th align="left" class="bottom_nav_header">
+                                            {% if menu_item["sub_menu_items"] and menu_item["sub_menu_items"].size > 0 %}
+                                                {{ menu_item["title_code"] }}
+                                            {% else %}
+                                            <a href="{{menu_item['url']}}">{{menu_item["title_code"]}}</a>                                
+                                            {% endif %}
+                                            </th>
+                                        </tr>
+                                        {% for sub_menu_item in menu_item["sub_menu_items"] %}
+                                            <tr>
+                                                <td align="left" class="bottom_nav_list">
+                                                    <a href='{{sub_menu_item["url"] }}' target='{{sub_menu_item["target"] }}'>{{sub_menu_item["title_code"]}}</a>
+                                                </td>
+                                            </tr>
+                                        {%endfor%}
+                                    </table>
+                                </div>                  
+                            {%endfor%}
+                        </div>
+                        <div class="row-fluid">
+                            {% for menu_item in site.menu_items_array limit:3 offset:3%}                        
+                                <div class="span4 bottom_nav_block">
+                                    <table>
+                                        <tr>
+                                            <th align="left" class="bottom_nav_header">
+                                            {% if menu_item["sub_menu_items"] and menu_item["sub_menu_items"].size > 0 %}
+                                                {{ menu_item["title_code"] }}
+                                            {% else %}
+                                            <a href="{{menu_item['url']}}">{{menu_item["title_code"]}}</a>                                
+                                            {% endif %}
+                                            </th>
+                                        </tr>
+                                        {% for sub_menu_item in menu_item["sub_menu_items"] %}
+                                            <tr>
+                                                <td align="left" class="bottom_nav_list">
+                                                    <a href='{{sub_menu_item["url"] }}' target='{{sub_menu_item["target"] }}'>{{sub_menu_item["title_code"]}}</a>
+                                                </td>
+                                            </tr>
+                                        {%endfor%}
+                                    </table>
+                                </div>                  
+                            {%endfor%}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <section id="content">
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
