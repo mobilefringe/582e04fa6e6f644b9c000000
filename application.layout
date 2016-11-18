@@ -196,6 +196,50 @@
         {{yield}}
     </section>
     <footer>
+        <div class="site_map">
+            <h2 class="trim_screen">site map</h2>
+            <div class="row trim_screen">    
+                <div class="site_map_menu">
+                    <strong><a href="/stores">DIRECTORY</a></strong>
+                    <a href="/stores">Store List</a>
+                    <a href="/mapv2">Centre Map</a>
+                    <a href="/new_stores">New Stores</a>
+                </div>
+                                     
+                <div class="site_map_menu">
+                    <strong><a href="/promotions">PROMOTIONS</a></strong>
+                    <a href="/promotions">Store Promotions</a>
+                </div>
+                                     
+                <div class="site_map_menu">
+                    <strong><a href="/events">EVENTS</a></strong>
+                    <a href="/events">In-Mall Events</a>
+                    <a href="/pages/ucm2-clubs">Clubs</a>
+                </div>
+                                     
+                <div class="site_map_menu">
+                    <strong><a href="/pages/ucm2-services">SERVICES</a></strong>
+                    <a href="/pages/ucm2-services">Services</a>
+                    <a href="/pages/ucm2-gift-cards">Gift Cards</a>
+                    <a href="/pages/ucm2-accessibility">Accessibility</a>
+                </div>
+                                     
+                <div class="site_map_menu">
+                    <strong><a href="/hours">MALL INFO</a></strong>
+                    <a href="/hours">Mall Hours</a>
+                    <a href="/pages/ucm2-directions">Parking & Directions</a>
+                    <a href="/jobs">Jobs</a>
+                    <a href="/pages/ucm2-leasing">Leasing</a>
+                    <a href="/newsletter">Newsletter</a>
+                    <a href="/pages/ucm2-virtual-tour">Virtual Tour</a>
+                </div>
+                                     
+                <div class="site_map_menu">
+                    <strong><a href="http://gorgeous.uppercanadamall.com/">BLOG</a></strong>
+                </div>
+            </div>    
+        </div>   
+
         <!--Footer Content-->
         <div class="hidden_phone">
             <div class="container-fluid trim_screen">
