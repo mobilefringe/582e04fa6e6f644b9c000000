@@ -88,6 +88,274 @@
                 </div>                 
             </div>
         </div>
+        <div class="logo_header trim_screen" id="main">
+            <center class="dropdown custom_dropdown visible-phone" style="list-style-type:none;">
+                <button type="button" data-toggle="dropdown" class="btn-prime" style="height:38px;width:50px;top:7px;">
+                    <img src="/system/site_images/photos/000/000/299/original/Unknown.png?1371576041" alt="logo"/>
+                </button>
+                <div class="dropdown-menu bottom">                            
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='http://uppercanadamall.com/magazine' >MAGAZINE </a>
+                        </div>
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/stores' >DIRECTORY </a>
+                        </div>
+                        <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                            <a href='/stores'>Store List</a>
+                        </div>
+                        <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                            <a href='/mapv2'>Centre Map</a>
+                        </div>
+                        <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                            <a href='/new_stores'>New Stores</a>
+                        </div>
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/promotions' >PROMOTIONS </a>
+                        </div>
+                        <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                            <a href='/promotions'>Store Promotions</a>
+                        </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/events' >EVENTS </a>
+                        </div>
+                        
+                        <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                            <a href='/events'>In-Mall Events</a>
+                        </div>
+                    
+                        <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                            <a href='/pages/ucm2-clubs'>Clubs</a>
+                        </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/pages/ucm2-services' >SERVICES </a>
+                        </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-services'>Services</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-gift-cards'>Gift Cards</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-accessibility'>Accessibility</a>
+                            </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/hours' >MALL INFO </a>
+                        </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/hours'>Mall Hours</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-directions'>Parking & Directions</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/jobs'>Jobs</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-leasing'>Leasing</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/newsletter'>Newsletter</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-virtual-tour'>Virtual Tour</a>
+                            </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='http://gorgeous.uppercanadamall.com/' >BLOG </a>
+                        </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/pages/ucm2-agorgeousholiday' >#AGorgeousHoliday </a>
+                        </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/pages/ucm2-contact-us' >ABOUT US </a>
+                        </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-contact-us'>Contact Us</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='/pages/ucm2-press-releases'>Press Releases</a>
+                            </div>
+                        
+                            <div class="mobile_menu_item" style="font-family: Times New Roman,serif;">
+                                <a href='http://www.oxfordproperties.com/'>About Oxford</a>
+                            </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/jobs' >JOBS </a>
+                        </div>
+                        
+                    
+                        <div class="mobile_menu_header" style="font-family: Times New Roman,serif;">
+                            <a href='/pages/ucm2-contact-us' >CONTACT US </a>
+                        </div>
+                        
+                    
+                </div>
+            </center>
+            <div class="logo_right_btn hidden-phone">
+                <!-- BEGIN LivePerson Button Code --> 
+                <!-- END LivePerson Button code -->
+                <a class="logo_hour" href="/hours">
+                    <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>
+                </a>
+                <a class="logo_newsletter" href="/newsletter">
+                    get our newsletter
+                </a>
+            </div>    
+            <center class="site_logo">
+                <a href="/">
+                    <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
+                </a>
+            </center>
+            <div class="logo_menu row-fluid hidden-phone">
+                <div class="row-fluid" id="site_nav">  
+                    <span class="dropdown top_dropdown">
+                        <button id="btn-directory" class="btn-nav" onclick="window.open('/stores' ,'_self');" onmouseenter="animate_dropdown('directory')" style="font-size:9pt;">DIRECTORY</button>                                             
+                        <!--<ul class="dropdown-menu bottom">                     -->
+                        <ul id="dd-directory" class="dropdown-menu">                            
+                            <div id="directory" class="dd_animated">
+                                <li><a href='/stores' target='_self'><span style="font-family: Times New Roman,serif;">Store List</span></a></li>
+                                <li><a href='/mapv2' target='_self'><span style="font-family: Times New Roman,serif;">Centre Map</span></a></li>
+                                <li><a href='/new_stores' target='_self'><span style="font-family: Times New Roman,serif;">New Stores</span></a></li>
+                            </div>
+                        </ul>
+                    </span> 
+                     
+                                     
+                
+                
+                
+                    <span class="dropdown top_dropdown">
+                        <button id="btn-promotions" class="btn-nav" onclick="window.open('/promotions' ,'_self');" onmouseenter="animate_dropdown('promotions')" style="font-size:9pt;">
+                            PROMOTIONS</button>                                             
+                        <!--<ul class="dropdown-menu bottom">                     -->
+                        
+                            <ul id="dd-promotions" class="dropdown-menu">                            
+                        
+                        <div id="promotions" class="dd_animated">
+                            
+                                <li><a href='/promotions' target='_self'><span style="font-family: Times New Roman,serif;">Store Promotions</span></a></li>
+                            
+                        </div>
+                        </ul>
+                    </span> 
+                     
+                                     
+                
+                
+                
+                    <span class="dropdown top_dropdown">
+                        <button id="btn-events" class="btn-nav" onclick="window.open('/events' ,'_self');" onmouseenter="animate_dropdown('events')" style="font-size:9pt;">
+                            EVENTS</button>                                             
+                        <!--<ul class="dropdown-menu bottom">                     -->
+                        
+                            <ul id="dd-events" class="dropdown-menu">                            
+                        
+                        <div id="events" class="dd_animated">
+                            
+                                <li><a href='/events' target='_self'><span style="font-family: Times New Roman,serif;">In-Mall Events</span></a></li>
+                            
+                                <li><a href='/pages/ucm2-clubs' target='_self'><span style="font-family: Times New Roman,serif;">Clubs</span></a></li>
+                            
+                        </div>
+                        </ul>
+                    </span> 
+                     
+                                     
+                
+                
+                
+                    <span class="dropdown top_dropdown">
+                        <button id="btn-services" class="btn-nav" onclick="window.open('/pages/ucm2-services' ,'_self');" onmouseenter="animate_dropdown('services')" style="font-size:9pt;">
+                            SERVICES</button>                                             
+                        <!--<ul class="dropdown-menu bottom">                     -->
+                        
+                            <ul id="dd-services" class="dropdown-menu">                            
+                        
+                        <div id="services" class="dd_animated">
+                            
+                                <li><a href='/pages/ucm2-services' target='_self'><span style="font-family: Times New Roman,serif;">Services</span></a></li>
+                            
+                                <li><a href='/pages/ucm2-gift-cards' target='_self'><span style="font-family: Times New Roman,serif;">Gift Cards</span></a></li>
+                            
+                                <li><a href='/pages/ucm2-accessibility' target='_self'><span style="font-family: Times New Roman,serif;">Accessibility</span></a></li>
+                            
+                        </div>
+                        </ul>
+                    </span> 
+                     
+                                     
+                
+                
+                
+                    <span class="dropdown top_dropdown">
+                        <button id="btn-mallinfo" class="btn-nav" onclick="window.open('/hours' ,'_self');" onmouseenter="animate_dropdown('mallinfo')" style="font-size:9pt;">
+                            MALL INFO</button>                                             
+                        <!--<ul class="dropdown-menu bottom">                     -->
+                        
+                            <ul id="dd-mallinfo" class="dropdown-menu">                            
+                        
+                        <div id="mallinfo" class="dd_animated">
+                            
+                                <li><a href='/hours' target='_self'><span style="font-family: Times New Roman,serif;">Mall Hours</span></a></li>
+                            
+                                <li><a href='/pages/ucm2-directions' target='_self'><span style="font-family: Times New Roman,serif;">Parking & Directions</span></a></li>
+                            
+                                <li><a href='/jobs' target='_self'><span style="font-family: Times New Roman,serif;">Jobs</span></a></li>
+                            
+                                <li><a href='/pages/ucm2-leasing' target='_self'><span style="font-family: Times New Roman,serif;">Leasing</span></a></li>
+                            
+                                <li><a href='/newsletter' target='_self'><span style="font-family: Times New Roman,serif;">Newsletter</span></a></li>
+                            
+                                <li><a href='/pages/ucm2-virtual-tour' target='_self'><span style="font-family: Times New Roman,serif;">Virtual Tour</span></a></li>
+                            
+                        </div>
+                        </ul>
+                    </span> 
+                     
+                                     
+                
+                
+                
+                    <span>   
+                        <button class="btn-nav" style="font-size:9pt; border-right:1px solid #DDD !important;" onclick="window.location.href='http://gorgeous.uppercanadamall.com/'"><div class="dropdown_menu_text">BLOG</div></button>
+                    </span>
+                
+                                     
+                
+                
+                
+                    <span>                        
+                        <button class="btn-nav" style="font-size:9pt;" onclick="window.location.href='/pages/ucm2-agorgeousholiday'"><div class="dropdown_menu_text">#AGorgeousHoliday</div></button>
+                    </span>
+                
+             
+        </div>
+    </div>
+</div>
         <!-- Phone/Tablet Header -->
     <!--    <div class="mobile_header visible-phone visible-tablet top_nav row-fluid" >        -->
     <!--        <li class="dropdown custom_dropdown" style="list-style-type:none;">-->
