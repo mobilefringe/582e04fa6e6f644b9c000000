@@ -237,7 +237,7 @@
                 <div class="row" id="site_nav">  
                     <nav id="site_nav">
                         <ul>
-                            <li class="dropdown top_dropdown">
+                            <li class="dropdown">
                                 <a href="">Directory</a>
                                 <ul class="sub_menu">
                                     <li><a href="">Store List</a></li>
@@ -245,20 +245,20 @@
                                     <li><a href="">New Stores</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown top_dropdown">
+                            <li class="dropdown">
                                 <a href="">Promotions</a>
                                 <ul class="sub_menu">
                                     <li><a href="">Store Promotions</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown top_dropdown">
+                            <li class="dropdown">
                                 <a href="">Events</a>
                                 <ul class="sub_menu">
                                     <li><a href="">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown top_dropdown">
+                            <li class="dropdown">
                                 <a href="">Services</a>
                                 <ul class="sub_menu">
                                     <li><a href="">Services</a></li>
@@ -266,7 +266,7 @@
                                     <li><a href="">Accessibility</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown top_dropdown">
+                            <li class="dropdown">
                                 <a href="">Mall Info</a>
                                 <ul class="sub_menu">
                                     <li><a href="">Mall Hours</a></li>
