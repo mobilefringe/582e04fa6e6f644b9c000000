@@ -528,10 +528,12 @@
                           UpperCanadaMall 2013 &copy; All rights Reserved | <a target="_self" href="/pages/uppercanada-privacy-policy">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
                           </p>
                         </div>
-                        <div class="offset4 property_manager_logo">
-                            <a target="_blank" href="http://www.oxfordproperties.com">
-                            <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/263/original/oxford_logo.png?1369772908" alt="oxford_properties"/>
-                            </a>                
+                        <div class="col-md-4">
+                            <div class="property_manager_logo">
+                                <a target="_blank" href="http://www.oxfordproperties.com">
+                                    <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/263/original/oxford_logo.png?1369772908" alt="oxford_properties"/>
+                                </a>"    
+                            </div>                 
                         </div>    
                     </div>
                 </div>
