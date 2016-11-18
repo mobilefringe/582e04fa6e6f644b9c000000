@@ -217,22 +217,22 @@
             <!--    </div>-->
             <!--</center>-->
             <!--<div class="container trim_screen">              -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="logo_right_btn hidden-phone">
-                            <a class="logo_hour" href="/hours">
-                                <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>
-                            </a>
-                            <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
-                        </div>    
-                        <div class="site_logo">
-                            <a href="/">
-                                <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
-                            </a>
-                        </div>    
-                    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo_right_btn hidden-phone">
+                        <a class="logo_hour" href="/hours">
+                            <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>
+                        </a>
+                        <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
+                    </div>    
+                    <div class="site_logo">
+                        <a href="/">
+                            <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
+                        </a>
+                    </div>    
                 </div>
-            <!--</div>    -->
+            </div>
+                
             <div class="logo_menu hidden-phone">
                 <div class="row" id="site_nav">  
                     <nav id="site_nav">
@@ -442,22 +442,7 @@
         <!--</section>-->
     
 
-        <!--            <div class="logo_menu hidden-phone">-->
-        <!--                <div id="site_nav">-->
 
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</section>-->
-        
-        <!--<section>-->
-        <!--    <div class="container">-->
-        <!--        <div class="row">-->
-                    
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</section>-->
 
 
 
@@ -465,6 +450,7 @@
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
     </section>
+    
     <footer>
         <div class="site_map">
             <h2 class="trim_screen">site map</h2>
@@ -547,9 +533,9 @@
         <!--    </div>-->
         <!--</div>-->
     </footer>
-    <div class="online_chat">
-        <a href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/oxford-upper-canada-mall/guest-chat-page', 'Online Chat','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Upper Canada Mall Guest Services, how can we help you?</a>
-    </div>
+    <!--<div class="online_chat">-->
+    <!--    <a href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/oxford-upper-canada-mall/guest-chat-page', 'Online Chat','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Upper Canada Mall Guest Services, how can we help you?</a>-->
+    <!--</div>-->
 </body>
 
 </html>
