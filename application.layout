@@ -519,7 +519,7 @@
         </div>   
 
         <!--Footer Content-->
-        <div class="hidden_phone" id="footer">
+        <div class="hidden_phone footer">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="trim_screen">
