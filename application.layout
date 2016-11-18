@@ -521,7 +521,7 @@
         <!--Footer Content-->
         <div class="hidden_phone">
             <div class="container-fluid trim_screen">
-                <div class="row">
+                <div class="row-fluid">
                     <div class="footer">
                         <div class="col-md-8">
                           <p class="footer_text">
