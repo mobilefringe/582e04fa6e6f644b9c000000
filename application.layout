@@ -539,13 +539,13 @@
                 </div>
             </div>
         </div>
-        <div class="footer visible_phone" style="padding-top: 10px;">
-            <div class="container-fluid trim_screen">
-                <center class="row">
-                      UpperCanadaMall 2013 &copy; All rights Reserved 2013 | <a target="_self" href="/pages/uppercanada-privacy-policy--2">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
-                </center>
-            </div>
-        </div>
+        <!--<div class="footer visible_phone" style="padding-top: 10px;">-->
+        <!--    <div class="container-fluid trim_screen">-->
+        <!--        <center class="row">-->
+        <!--              UpperCanadaMall 2013 &copy; All rights Reserved 2013 | <a target="_self" href="/pages/uppercanada-privacy-policy--2">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> -->
+        <!--        </center>-->
+        <!--    </div>-->
+        <!--</div>-->
     </footer>
     <div class="online_chat">
         <a href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/oxford-upper-canada-mall/guest-chat-page', 'Online Chat','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Upper Canada Mall Guest Services, how can we help you?</a>
