@@ -519,10 +519,10 @@
         </div>   
 
         <!--Footer Content-->
-        <div class="hidden_phone">
+        <div class="hidden_phone footer">
             <div class="container-fluid ">
                 <div class="row">
-                    <div class="footer trim_screen">
+                    <div class=" trim_screen">
                         <div class="col-md-8">
                           <p class="footer_text">
                           UpperCanadaMall 2013 &copy; All rights Reserved | <a target="_self" href="/pages/uppercanada-privacy-policy">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
