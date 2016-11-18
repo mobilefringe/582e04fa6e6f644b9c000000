@@ -277,11 +277,11 @@
                                     <li><a href="">Virtual Tour</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="" class="drop_down">Blog</a>
+                            <li class="drop_down">
+                                <a href="">Blog</a>
                             </li>
-                            <li>
-                                <a href="" class="drop_down">#AGorgeousHoliday</a>
+                            <li class="drop_down">
+                                <a href="">#AGorgeousHoliday</a>
                             </li>
                         </ul>
                     </nav>
