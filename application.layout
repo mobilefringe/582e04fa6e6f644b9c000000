@@ -219,16 +219,16 @@
             <!--<div class="container trim_screen">              -->
                 <div class="row">
                     <div class="col-md-12">
-                        <!--<div class="logo_right_btn hidden-phone">-->
-                        <!-- BEGIN LivePerson Button Code --> 
-                        <!-- END LivePerson Button code -->
-                        <!--    <a class="logo_hour" href="/hours">-->
-                        <!--        <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>-->
-                        <!--    </a>-->
-                        <!--    <a class="logo_newsletter" href="/newsletter">-->
-                        <!--        get our newsletter-->
-                        <!--    </a>-->
-                        <!--</div>    -->
+                        <div class="logo_right_btn hidden-phone">
+                         BEGIN LivePerson Button Code 
+                         END LivePerson Button code 
+                            <a class="logo_hour" href="/hours">
+                                <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>
+                            </a>
+                            <a class="logo_newsletter" href="/newsletter">
+                                get our newsletter
+                            </a>
+                        </div>    
                         <div class="site_logo">
                             <a href="/">
                                 <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
