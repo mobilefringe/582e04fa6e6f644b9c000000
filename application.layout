@@ -201,7 +201,7 @@
             <div class="row trim_screen">  
                 <div class="col-md-2">
                     <div class="site_map_menu">
-                        <strong><a href="/stores">DIRECTORY</a></strong>
+                        <a href="/stores" class="site_map_title">DIRECTORY</a>
                         <a href="/stores">Store List</a>
                         <a href="/mapv2">Centre Map</a>
                         <a href="/new_stores">New Stores</a>
@@ -210,20 +210,20 @@
                 
                 <div class="col-md-2">                     
                     <div class="site_map_menu">
-                        <strong><a href="/promotions">PROMOTIONS</a></strong>
+                        <a href="/promotions" class="site_map_title">PROMOTIONS</a>
                         <a href="/promotions">Store Promotions</a>
                     </div>
                 </div>
                 <div class="col-md-2">                     
                     <div class="site_map_menu">
-                        <strong><a href="/events">EVENTS</a></strong>
+                        <a href="/events" class="site_map_title">EVENTS</a>
                         <a href="/events">In-Mall Events</a>
                         <a href="/pages/ucm2-clubs">Clubs</a>
                     </div>
                 </div>
                 <div class="col-md-2">                     
                     <div class="site_map_menu">
-                        <strong><a href="/pages/ucm2-services">SERVICES</a></strong>
+                        <a href="/pages/ucm2-services" class="site_map_title">SERVICES</a>
                         <a href="/pages/ucm2-services">Services</a>
                         <a href="/pages/ucm2-gift-cards">Gift Cards</a>
                         <a href="/pages/ucm2-accessibility">Accessibility</a>
@@ -231,7 +231,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="site_map_menu">
-                        <strong><a href="/hours">MALL INFO</a></strong>
+                        <a href="/hours" class="site_map_title">MALL INFO</a>
                         <a href="/hours">Mall Hours</a>
                         <a href="/pages/ucm2-directions">Parking & Directions</a>
                         <a href="/jobs">Jobs</a>
@@ -242,7 +242,7 @@
                 </div>    
                 <div class="col-md-2">                     
                     <div class="site_map_menu">
-                        <strong><a href="http://gorgeous.uppercanadamall.com/">BLOG</a></strong>
+                        <a href="http://gorgeous.uppercanadamall.com/" class="site_map_title">BLOG</a>
                     </div>
                 </div>
             </div>    
