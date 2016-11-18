@@ -216,7 +216,7 @@
                     
             <!--    </div>-->
             <!--</center>-->
-            <div class="container trim_screen">              
+            <!--<div class="container trim_screen">              -->
                 <div class="row">
                     <div class="col-md-12">
                         <!--<div class="logo_right_btn hidden-phone">-->
@@ -236,7 +236,7 @@
                         </div>    
                     </div>
                 </div>
-            </div>    
+            <!--</div>    -->
             <div class="logo_menu row-fluid hidden-phone">
                 <div class="row-fluid" id="site_nav">  
                     <span class="dropdown top_dropdown">
