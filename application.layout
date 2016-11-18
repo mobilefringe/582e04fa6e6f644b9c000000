@@ -75,7 +75,7 @@
                         <div class="col-md-6">
                             <div class="social_bar">
                                 <a class="accessible" href="#main">[Skip to Content]</a>
-                                <a class="media_icon" target="_blank" href="https://twitter.com/uppercanadamall"><img src="/system/site_images/photos/000/002/326/original/icon_twitter.png?1397446235" alt="twitter" /></a>
+                                <a class="media_icon" target="_blank" href="https://twitter.com/uppercanadamall"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a class="media_icon" target="_blank" href="https://www.facebook.com/uppercanadamall"><img src="/system/site_images/photos/000/002/322/original/icon_facebook.png?1397446183" alt="facebook" /></a>
                                 <a class="media_icon" target="_blank" href="http://pinterest.com/uppercanadamall"><img src="/system/site_images/photos/000/002/325/original/icon_pinterest.png?1397446225" alt="pinterest" /></a>
                                 <a class="media_icon" target="_blank" href="http://www.youtube.com/user/UpperCanadaMall"><img src="/system/site_images/photos/000/002/327/original/icon_youtube.png?1397446241" alt="youtube" /></a>
