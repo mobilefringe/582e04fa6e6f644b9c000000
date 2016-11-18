@@ -521,7 +521,7 @@
         <!--Footer Content-->
         <div class="hidden_phone">
             <div class="container-fluid trim_screen">
-                <div class="row footer">
+                <div class="row-fluid footer">
                     <div class="col-md-8">
                       <p class="footer_text">
                       UpperCanadaMall 2013 &copy; All rights Reserved | <a target="_self" href="/pages/uppercanada-privacy-policy">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
