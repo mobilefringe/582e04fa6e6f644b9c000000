@@ -2,7 +2,41 @@
     <div class="trim_screen">
         <div class="row">
             <h1>Shopping Hours</h1>
+            <h2 class="">Regular Hours</h2> 
             
+            <div class="hidden_div" id="cat_regular_hours_stores">
+                <script id="regular_hours_template" type="x-tmpl-mustache/text">
+                    <div class="hour_line">
+                        <p class="">{{day}}</p>
+                        <p class="">{{hour_string}}</p>
+                    </div>
+                </script>
+            </div>
         </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function(e){
+        $(document).ready(function() {
+        function renderPageData(){
+            var hours = getPropertyHours();
+            reg_hours = []
+            holiday_hours = []
+            $.each(hours, function(key, val) {
+                if (val.store_id == null && val.is_holiday == false){
+                    reg_hours.push(val)
+                }
+                if (val.store_id == null && val.is_holiday == true){
+                    holiday_hours.push(val)
+                }
+            })
+            renderData("#cat_regular_hours_stores","#regular_hours_template",reg_hours, "reg_hours")
+            renderData("#cat_holiday_hours_stores","#holiday_hours_template",holiday_hours, "holiday_hours")
+            // $(".hidden_div").hide();
+            $(".loading_overlay").hide();
+            $("#page_content").show();
+
+        }
+    })
+</script>
