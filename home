@@ -23,11 +23,11 @@
         <div class="row">
             <div class="col-md-4" id="latest_fashion">
                 <script id="latest_fashion_template" type="x-tmpl-mustache/text">
-                    <a href="">
-                        <img alt="" src="">
+                    <a href="{{url}}">
+                        <img alt="" src="{{image_url}}">
                     </a>   
-                    <p class="fashion_title">{{}}</p>
-                    <p class="latest_info">{{}}</p>
+                    <p class="fashion_title">{{name}}</p>
+                    <p class="latest_info">{{description}}</p>
                 </script>
             </div>
         </div>
@@ -60,7 +60,7 @@
             var feature_items = getFeatureList();
             console.log(feature_items);
             renderBanner('#home_banner_template','#home_banner', banners);
-            // renderFeatureItems('#feature_container','#feature_template', feature_items);
+            renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             // show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
