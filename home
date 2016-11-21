@@ -24,33 +24,33 @@
             <div id="latest_fashion">
                 <script id="latest_fashion_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4" >
-                
                         <a href="{{url}}">
                             <img alt="" src="{{image_url}}">
                         </a>   
                         <p class="fashion_title">{{name}}</p>
                         <p class="latest_info">{{description}}</p>
-                
                     </div>
                 </script>    
             </div>
-            
         </div>
     </div>
 </section>
-<section class="latest_stores trim_screen">
-    <div class="container">
+<section class="latest_stores container">
+    <div class="trim_screen">
         <div class="row">
             <h1>Latest in <span>new stores</span></h1>
         </div>
         <div class="row">
-            <div class="col-md-4" id="latest_stores">
+            <div id="latest_stores">
                 <script id="latest_stores_template" type="x-tmpl-mustache/text">
-                    <a href="">
-                        <img alt="" src="">
-                    </a>   
-                    <p class="fashion_title">{{}}</p>
-                    <p class="latest_info">{{}}</p>
+                    <div class="col-md-4" >
+                
+                        <a href="">
+                            <img alt="" src="">
+                        </a>   
+                        <p class="fashion_title">{{}}</p>
+                        <p class="latest_info">{{}}</p>
+                    </div> 
                 </script>
             </div>
         </div>
