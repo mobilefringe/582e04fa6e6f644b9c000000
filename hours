@@ -4,19 +4,19 @@
             <h1>Shopping Hours</h1>
             <h2 class="">Regular Hours</h2> 
             
-            <table id="reg_hours_container" class="hours_container">
+            <div id="reg_hours_container" class="hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
-                    <tr>
-                        <td class="hours_left">
+                    
+                        <div class="col-med-2">
                             <span>{{day}}</span>
                             <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
+                        </div>   
+                        <div class="col-md-2">
                             <span>{{h}}</span>
-                        </td>
-                    </tr>
+                        </div>
+                    
                 </script>
-            </table>
+            </div>
             <table id="holiday_hours_container" class="hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
                     <tr>
