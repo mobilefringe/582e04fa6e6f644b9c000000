@@ -4,14 +4,19 @@
             <h1>Shopping Hours</h1>
             <h2 class="">Regular Hours</h2> 
             
-            <div id="cat_regular_hours_stores">
-                <script id="regular_hours_template" type="x-tmpl-mustache/text">
-                    <div class="hour_line">
-                        <p class="">{{day}}</p>
-                        <p class="">{{hour_string}}</p>
-                    </div>
+            <table id="reg_hours_container" class="hours_container">
+                <script id="reg_hours_template" type="x-tmpl-mustache/text">
+                    <tr>
+                        <td class="hours_left">
+                            <span>{{day}}</span>
+                            <span class="dashes"></span>
+                        </td>   
+                        <td class="hours_right">
+                            <span>{{h}}</span>
+                        </td>
+                    </tr>
                 </script>
-            </div>
+            </table>
         </div>
     </div>
 </section>
@@ -19,24 +24,13 @@
 <script>
     $(document).ready(function(e){
 
-        function renderPageData(){
+        function renderAll(){
             var hours = getPropertyHours();
-            reg_hours = []
-            holiday_hours = []
-            $.each(hours, function(key, val) {
-                if (val.store_id == null && val.is_holiday == false){
-                    reg_hours.push(val)
-                }
-                if (val.store_id == null && val.is_holiday == true){
-                    holiday_hours.push(val)
-                }
-            })
-            renderData("#cat_regular_hours_stores","#regular_hours_template",reg_hours, "reg_hours")
-            renderData("#cat_holiday_hours_stores","#holiday_hours_template",holiday_hours, "holiday_hours")
-            // $(".hidden_div").hide();
-            $(".loading_overlay").hide();
-            $("#page_content").show();
-
+            renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours')
+            renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours')
+            show_content();
+            // $('#top_nav_centre_info').addClass('active_yellow')
         }
+        loadMallDataCached(renderAll); 
     });
 </script>
