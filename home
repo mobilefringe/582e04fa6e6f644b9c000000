@@ -1,5 +1,5 @@
-<section class="home_banner ">
-    <div class="container trim_screen">
+<section class="home_banner container">
+    <div class="trim_screen">
         <div class="row">
             <div class="flexslider trim_screen">
                 <ul class="slides" id="home_banner">            
