@@ -6,7 +6,6 @@
             
             <div id="reg_hours_container" class="hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
-                    
                         <div class="col-md-2">
                             <span>{{day}}</span>
                             <span class="dashes"></span>
@@ -14,12 +13,11 @@
                         <div class="col-md-10">
                             <span>{{h}}</span>
                         </div>
-                    
                 </script>
             </div>
-            <table id="holiday_hours_container" class="hours_container">
+            <div id="holiday_hours_container" class="hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-                    <tr>
+               
                         <td class="hours_left">
                             <span>{{holiday_name}} ({{formatted_date}})</span>
                             <span class="dashes"></span>
@@ -27,9 +25,9 @@
                         <td class="hours_right">
                             {{h}}
                         </td>
-                    </tr>
+         
                 </script>
-            </table>
+            </div>
         </div>
     </div>
 </section>
