@@ -15,8 +15,8 @@
         </div>
     </div>
 </section>
-<section class="latest_fashion trim_screen">
-    <div class="container">
+<section class="latest_fashion">
+    <div class="trim_screen">
         <div class="row">
             <h1>Latest in <span>fashion and style</span></h1>
         </div>
