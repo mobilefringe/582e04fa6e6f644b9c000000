@@ -97,30 +97,30 @@
                 <div class="dropdown-menu bottom">
                     <nav id="site_nav">
                         <ul>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">Directory</a>
-                                <ul class="sub_menu">
+                                <ul class="">
                                     <li><a href="">Store List</a></li>
                                     <li><a href="">Centre Map</a></li>
                                     <li><a href="">New Stores</a></li>
                                 </ul>
                             </li>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">Promotions</a>
-                                <ul class="sub_menu">
+                                <ul class="">
                                     <li><a href="">Store Promotions</a></li>
                                 </ul>
                             </li>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">Events</a>
-                                <ul class="sub_menu">
+                                <ul class="">
                                     <li><a href="">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">Services</a>
-                                <ul class="sub_menu">
+                                <ul class="">
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Gift Cards</a></li>
                                     <li><a href="">Accessibility</a></li>
