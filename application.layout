@@ -505,7 +505,7 @@
         </div>   
 
         <!--Footer Content-->
-        <div class="hidden_phone footer">
+        <div class="hidden-xs footer">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="trim_screen">
