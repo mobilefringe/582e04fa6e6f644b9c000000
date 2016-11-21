@@ -452,7 +452,7 @@
     </section>
     
     <footer>
-        <div class="site_map">
+        <div class="site_map hidden-xs">
             <h2 class="trim_screen">site map</h2>
             <div class="row trim_screen">  
                 <div class="col-md-2">
