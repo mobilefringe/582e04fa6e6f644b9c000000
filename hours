@@ -22,7 +22,7 @@
                             <span>{{holiday_name}} ({{formatted_date}})</span>
                             <span class="dashes"></span>
                         </div>   
-                        <div class="col-md-2">
+                        <div class="col-md-8">
                             {{h}}
                         </div>
          
