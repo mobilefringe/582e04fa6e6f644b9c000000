@@ -218,8 +218,8 @@
             <!--</center>-->
             <!--<div class="container trim_screen">              -->
             <div class="row">
-                <div class="col-md-12 hidden-xs">
-                    <div class="logo_right_btn">
+                <div class="col-md-12 ">
+                    <div class="logo_right_btn hidden-xs">
                         <a class="logo_hour" href="/hours">
                             <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>
                         </a>
