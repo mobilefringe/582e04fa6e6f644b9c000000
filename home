@@ -39,7 +39,7 @@
             <h1>Latest in <span>new stores</span></h1>
         </div>
         <div class="row">
-            <div  id="latest_stores">
+            <div class="col-md-4" id="latest_stores">
                 <script id="latest_stores_template" type="x-tmpl-mustache/text">
                     <a href="">
                         <img alt="" src="">
