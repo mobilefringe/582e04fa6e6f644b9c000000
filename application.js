@@ -3,7 +3,7 @@
 function renderBanner(home_banner_template, home_banner, banners){
     var item_list = [];
     var item_rendered = [];
-    var banner_template_html = $(hom_banner_template).html();
+    var banner_template_html = $(home_banner_template).html();
     Mustache.parse(banner_template_html);   // optional, speeds up future uses
     $.each(banners, function(key, val) {
         today = new Date();
