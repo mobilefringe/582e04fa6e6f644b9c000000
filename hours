@@ -17,6 +17,19 @@
                     </tr>
                 </script>
             </table>
+            <table id="holiday_hours_container" class="hours_container">
+                <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+                    <tr>
+                        <td class="hours_left">
+                            <span>{{holiday_name}} ({{formatted_date}})</span>
+                            <span class="dashes"></span>
+                        </td>   
+                        <td class="hours_right">
+                            {{h}}
+                        </td>
+                    </tr>
+                </script>
+            </table>
         </div>
     </div>
 </section>
