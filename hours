@@ -5,7 +5,7 @@
             <h2 class="">Regular Hours</h2> 
             
             <div id="reg_hours_container">
-                <div  class="hours_container">
+                <div class="hours_container">
                     <script id="reg_hours_template" type="x-tmpl-mustache/text">
                         <div class="col-md-2">
                             <span class="hours_day">{{day}}</span>
