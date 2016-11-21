@@ -39,17 +39,15 @@
             <h1>Latest in <span>new stores</span></h1>
         </div>
         <div class="row">
-            <script id="latest_stores_template" type="x-tmpl-mustache/text">
-                <div class="col-md-4" id="latest_stores">
-                
+            <div  id="latest_stores">
+                <script id="latest_stores_template" type="x-tmpl-mustache/text">
                     <a href="">
                         <img alt="" src="">
                     </a>   
                     <p class="fashion_title">{{}}</p>
                     <p class="latest_info">{{}}</p>
-                
-                </div>
-            </script>
+                </script>
+            </div>
         </div>
     </div>
 </section>
