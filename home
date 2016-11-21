@@ -22,7 +22,7 @@
         </div>
         <div class="row">
             <script id="latest_fashion_template" type="x-tmpl-mustache/text">
-                <div class="col-md-4" id="latest_fashion">
+                <div id="latest_fashion">
                 
                     <a href="{{url}}">
                         <img alt="" src="{{image_url}}">
