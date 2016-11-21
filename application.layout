@@ -126,9 +126,9 @@
                                     <li><a href="">Accessibility</a></li>
                                 </ul>
                             </li>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">Mall Info</a>
-                                <ul class="sub_menu">
+                                <ul class="">
                                     <li><a href="">Mall Hours</a></li>
                                     <li><a href="">Parking & Directions</a></li>
                                     <li><a href="">Jobs</a></li>
@@ -137,10 +137,10 @@
                                     <li><a href="">Virtual Tour</a></li>
                                 </ul>
                             </li>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">Blog</a>
                             </li>
-                            <li class="drop_down">
+                            <li class="">
                                 <a href="">#AGorgeousHoliday</a>
                             </li>
                         </ul>
