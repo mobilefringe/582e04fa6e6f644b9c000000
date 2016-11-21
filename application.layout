@@ -51,7 +51,7 @@
 
     
     <script>
-        setEndPoint('//dixieoutlet.mallmaverick.com/api/v3/dixieoutlet/all.json');
+        setEndPoint('//ucm2.mallmaverick.com/api/v3/ucm2/all.json');
     </script>
 
 </head>
@@ -248,10 +248,10 @@
 
 
 
-    <section id="trim_screen">
+    <!--<section id="trim_screen">-->
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
-        {{yield}}
-    </section>
+    <!--    {{yield}}-->
+    <!--</section>-->
     
     <footer>
         <div class="site_map hidden-xs">
