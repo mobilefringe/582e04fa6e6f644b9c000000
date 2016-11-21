@@ -164,7 +164,7 @@
                 </div>
             </div>
                 
-            <div class="logo_menu hidden-phone">
+            <div class="logo_menu hidden-xs">
                 <div class="row">  
                     <nav id="site_nav">
                         <ul>
