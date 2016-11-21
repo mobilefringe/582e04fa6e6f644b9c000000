@@ -7,11 +7,11 @@
             <div id="reg_hours_container" class="hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     
-                        <div class="col-med-6">
+                        <div class="col-md-2">
                             <span>{{day}}</span>
                             <span class="dashes"></span>
                         </div>   
-                        <div class="col-md-6">
+                        <div class="col-md-2">
                             <span>{{h}}</span>
                         </div>
                     
