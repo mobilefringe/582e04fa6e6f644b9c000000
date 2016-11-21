@@ -234,7 +234,7 @@
             </div>
                 
             <div class="logo_menu hidden-phone">
-                <div class="row" id="site_nav">  
+                <div class="row">  
                     <nav id="site_nav">
                         <ul>
                             <li class="drop_down">
