@@ -4,7 +4,7 @@
             <h1>Shopping Hours</h1>
             <h2 class="">Regular Hours</h2> 
             
-            <div class="hidden_div" id="cat_regular_hours_stores">
+            <div id="cat_regular_hours_stores">
                 <script id="regular_hours_template" type="x-tmpl-mustache/text">
                     <div class="hour_line">
                         <p class="">{{day}}</p>
