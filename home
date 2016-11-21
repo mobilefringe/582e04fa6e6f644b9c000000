@@ -21,15 +21,17 @@
             <h1>Latest in <span>fashion and style</span></h1>
         </div>
         <div class="row">
-            <div class="col-md-4" id="latest_fashion">
-                <script id="latest_fashion_template" type="x-tmpl-mustache/text">
+            <script id="latest_fashion_template" type="x-tmpl-mustache/text">
+                <div class="col-md-4" id="latest_fashion">
+                
                     <a href="{{url}}">
                         <img alt="" src="{{image_url}}">
                     </a>   
                     <p class="fashion_title">{{name}}</p>
                     <p class="latest_info">{{description}}</p>
-                </script>
-            </div>
+                
+                </div>
+            </script>
         </div>
     </div>
 </section>
