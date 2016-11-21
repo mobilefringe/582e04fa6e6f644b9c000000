@@ -98,7 +98,7 @@
                     <nav id="mobile_nav">
                         <ul>
                             <li class="drop_down">
-                                <a href="" class="title">Directory</a>
+                                <a href="">Directory</a>
                                 <ul class="">
                                     <li><a href="">Store List</a></li>
                                     <li><a href="">Centre Map</a></li>
@@ -106,20 +106,20 @@
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="" class="title">Promotions</a>
+                                <a href="">Promotions</a>
                                 <ul class="">
                                     <li><a href="">Store Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="" class="title">Events</a>
+                                <a href="">Events</a>
                                 <ul class="">
                                     <li><a href="">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="" class="title">Services</a>
+                                <a href="">Services</a>
                                 <ul class="">
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Gift Cards</a></li>
@@ -127,7 +127,7 @@
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="" class="title">Mall Info</a>
+                                <a href="">Mall Info</a>
                                 <ul class="">
                                     <li><a href="">Mall Hours</a></li>
                                     <li><a href="">Parking & Directions</a></li>
@@ -137,10 +137,10 @@
                                     <li><a href="">Virtual Tour</a></li>
                                 </ul>
                             </li>
-                            <li class="drop_down" class="title">
+                            <li class="drop_down">
                                 <a href="">Blog</a>
                             </li>
-                            <li class="drop_down" class="title">
+                            <li class="drop_down">
                                 <a href="">#AGorgeousHoliday</a>
                             </li>
                         </ul>
