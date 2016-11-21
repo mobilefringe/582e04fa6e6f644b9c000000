@@ -53,8 +53,8 @@
 </section>
 
 <script>
-    $(document).ready(function(){
-        init();
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
             var banners = getBanners();
             console.log(banners);
