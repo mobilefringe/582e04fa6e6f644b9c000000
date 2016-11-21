@@ -15,6 +15,24 @@
         </div>
     </div>
 </section>
+<section class="home_content">
+    <div class="container">
+        <div class="row">
+            <h1>Latest in <span>fashion and style</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4" id="latest_fashion">
+                <script id="latest_fashion_template" type="x-tmpl-mustache/text">
+                    <a href="">
+                        <img alt="" src="">
+                    </a>   
+                    <p class="fashion_title">{{}}</p>
+                    <p class="latest_info">{{}}</p>
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script>
     $(document).ready(function(e){
