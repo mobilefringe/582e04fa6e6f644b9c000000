@@ -5,14 +5,6 @@
                 <span class="store_initial hidden_now" id="cat_name"></span>
                 <div id="store_list_container">
                     <script id="store_list_template" type="x-tmpl-mustache/text">
-                        <div class='stores_table_headers'>
-                	    	<a name='{{initial}}'>{{initial}}</a> 
-            				
-                            <a href="#top" class="pull-right stores_gotop">
-                                <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003" />
-                            </a>                    			
-                        </div>
-
                         <span style="{{show}}" class="store_initial">{{initial}}</span>
                         <div class="row cats_row" data-cat="{{cat_list}}">
                             <div class="col-md-5 col-xs-6">
@@ -21,7 +13,7 @@
                             <div class="col-md-7 col-xs-6">
                                 <p class="store_list_name pull-right">
                                     <span style="{{new_store}}" class="new_store">New</span>
-                                    <span style="{{coming_soon_store}}" class="new_store">Coming soon</span>
+                                    
                                     <a href="{{promo_btn}}"><span class="new_store" style="{{promotion_exist}}">SALE</span></a>
                                     <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone" aria-hidden="true"></i><span class="phone_field">{{phone}}</a>
                                 </p>
