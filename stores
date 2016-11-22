@@ -7,7 +7,7 @@
                     <script id="store_list_template" type="x-tmpl-mustache/text">
 
                         
-                        <div class="store_table_headers" style="{{show}}">
+                        <div class="stores_table_headers" style="{{show}}">
                 	    	<a name="{{initial}}">{{initial}}</a> 
             				
                             <a href="#top" class="pull-right stores_gotop">
