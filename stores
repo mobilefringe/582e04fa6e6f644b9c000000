@@ -32,7 +32,7 @@
             </div>
             <div class="col-md-3">
                 <h4 class="visible-phone">Store A-Z</h4>
-                <div id="example" class="stores_table" width="75%">
+                <div id="example" class="stores_table">
                     <div class="alphabet_bg switch_store visible-phone">
                         <button class="btn-secondary" onClick="parent.location='#A'">A</button>
                         <button class="btn-secondary" onClick="parent.location='#B'">B</button>
