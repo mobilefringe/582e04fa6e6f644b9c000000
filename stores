@@ -5,9 +5,10 @@
                 <span class="store_initial hidden_now" id="cat_name"></span>
                 <div id="store_list_container">
                     <script id="store_list_template" type="x-tmpl-mustache/text">
-                        <span style="{{show}}" class="store_initial">{{initial}}</span>
-                        <div class='stores_table_headers'>
-                	    	<a name='A'>A</a> 
+
+                        
+                        <div class="" style="{{show}}">
+                	    	<a name="{{initial}}">{{initial}}</a> 
             				
                             <a href="#top" class="pull-right stores_gotop">
                                 <i class="fa fa-caret-up" aria-hidden="true"></i>
