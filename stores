@@ -62,6 +62,16 @@
                         <button class="btn-secondary" onClick="location.href='Z'">Z</button>
                     </div>
                 </div>
+                <div id="category" class="tab-pane">
+                    <div class="alphabet_bg switch_category visible-phone">
+                        <h4 class="visible-phone">Categories</h4>
+                        <ul id="category_container_phone" class="dropdown-menu" aria-labelledby="cat_dd">
+                            <script id="category_template_phone" type="x-tmpl-mustache/text">
+                                <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
+                            </script>
+                        </ul>
+                    </div>
+                </div>
             </div>                
         </div>
     </div>
