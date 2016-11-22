@@ -8,7 +8,7 @@
 
                         
                         <div class="stores_table_headers" style="{{show}}">
-                	    	<a name="{{initial}}">{{initial}}</a> 
+                	    	<p name="{{initial}}">{{initial}}</p> 
             				
                             <a href="#top" class="pull-right stores_gotop">
                                 <i class="fa fa-caret-up" aria-hidden="true"></i>
