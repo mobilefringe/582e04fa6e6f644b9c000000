@@ -28,10 +28,10 @@
                             <span class="hours_day">{{holiday_name}} </span>
                         </div>
                         <div class="col-xs-3">
-                            <span>{{formatted_date}}</span><span class="dashes"></span>
+                            <span class="hours_time">{{formatted_date}}</span><span class="dashes"></span>
                         </div>  
                         <div class="col-xs-6">
-                            {{h}}
+                            <span class="hours_time">{{h}}</span>
                         </div>
          
                 </script>
