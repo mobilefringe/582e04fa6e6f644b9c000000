@@ -6,6 +6,14 @@
                 <div id="store_list_container">
                     <script id="store_list_template" type="x-tmpl-mustache/text">
                         <span style="{{show}}" class="store_initial">{{initial}}</span>
+                        <div class='stores_table_headers'>
+                	    	<a name='A'>A</a> 
+            				
+                            <a href="#top" class="pull-right stores_gotop">
+                                <i class="fa fa-caret-up" aria-hidden="true"></i>
+                            </a>                    			
+                        </div>
+
                         <div class="row cats_row" data-cat="{{cat_list}}">
                             <div class="col-md-5 col-xs-9">
                                 <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
