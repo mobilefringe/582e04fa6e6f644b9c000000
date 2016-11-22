@@ -65,6 +65,13 @@
                 <div id="category" class="tab-pane">
                     <div class="alphabet_bg switch_category visible-phone">
                         <h4 class="visible-phone">Categories</h4>
+                        
+                        <div class="alphabet_bg switch_category">
+                     
+                            <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
+                         
+                        </div>
+                        
                         <ul id="category_container_phone" class="dropdown-menu" aria-labelledby="cat_dd">
                             <script id="category_template_phone" type="x-tmpl-mustache/text">
                                 <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
