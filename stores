@@ -66,10 +66,10 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
-            show_content();
+            // show_content();
             $('#category_container_phone').prepend('<li href="#" class="show_all_stores">All</li>');
-            show_cat_stores();
-            $('#top_nav_stores').addClass('active_yellow')
+            // show_cat_stores();
+
         }
         loadMallDataCached(renderAll); 
     })
