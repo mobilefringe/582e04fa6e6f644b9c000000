@@ -16,10 +16,10 @@
                         </div>
 
                         <div class="row cats_row" data-cat="{{cat_list}}">
-                            <div class="col-md-8 col-xs-9">
+                            <div class="col-md-7 col-xs-9">
                                 <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                             </div>
-                            <div class="col-md-4 col-xs-3">
+                            <div class="col-md-5 col-xs-3">
                                 <p class="store_list_name pull-right">
                                     <span style="{{new_store}}" class="has_new">New</span>
                                     <span class="has_sale" style="{{promotion_exist}}">SALE</span>
