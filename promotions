@@ -39,28 +39,6 @@
       		        <img src="{{promo.promo_image_path}}" />    
                 </a>
           	</div>
-            
-            
-            
-            
-            <!--<ul class="media-list">-->
-            
-            <!--  <li class="media">-->
-                
-            <!--        <div href="/promotions/ucm2-upper-canada-mall-black-friday-deal-50-off-at-gap" class="span3">      -->
-            <!--            <div id="imgucm2-upper-canada-mall-black-friday-deal-50-off-at-gap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">-->
-            <!--                <div class='lightbox-content'>-->
-                             
-            <!--      	            <img src="https://www.mallmaverick.com/system/promotions/promo_images/000/056/680/original/gap-black-friday-50.JPG?1479411726" />    -->
-                            
-            <!--                    </div>-->
-            <!--            </div>-->
-            <!--            <a data-toggle="lightbox" href="#imgucm2-upper-canada-mall-black-friday-deal-50-off-at-gap">                -->
-                        
-            <!--  		        <img src="https://www.mallmaverick.com/system/promotions/promo_images/000/056/680/original/gap-black-friday-50.JPG?1479411726" />    -->
-                        
-            <!--            </a>-->
-            <!--  		</div>-->
         </div>
     </div>
 </section>
