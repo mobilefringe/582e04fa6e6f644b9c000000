@@ -3,32 +3,35 @@
         <div class="row">
             <h1>Store List</h1>
             <div class="col-md-9">
+                <div class="tabbable">                
+                    <div class="tab-content">
             
-                <!--<span class="store_initial hidden_now" id="cat_name"></span>-->
-                <div id="store_list_container">
-                    <script id="store_list_template" type="x-tmpl-mustache/text">
-                        <div class="stores_table_headers" style="{{show}}">
-                	    	<a name="{{initial}}">{{initial}}</a> 
-            				
-                            <a href="#top" class="pull-right stores_gotop">
-                                <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
-                            </a>                    			
+
+                        <div id="store_list_container">
+                            <script id="store_list_template" type="x-tmpl-mustache/text">
+                                <div class="stores_table_headers" style="{{show}}">
+                        	    	<a name="{{initial}}">{{initial}}</a> 
+                    				
+                                    <a href="#top" class="pull-right stores_gotop">
+                                        <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                    </a>                    			
+                                </div>
+                                <div class="row cats_row" data-cat="{{cat_list}}">
+                                    <div class="col-md-7 col-xs-9">
+                                        <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                    </div>
+                                    <div class="col-md-5 col-xs-3">
+                                        <p class="store_list_name pull-right">
+                                            <span style="{{new_store}}" class="has_new">New</span>
+                                            <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </script>
                         </div>
-                        <div class="row cats_row" data-cat="{{cat_list}}">
-                            <div class="col-md-7 col-xs-9">
-                                <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                            </div>
-                            <div class="col-md-5 col-xs-3">
-                                <p class="store_list_name pull-right">
-                                    <span style="{{new_store}}" class="has_new">New</span>
-                                    <span class="has_sale" style="{{promotion_exist}}">SALE</span>
-                                    <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
-                                </p>
-                            </div>
-                        </div>
-                    </script>
-                </div>   
-                
+                    </div>
+                </div>    
             </div>
             
             <div class="col-md-3">
