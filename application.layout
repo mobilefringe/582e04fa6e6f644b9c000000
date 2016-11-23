@@ -101,7 +101,7 @@
                             <li class="drop_down">
                                 <a href="">Directory</a>
                                 <ul class="">
-                                    <li><a href="">Store List</a></li>
+                                    <li><a href="/stores">Store List</a></li>
                                     <li><a href="">Centre Map</a></li>
                                     <li><a href="">New Stores</a></li>
                                 </ul>
@@ -109,7 +109,7 @@
                             <li class="drop_down">
                                 <a href="">Promotions</a>
                                 <ul class="">
-                                    <li><a href="">Store Promotions</a></li>
+                                    <li><a href="/promotions">Store Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
