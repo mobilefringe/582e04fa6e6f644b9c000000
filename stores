@@ -39,7 +39,7 @@
                                 <div id="category_container">
                                     <script id="category_template" type="x-tmpl-mustache/text">
                                         <div class="stores_table_headers" style="{{show}}">
-                                            <a name="{{id}}">{{ category.name }}</a> 
+                                            <a name="{{id}}">{{name }}</a> 
                                             <a href="#top" class="pull-right stores_gotop">
                                                 <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                             </a>                                
