@@ -30,6 +30,7 @@
     <!--CSS-->
     <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="" href="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css">
     <link href="/application.css" rel="stylesheet">
     
     <!--Javascript-->
@@ -40,6 +41,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/5639075d6e6f647b9f020000/text/javascript/1446569669000/instafeed.min.js"></script>
     <script src='//www.google.com/recaptcha/api.js'></script>
+    <scipt src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></scipt>
     <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
     
