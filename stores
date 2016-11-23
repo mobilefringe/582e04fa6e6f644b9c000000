@@ -32,7 +32,6 @@
                 </div>    
             </div>
             <div class="col-md-3">
-                
                 <a href="#list" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
                     <h3>Store A-Z</h3>
                 </a>
@@ -64,7 +63,6 @@
                     <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                     <button class="btn-secondary" onClick="location.href='Z'">Z</button>
                 </div>
-                
                 <a href="#category" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
                     <h3>Categories</h3>
                 </a>
@@ -73,19 +71,6 @@
                         <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
                     </script>
                 </div>
-            
-           
-                <!--<div id="category" class="tab-pane">-->
-                <!--    <div class="switch_category visible-phone">-->
-                <!--        <h4 class="visible-phone">Categories</h4>-->
-                        
-                <!--        <div class="switch_category" >-->
-                            
-                <!--                <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>-->
-                            
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
             </div>                
         </div>
     </div>
