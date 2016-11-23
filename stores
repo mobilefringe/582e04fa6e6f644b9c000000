@@ -80,6 +80,7 @@
 </section>  
 <script>
     $(document).ready(function(e){
+        init(e);
         function renderAll(){
             var categories = getStoreCategories();
             var stores = getStoresList();
