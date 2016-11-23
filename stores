@@ -2,6 +2,7 @@
     <div class="trim_screen">
         <div class="row">
             <div class="col-md-9">
+                <h1>Store List</h1>
                 <span class="store_initial hidden_now" id="cat_name"></span>
                 <div id="store_list_container">
                     <script id="store_list_template" type="x-tmpl-mustache/text">
