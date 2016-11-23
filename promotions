@@ -7,9 +7,16 @@
             <div id="promos_container">
                 <script id="promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md=3">
-                        <div class='lightbox-content'>
-                            <img src="{{promo_image_url_abs}}" />    
-                        </div>
+                        <div href="/promotions/{{promo.slug}}">      
+                            <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class='lightbox-content'>
+                      	            <img src="{{promo_image_url_abs}}" />    
+                                </div>
+                            </div>
+                            <a data-toggle="lightbox" href="#img{{promo.slug}}">                
+                  		        <img src="{{promo_image_url_abs}}"/>    
+                            </a>
+                      	</div>
                     </div>
                     <div class="col-md-9">
                         <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
@@ -19,6 +26,21 @@
                     </div>
                 </script>
             </div>
+            
+            <div href="/promotions/{{promo.slug}}" class="span3">      
+                <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-content'>
+          	            <img src="{{promo.promo_image_path}}" />    
+                    </div>
+                </div>
+                <a data-toggle="lightbox" href="#img{{promo.slug}}">                
+      		        <img src="{{promo.promo_image_path}}" />    
+                </a>
+          	</div>
+            
+            
+            
+            
             <!--<ul class="media-list">-->
             
             <!--  <li class="media">-->
