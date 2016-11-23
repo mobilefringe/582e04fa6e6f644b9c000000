@@ -68,7 +68,7 @@
                 <a href="#category" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
                     <h3>Categories</h3>
                 </a>
-                <div class="alphabet_bg switch_category" id="category_container_phone">
+                <div class="switch_category" id="category_container_phone">
                     <script id="category_template_phone" type="x-tmpl-mustache/text">
                         <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
                     </script>
