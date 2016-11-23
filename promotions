@@ -11,7 +11,7 @@
                             <div href="/promotions/{{slug}}">      
                                 <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                                     <div class='lightbox-content'>
-                          	            <img src="{{promo_image_url_abs}}" />    
+                          	            <img src="{{promo_image_url_abs}}" alt="store_promo"/>    
                                     </div>
                                 </div>
                                 <a data-toggle="lightbox" href="#img{{slug}}">                
