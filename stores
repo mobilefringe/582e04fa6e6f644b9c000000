@@ -9,7 +9,7 @@
 
                         
                         <div class="stores_table_headers" style="{{show}}">
-                	    	<span name="{{initial}}">{{initial}}</span> 
+                	    	<a name="{{initial}}">{{initial}}</a> 
             				
                             <a href="#top" class="pull-right stores_gotop">
                                 <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
