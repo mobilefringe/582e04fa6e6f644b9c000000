@@ -8,12 +8,12 @@
                 <script id="promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md-3">
                         <div href="/promotions/{{slug}}">      
-                            <div id="{{promo_image_url_abs}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                            <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                                 <div class='lightbox-content'>
                       	            <img src="{{promo_image_url_abs}}" />    
                                 </div>
                             </div>
-                            <a data-toggle="lightbox" href="#{{promo_image_url_abs}}">                
+                            <a data-toggle="lightbox" href="#img{{promo.slug}}">                
                   		        <img src="{{promo_image_url_abs}}"/>    
                             </a>
                       	</div>
