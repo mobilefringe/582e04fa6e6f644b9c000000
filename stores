@@ -1,13 +1,12 @@
 <section class="container">
     <div class="trim_screen">
         <div class="row">
+            <h1>Store List</h1>
             <div class="col-md-9">
-                <h1>Store List</h1>
-                <span class="store_initial hidden_now" id="cat_name"></span>
+            
+                <!--<span class="store_initial hidden_now" id="cat_name"></span>-->
                 <div id="store_list_container">
                     <script id="store_list_template" type="x-tmpl-mustache/text">
-
-                        
                         <div class="stores_table_headers" style="{{show}}">
                 	    	<a name="{{initial}}">{{initial}}</a> 
             				
@@ -15,7 +14,6 @@
                                 <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                             </a>                    			
                         </div>
-
                         <div class="row cats_row" data-cat="{{cat_list}}">
                             <div class="col-md-7 col-xs-9">
                                 <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
@@ -29,8 +27,10 @@
                             </div>
                         </div>
                     </script>
-                </div>    
+                </div>   
+                
             </div>
+            
             <div class="col-md-3">
                 <a href="#list" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
                     <h3>Store A-Z</h3>
