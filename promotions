@@ -6,47 +6,37 @@
             <!-- Property Promos -->
             <div id="promos_container">
                 <script id="promos_template" type="x-tmpl-mustache/text">
-                    
+                    <div class="col-md=3">
+                        <div class='lightbox-content'>
+                            <img src="{{promo_image_url_abs}}" />    
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
+                        <h4><a href="/promotions/{{slug}}">{{name}}</a></h4>
+                        <h4 class="promo_date">{{dates}}</h4>
+        				<p>{{{rich_description}}}</p>
+                    </div>
                 </script>
             </div>
-            <ul class="media-list">
+            <!--<ul class="media-list">-->
             
-              <li class="media">
+            <!--  <li class="media">-->
                 
-                    <div href="/promotions/ucm2-upper-canada-mall-black-friday-deal-50-off-at-gap" class="span3">      
-                        <div id="imgucm2-upper-canada-mall-black-friday-deal-50-off-at-gap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class='lightbox-content'>
+            <!--        <div href="/promotions/ucm2-upper-canada-mall-black-friday-deal-50-off-at-gap" class="span3">      -->
+            <!--            <div id="imgucm2-upper-canada-mall-black-friday-deal-50-off-at-gap" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">-->
+            <!--                <div class='lightbox-content'>-->
                              
-                  	            <img src="https://www.mallmaverick.com/system/promotions/promo_images/000/056/680/original/gap-black-friday-50.JPG?1479411726" />    
+            <!--      	            <img src="https://www.mallmaverick.com/system/promotions/promo_images/000/056/680/original/gap-black-friday-50.JPG?1479411726" />    -->
                             
-                                </div>
-                        </div>
-                        <a data-toggle="lightbox" href="#imgucm2-upper-canada-mall-black-friday-deal-50-off-at-gap">                
+            <!--                    </div>-->
+            <!--            </div>-->
+            <!--            <a data-toggle="lightbox" href="#imgucm2-upper-canada-mall-black-friday-deal-50-off-at-gap">                -->
                         
-              		        <img src="https://www.mallmaverick.com/system/promotions/promo_images/000/056/680/original/gap-black-friday-50.JPG?1479411726" />    
+            <!--  		        <img src="https://www.mallmaverick.com/system/promotions/promo_images/000/056/680/original/gap-black-friday-50.JPG?1479411726" />    -->
                         
-                        </a>
-              		</div>
-        	  	
-        		    <div class="media-body span9">
-                        <h3><a href="/stores/">Upper Canada Mall</a></h3>
-                        <h4><a href="/promotions/ucm2-upper-canada-mall-black-friday-deal-50-off-at-gap">BLACK FRIDAY DEAL - 50% OFF AT GAP!</a></h4>
-                        
-                            <h4 class="promo_date">Nov 23 - Nov 26</h4>
-        	            				
-        				<p>&nbsp;Black Friday Promotions are as follows:<br />
-     Wed, Nov 23 &ndash; Sat, Nov 26 &gt; 50% Off Purchase (no exclusions)<br />
-    &nbsp;</p>
-    
-        		    </div>
-        	  </li>
-        	
-            </ul>
-
-        
-        
-        
-        
+            <!--            </a>-->
+            <!--  		</div>-->
         </div>
     </div>
 </section>
