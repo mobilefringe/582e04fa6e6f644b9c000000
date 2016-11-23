@@ -9,12 +9,12 @@
                     <div class="media">
                         <div class="col-md-3">
                             <div href="/promotions/{{slug}}">      
-                                <div id="img{{{slug}}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                                <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                                     <div class='lightbox-content'>
                           	            <img src="{{promo_image_url_abs}}" />    
                                     </div>
                                 </div>
-                                <a data-toggle="lightbox" href="#img{{{slug}}}">                
+                                <a data-toggle="lightbox" href="#img{{promo.slug}}">                
                       		        <img src="{{promo_image_url_abs}}"/>    
                                 </a>
                           	</div>
