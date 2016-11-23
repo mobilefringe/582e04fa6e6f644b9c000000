@@ -6,7 +6,7 @@
             <!-- Property Promos -->
             <div id="promos_container">
                 <script id="promos_template" type="x-tmpl-mustache/text">
-                    <div class="col-md=3">
+                    <div class="col-md-3">
                         <div href="/promotions/{{slug}}">      
                             <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                                 <div class='lightbox-content'>
