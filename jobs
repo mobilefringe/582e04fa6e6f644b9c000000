@@ -5,7 +5,7 @@
         <div class="accordion" id="accordion2">
             <div id="jobs_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
-                    <h3>{{}}</h3>
+                    <h3>{{store_name}}</h3>
                     <div class="accordion-group" >
                         <div class="accordion-heading"> 
                             <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}" > 
