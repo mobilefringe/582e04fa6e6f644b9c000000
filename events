@@ -2,8 +2,8 @@
     <div class="trim_screen">
         <h1>Events</h1>
         
-        <div id="promos_container">
-            <script id="promos_template" type="x-tmpl-mustache/text">
+        <div id="events_container">
+            <script id="events_template" type="x-tmpl-mustache/text">
                 <div class="media">
                     <div class="col-md-3" href="/promotions/{{slug}}">
                        
@@ -26,9 +26,14 @@
                 </div>
             </script>
         </div>
+       
+        <div class="col-md-12">
+            <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
+        </div>
         
     </div>
 </div>
+
 <script>
     $(document).ready(function(e){
         init(e);
@@ -43,7 +48,7 @@
                 } 
             });
             if(published_events.length > 0){
-                renderEvents("#jobs_container","#jobs_template", published_events);
+                renderEvents("#events_container","#events_template", published_events);
             }
             else{
                 $('#no_events').show()
