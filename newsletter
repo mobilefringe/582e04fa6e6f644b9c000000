@@ -21,27 +21,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="email">Email*</label>
                     <input type="email" id="email" name="email" placeholder="Enter your email address" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address"></td>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="phone">Phone</label>
                     <input id="phone" type="Text" name="phone" placeholder="Phone number" value="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="postal_code">Postal Code*</label>
                     <input id="postal_code" type="Text" name="postalcode" placeholder="Postal code" value=""required data-msg="Please enter your postal code">
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="age">Age</label>
                     <input id="age" type="Text" name="age" placeholder="Age" value="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="Gender">Gender</label>
                     <select id="Gender" name="gender">
                         <option value="Unknown"></option>
