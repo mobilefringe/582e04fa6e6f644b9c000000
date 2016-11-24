@@ -27,16 +27,16 @@
             </script>
         </div>
         
-        <div href="/promotions/{{promo.slug}}" class="span3">      
-            <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                <div class='lightbox-content'>
-      	            <img src="{{promo.promo_image_path}}" />    
-                </div>
-            </div>
-            <a data-toggle="lightbox" href="#img{{promo.slug}}">                
-  		        <img src="{{promo.promo_image_path}}" />    
-            </a>
-      	</div>
+       <!-- <div href="/promotions/{{promo.slug}}" class="span3">      -->
+       <!--     <div id="img{{promo.slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">-->
+       <!--         <div class='lightbox-content'>-->
+      	<!--            <img src="{{promo.promo_image_path}}" />    -->
+       <!--         </div>-->
+       <!--     </div>-->
+       <!--     <a data-toggle="lightbox" href="#img{{promo.slug}}">                -->
+  		   <!--     <img src="{{promo.promo_image_path}}" />    -->
+       <!--     </a>-->
+      	<!--</div>-->
     </div>
 </div>
 
