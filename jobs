@@ -2,5 +2,53 @@
     <div class="trim_screen">
         <h1>Jobs</h1>
         
+        <div class="accordion" id="accordion2">
+            <div id="jobs_container">
+                <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <div class="accordion-group" >
+                        <div class="accordion-heading"> 
+                            <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}" >   
+                                <h4 class="job_title">{{name}}
+                                    <img src="https://www.mallmaverick.com/system/site_images/photos/000/002/328/original/icon_gotop.png?1397446990" class="pull-right" />
+                                </h4>
+                            </div>
+                            <div id="collapse{{id}}" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p><strong>Closing Date: </strong>{{end_date}}</p>
+                                    <p>{{{rich_description}}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </script>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <h3 id="no_jobs" class="hidden_now">There are currently no jobs available, please check back again later.</h3>
+        </div>    
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        function renderAll(){
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            var published_jobs = [];
+            $.each( jobs , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    published_jobs.push(val);
+                } 
+            });
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+            }
+            else{
+                $('#no_jobs').show()
+            }
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
