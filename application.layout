@@ -102,28 +102,28 @@
                     <nav id="mobile_nav">
                         <ul>
                             <li class="drop_down">
-                                <a href="">Directory</a>
+                                <a>Directory</a>
                                 <ul class="">
                                     <li><a href="/stores">Store List</a></li>
-                                    <li><a href="">Centre Map</a></li>
-                                    <li><a href="">New Stores</a></li>
+                                    <li><a href="/map">Centre Map</a></li>
+                                    <li><a href="/new_stores">New Stores</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Promotions</a>
+                                <a>Promotions</a>
                                 <ul class="">
                                     <li><a href="/promotions">Store Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Events</a>
+                                <a>Events</a>
                                 <ul class="">
-                                    <li><a href="">In-Mall Events</a></li>
+                                    <li><a href="/events">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Services</a>
+                                <a>Services</a>
                                 <ul class="">
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Gift Cards</a></li>
@@ -131,18 +131,18 @@
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Mall Info</a>
+                                <a>Mall Info</a>
                                 <ul class="">
-                                    <li><a href="">Mall Hours</a></li>
+                                    <li><a href="/hours">Mall Hours</a></li>
                                     <li><a href="">Parking & Directions</a></li>
-                                    <li><a href="">Jobs</a></li>
+                                    <li><a href="/jobs">Jobs</a></li>
                                     <li><a href="">Leasing</a></li>
-                                    <li><a href="">Newsletter</a></li>
+                                    <li><a href="/newsletter">Newsletter</a></li>
                                     <li><a href="">Virtual Tour</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Blog</a>
+                                <a href="//gorgeous.uppercanadamall.com/">Blog</a>
                             </li>
                             <li class="drop_down">
                                 <a href="">#AGorgeousHoliday</a>
