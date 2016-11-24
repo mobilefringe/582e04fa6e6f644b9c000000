@@ -1,8 +1,8 @@
 <style>
-        .error{
-            margin-top:0
-        }
-    </style>
+    .error{
+        margin-top:0
+    }
+</style>
 <div class="row">
     <div class="trim_screen">
     
@@ -11,11 +11,11 @@
             <input type="hidden" name="action" value="Campaigns_subscribe" />
             <input type="hidden" name="p" value="53616c7465645f5ffda85af51d8924d138837cd52f1af628" />
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="first_name">First Name*</label>
                     <input id="first_name" type="Text" name="firstname" placeholder="First Name" value="" required data-msg="Please enter your first name">
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <label for="last_name">Last Name*</label>
                     <input id="last_name" type="Text" name="lastname" placeholder="Last Name" value="" required data-msg="Please enter your last name">
                 </div>
