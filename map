@@ -29,6 +29,7 @@
 
         function renderAll(){
             var stores = getStoresList();
+            console.log(stores);
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
             
         
