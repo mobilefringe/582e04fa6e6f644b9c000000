@@ -313,6 +313,7 @@ function renderJobDetails(container, template, collection){
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
+        var end_date = end.format("MMM D");
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM D")
         }
