@@ -1,0 +1,82 @@
+<style>
+        .error{
+            margin-top:0
+        }
+    </style>
+<div class="row">
+    <div class="trim_screen">
+    
+    
+        <form id="sub_form" method="post" action="https://campaign.eflyermaker.com">
+            <input type="hidden" name="action" value="Campaigns_subscribe" />
+            <input type="hidden" name="p" value="53616c7465645f5ffda85af51d8924d138837cd52f1af628" />
+            <div class="row-fluid">
+                <div class="span6">
+                    <label for="first_name">First Name*</label>
+                    <input id="first_name" type="Text" name="firstname" placeholder="First Name" value="" required data-msg="Please enter your first name">
+                </div>
+                <div class="span6">
+                    <label for="last_name">Last Name*</label>
+                    <input id="last_name" type="Text" name="lastname" placeholder="Last Name" value="" required data-msg="Please enter your last name">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address"></td>
+                </div>
+                <div class="span6">
+                    <label for="phone">Phone</label>
+                    <input id="phone" type="Text" name="phone" placeholder="Phone number" value="">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <label for="postal_code">Postal Code*</label>
+                    <input id="postal_code" type="Text" name="postalcode" placeholder="Postal code" value=""required data-msg="Please enter your postal code">
+                </div>
+                <div class="span6">
+                    <label for="age">Age</label>
+                    <input id="age" type="Text" name="age" placeholder="Age" value="">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <label for="Gender">Gender</label>
+                    <select id="Gender" name="gender">
+                        <option value="Unknown"></option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
+                    <input style="margin-top: 18px;vertical-align: top;" type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                    <label for="publication_agreement" style="display:inline-block;width:90%">I agree to receive newsletters from Upper Canada Mall.</label>
+                    <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
+                    
+                    <input style="margin-top: 18px;vertical-align: top;" type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us">
+                    <label for="consent_policy" style="display:inline-block;width:90%">I agree to receive communications from Upper Canada Mall.<br />
+                    You can unsubscribe at anytime.<br />
+                    For more details about personal data privacy, please read or <a href="http://uppercanadamall.com/pages/ucm2-privacy-statement" target="_blank">Privacy Policy</a><br />
+                    or contact us: 17600 Yonge St, Newmarket, ON, Canada, L3Y 4Z11</label>
+                    <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
+                    <input type="hidden" name="simple" value="1">
+                    <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
+                    <p style="text-align: center; margin-top:30px">
+                        <button style="width:275px; height: 55px;border-radius:6px;background-color: white;border-color: #E7E7E7;font-weight: bold;font-size: 13pt;" type="submit">Subscribe</button>
+                    </p>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+
+<script>
+$("#sub_form").validate();
+</script>
