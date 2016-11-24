@@ -169,7 +169,7 @@
                     <nav id="site_nav">
                         <ul>
                             <li class="drop_down">
-                                Directory
+                                <a>Directory</a>
                                 <ul class="sub_menu">
                                     <li><a href="/stores">Store List</a></li>
                                     <li><a href="/map">Centre Map</a></li>
@@ -177,20 +177,20 @@
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                Promotions
+                                <a>Promotions</a>
                                 <ul class="sub_menu">
                                     <li><a href="/promotions">Store Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                Events
+                                <a>Events</a>
                                 <ul class="sub_menu">
                                     <li><a href="/events">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                Services
+                                <a>Services</a>
                                 <ul class="sub_menu">
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Gift Cards</a></li>
@@ -198,18 +198,18 @@
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                Mall Info
+                                <a>Mall Info</a>
                                 <ul class="sub_menu">
                                     <li><a href="/hours">Mall Hours</a></li>
                                     <li><a href="">Parking & Directions</a></li>
                                     <li><a href="/jobs">Jobs</a></li>
                                     <li><a href="">Leasing</a></li>
-                                    <li><a href="">Newsletter</a></li>
+                                    <li><a href="/newsletter">Newsletter</a></li>
                                     <li><a href="">Virtual Tour</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Blog</a>
+                                <a href="//gorgeous.uppercanadamall.com/">Blog</a>
                             </li>
                             <li class="drop_down">
                                 <a href="">#AGorgeousHoliday</a>
