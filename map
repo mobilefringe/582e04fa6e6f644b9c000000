@@ -33,18 +33,18 @@
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
             
         
-    // 		$('#map_image').smoothZoom({
-    // 			initial_POSITION: "0 0",
-    // 	    	pan_BUTTONS_SHOW: "NO",
-    // 	    	zoom_OUT_TO_FIT: "NO",
-    // 	     	button_SIZE: 34,
-    // 	        button_ALIGN: "top right",    
-    // 	     	container: 'zoom_container_directory',
-    // 	     	responsive: true,
-    // 	     	responsive_maintain_ratio: false,
-    // 	     	zoom_MAX: 300,
-    // 	     	zoom_MIN: 0
-    // 		});
+    		$('#map_image').smoothZoom({
+    			initial_POSITION: "0 0",
+    	    	pan_BUTTONS_SHOW: "NO",
+    	    	zoom_OUT_TO_FIT: "NO",
+    	     	button_SIZE: 34,
+    	        button_ALIGN: "top right",    
+    	     	container: 'zoom_container_directory',
+    	     	responsive: true,
+    	     	responsive_maintain_ratio: false,
+    	     	zoom_MAX: 300,
+    	     	zoom_MIN: 0
+    		});
     	
     //     	$(".mapper").change(function(e) {
     //     		var id = "#" + $(this).find(':selected')[0].id;
