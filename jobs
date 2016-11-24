@@ -18,6 +18,7 @@
                                     <p class="bold">Closing Date: {{end_date}}</p>
                                     <p class="bold">{{job_type}}</p>
                                     <p>{{{rich_description}}}</p>
+                                    <p><a href="/stores{{store_slug}}">Visit Store</a></p>
                                 </div>
                             </div>
                         </div>
