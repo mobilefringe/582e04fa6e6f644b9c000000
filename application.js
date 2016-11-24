@@ -274,7 +274,6 @@ function renderJobs(container, template, collection){
         else{
             val.dates = start.format("MMM D") + " - " + end.format("MMM D")
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
