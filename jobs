@@ -5,9 +5,10 @@
         <div class="accordion" id="accordion2">
             <div id="jobs_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <h3>{{}}</h3>
                     <div class="accordion-group" >
                         <div class="accordion-heading"> 
-                            <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}" >   
+                            <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}" > 
                                 <h4 class="job_title">{{name}}
                                     <img src="https://www.mallmaverick.com/system/site_images/photos/000/002/328/original/icon_gotop.png?1397446990" class="pull-right" />
                                 </h4>
@@ -34,6 +35,7 @@
     $(document).ready(function(e){
         function renderAll(){
             var jobs = getJobsList().sortBy(function(o){ return o.name});
+            console.log(jobs);
             var published_jobs = [];
             $.each( jobs , function( key, val ){
                 today = moment();
