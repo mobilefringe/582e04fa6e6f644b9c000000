@@ -12,7 +12,7 @@
                       	            <img src="{{promo_image_url_abs}}" alt="store_promo"/>    
                                 </div>
                             </div>
-                            <a data-toggle="lightbox" href="img{{slug}}">                
+                            <a data-toggle="lightbox" href="#img{{slug}}">                
                   		        <img src="{{promo_image_url_abs}}"/>    
                             </a>
                       	
