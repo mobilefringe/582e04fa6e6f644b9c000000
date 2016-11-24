@@ -100,5 +100,6 @@
             );
     	}
         loadMallDataCached(renderAll); 
+        custom_mapper();
     })
 </script>
