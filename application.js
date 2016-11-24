@@ -113,13 +113,10 @@ function renderHours(container, template, collection, type){
         collection = [];
         collection = item_list;
     }
-    
     $.each( collection , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
-
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 };
@@ -149,7 +146,6 @@ function renderStoreList(container, template, collection, type){
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
-            
         }
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
@@ -192,9 +188,7 @@ function renderStoreList(container, template, collection, type){
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
         item_rendered.push(rendered);
-
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
@@ -207,7 +201,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            // val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
+            val.alt_store_front_url = "//www.mallmaverick.com/photos/original/missing.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
@@ -253,7 +247,6 @@ function renderStoreDetails(container, template, collection, slug){
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
