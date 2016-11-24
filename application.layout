@@ -169,28 +169,28 @@
                     <nav id="site_nav">
                         <ul>
                             <li class="drop_down">
-                                <a href="">Directory</a>
+                                Directory
                                 <ul class="sub_menu">
                                     <li><a href="/stores">Store List</a></li>
-                                    <li><a href="">Centre Map</a></li>
-                                    <li><a href="">New Stores</a></li>
+                                    <li><a href="/map">Centre Map</a></li>
+                                    <li><a href="/new_stores">New Stores</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Promotions</a>
+                                Promotions
                                 <ul class="sub_menu">
                                     <li><a href="/promotions">Store Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Events</a>
+                                Events
                                 <ul class="sub_menu">
-                                    <li><a href="">In-Mall Events</a></li>
+                                    <li><a href="/events">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Services</a>
+                                Services
                                 <ul class="sub_menu">
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Gift Cards</a></li>
@@ -198,11 +198,11 @@
                                 </ul>
                             </li>
                             <li class="drop_down">
-                                <a href="">Mall Info</a>
+                                Mall Info
                                 <ul class="sub_menu">
-                                    <li><a href="">Mall Hours</a></li>
+                                    <li><a href="/hours">Mall Hours</a></li>
                                     <li><a href="">Parking & Directions</a></li>
-                                    <li><a href="">Jobs</a></li>
+                                    <li><a href="/jobs">Jobs</a></li>
                                     <li><a href="">Leasing</a></li>
                                     <li><a href="">Newsletter</a></li>
                                     <li><a href="">Virtual Tour</a></li>
