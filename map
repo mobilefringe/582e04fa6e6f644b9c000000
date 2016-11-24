@@ -25,7 +25,8 @@
 </div>
 
 <script>
-    $(document).ready(function(e){
+    $(document).ready(function(){
+        init();
         function renderAll(){
             var stores = getStoresList();
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
