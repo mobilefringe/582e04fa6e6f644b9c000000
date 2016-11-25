@@ -1,8 +1,9 @@
 <div class="trim_screen">
     <div class="row">
         <div class="page_content">
-            
-
+            <div id="page_body">
+                
+            </div>
         </div>
          <div class="col-md-12">
             <h3 id="mm_page_title"></h3>
@@ -22,7 +23,7 @@
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_title').html(data.title);
-                $('#mm_page_content').html(data.body);
+                $('#mm_page_body').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
