@@ -44,6 +44,22 @@
                                         </a>                                
                                     </div>
                                 </script>
+                                <div id="store_cat_template">
+                                <script id="store_cat_template" type="x-tmpl-mustache/text">
+                                    <div class="row cats_row" data-cat="{{cat_list}}">
+                                        <div class="col-md-7 col-xs-9">
+                                            <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                        </div>
+                                        <div class="col-md-5 col-xs-3">
+                                            <p class="store_list_name pull-right">
+                                                <span style="{{new_store}}" class="has_new">New</span>
+                                                <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                                <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </script>
+                            </div>
                             </div>
                             <div id="store_cat_template">
                                 <script id="store_cat_template" type="x-tmpl-mustache/text">
