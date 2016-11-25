@@ -23,7 +23,7 @@
             <h2 class="">Holiday Hours</h2>  
             <div id="holiday_hours_container" class="hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-               
+                    <div>
                         <div class="col-xs-4 col-md-3">
                             <span class="hours_day">{{holiday_name}} </span>
                         </div>
@@ -33,7 +33,7 @@
                         <div class="col-xs-5">
                             <span class="hours_time">{{h}}</span>
                         </div>
-         
+                    </div>
                 </script>
             </div>
         </div>
