@@ -22,7 +22,6 @@
             var pages_json = prefix + "/pages/" + slug + ".json"
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
-                $('#mm_page_title').html(data.title);
                 $('#page_body').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
