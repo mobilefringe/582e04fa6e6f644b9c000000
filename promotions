@@ -2,31 +2,28 @@
     <div class="trim_screen">
         <h1>Promotions</h1>
         <!-- Property Promos -->
-        <div id="promos_container" class="media-list">
+        <div id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="media">
-                    <div class="col-md-3" href="/promotions/{{slug}}">
-                       
-                            <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                                <div class='lightbox-content'>
-                      	            <img src="{{promo_image_url_abs}}" alt="store_promo"/>    
-                                </div>
+                <div class="col-md-3" href="/promotions/{{slug}}">
+                   
+                        <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class='lightbox-content'>
+                  	            <img src="{{promo_image_url_abs}}" alt="store_promo"/>    
                             </div>
-                            <a href="#img{{slug}}" data-lightbox="{{promo_image_url_abs}}">                
-                  		        <img src="{{promo_image_url_abs}}"/>    
-                            </a>
-                      	
-                    </div>
-                    <div class="col-md-9 promo_content">
-                        <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
-                        <h4><a href="/promotions/{{slug}}">{{name}}</a></h4>
-                        <h4 class="promo_date">{{dates}}</h4>
-        				<p>{{{rich_description}}}</p>
-                    </div>
+                        </div>
+                        <a href="#img{{slug}}" data-lightbox="{{promo_image_url_abs}}">                
+              		        <img src="{{promo_image_url_abs}}"/>    
+                        </a>
+                  	
+                </div>
+                <div class="col-md-9 promo_content">
+                    <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
+                    <h4><a href="/promotions/{{slug}}">{{name}}</a></h4>
+                    <h4 class="promo_date">{{dates}}</h4>
+    				<p>{{{rich_description}}}</p>
                 </div>
             </script>
         </div>
-        
         <div class="col-md-12">
             <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
         </div>
