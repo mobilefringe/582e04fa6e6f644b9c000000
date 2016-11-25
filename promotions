@@ -1,6 +1,3 @@
-<link href="http://assets.codecloudapp.com/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css" rel="stylesheet">
-
-
 <div class="row">
     <div class="trim_screen">
         <h1>Promotions</h1>
@@ -14,7 +11,7 @@
                   	            <img src="{{promo_image_url_abs}}" alt="store_promo"/>    
                             </div>
                         </div>
-                        <a href="#img{{slug}}" data-toggle="lightbox">                
+                        <a href="#img{{slug}}" data-lightbox="{{promo_image_url_abs}}">                
               		        <img src="{{promo_image_url_abs}}" alt="store_promo"/>    
                         </a>
                       	
