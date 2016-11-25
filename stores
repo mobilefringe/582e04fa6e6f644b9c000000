@@ -116,7 +116,7 @@
             
             var stores = getStoresList();
             console.log(stores);
-            var category = getStoresListByCategory();
+            var category = getStoresListByCategoryID();
             console.log(category);
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList("#store_cat_container", "#store_cat_template", stores);
