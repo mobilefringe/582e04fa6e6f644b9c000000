@@ -126,7 +126,7 @@
             var store_id = getStoresListByCategoryID();
             console.log(store_id);
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-            renderStoreList('#category_container', '#category_template', categories);
+            renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
             // show_content();
             $('#category_container_phone').prepend('<li href="#" class="show_all_stores">All</li>');
