@@ -129,7 +129,7 @@
             renderStoreList('#category_container', '#category_template', categories);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
             // show_content();
-            // $('#category_container_phone').prepend('<li href="#" class="show_all_stores">All</li>');
+            $('#category_container_phone').prepend('<li href="#" class="show_all_stores">All</li>');
             // show_cat_stores();
 
         }
