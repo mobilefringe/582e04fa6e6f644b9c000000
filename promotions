@@ -26,7 +26,7 @@
         <!--</div>-->
         
         <div>
-            <a href="//unsplash.it/200/200" data-lightbox="image-1">Image1</a>
+            <a href="//unsplash.it/200/200" data-lightbox="image-1" class="lightbox">Image1</a>
         </div>
         <div class="col-md-12">
             <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
