@@ -46,7 +46,7 @@
                                 </script>
                                 
                             </div>
-                            <div id="store_cat_template">
+                            <div id="store_cat_container">
                                 <script id="store_cat_template" type="x-tmpl-mustache/text">
                                     <div class="row cats_row" data-cat="{{cat_list}}">
                                         <div class="col-md-7 col-xs-9">
