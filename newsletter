@@ -1,6 +1,7 @@
 <style>
     .error{
-        margin-top:0
+        margin-top: 0;
+        color: red;
     }
 </style>
 <div class="row">
