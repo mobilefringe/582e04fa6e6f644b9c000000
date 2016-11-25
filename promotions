@@ -10,7 +10,7 @@
                   	            <img src="{{promo_image_url_abs}}" />    
                             </div>
                         </div>
-                        <a data-toggle="lightbox" href="#img{{slug}}">                
+                        <a data-lightbox="{{promo_image_url_abs}}" href="#img{{slug}}">                
               		        <img src="{{promo_image_url_abs}}" />    
                         </a>
               		</div>
@@ -23,12 +23,6 @@
                 </div>
             </script>
         </div>
-        
-        
-            <!--<a href="//unsplash.it/200/200" data-lightbox="image-1" class="lightbox">-->
-            <!--    <img src="//unsplash.it/200/200">-->
-            <!--</a>-->
-
         <div class="col-md-12">
             <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
         </div>
