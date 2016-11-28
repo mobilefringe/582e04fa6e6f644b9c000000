@@ -103,7 +103,7 @@
             
             var all_events = getEventsList().sortBy(function(o){ return o.show_on_web_date });
             var event = stores.reverse().slice(0);
-            renderEvents("#events_container","#events_template", event);
+            renderGeneral("#events_container","#events_template", event);
             console.log(event);
             
 
