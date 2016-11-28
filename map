@@ -29,7 +29,7 @@
         
     </div>
 </div>
-<script src="//assets.codecloudapp.com/sites/582e04fa6e6f644b9c000000/text/javascript/1432640222000/smoothzoom.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/javascript/1432640222000/smoothzoom.js"></script>
 <script>
     $(document).ready(function(){
         function renderAll(){
