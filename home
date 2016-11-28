@@ -37,7 +37,7 @@
 </section>
 <section class="latest_stores container">
     <div class="trim_screen">
-        <div class="row">
+        <div class="row home_content">
             <h1>Latest in <span>new stores</span></h1>
         </div>
         <div class="row">
@@ -58,7 +58,7 @@
 </section>
 <section class="latest_events container">
     <div class="trim_screen">
-        <div class="row">
+        <div class="row home_content">
             <h1>Latest in <span>events & promotions</span></h1>
         </div>
         <div class="row">
