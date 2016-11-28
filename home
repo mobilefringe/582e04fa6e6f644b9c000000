@@ -75,8 +75,8 @@
             <div id="latest_prmoms">
                 <script id="latest_promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
-                        <a href="/events/{{slug}}">
-                            <img alt="" src="{{event_image_url_abs}}">
+                        <a href="/promotions/{{slug}}">
+                            <img alt="" src="{{promo_image_url_abs}}">
                         </a>   
                         <p class="fashion_title">{{name}}</p>
                         <p class="latest_info">{{description}}</p>
