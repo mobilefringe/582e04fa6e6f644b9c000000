@@ -481,3 +481,27 @@ function renderEventDetails(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
+
+function renderHomeHours(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    item_list.push(collection);    
+    $.each(item_list, function(key, val) {
+        val.day = get_day(val.day_of_week);
+        var d = moment();
+        val.month = get_month(d.getMonth());
+        val.weekday = addZero(d.getDate());
+        if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
+            var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+            var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+            val.h = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+        } else {
+            val.h = "Closed";
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
