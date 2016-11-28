@@ -40,7 +40,7 @@
                                     <div class="stores_table_headers" style="{{show}}">
                                         <a name="{{id}}">{{name}}</a> 
                                         <a href="#top" class="pull-right stores_gotop">
-                                            <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                            <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                         </a>                                
                                     </div>
                                 </script>
