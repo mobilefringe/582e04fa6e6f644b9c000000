@@ -81,13 +81,12 @@
         // init(e);
         function renderAll(){
             var banners = getBanners();
-            var feature_items = getFeatureList();
             renderBanner('#home_banner_template','#home_banner', banners);
+            var feature_items = getFeatureList();
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             
             var stores = getStoresList().sortBy(function(o){ return o.created_at });;
             var new_stores = stores.reverse().slice(0, 3);
-            console.log(stores);
             renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
             
             // show_content();
