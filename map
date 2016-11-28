@@ -3,9 +3,9 @@
         <h1>Centre Map</h1>
         <div class="col-md-4">
             <select id="store_select_container" class="form-control select_store">
-                <option disabled selected class="map_pin">Select a Store</option>
+                <option disabled selected>Select a Store</option>
                 <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option value="{{id}}" data-value="{{x_coordinate}},{{y_coordinate}},{{id}}" >{{name}}</option>
+                    <option value="{{id}}" data-value="{{x_coordinate}},{{y_coordinate}},{{id}}" class="map_pin" >{{name}}</option>
                 </script>
             </select>
         </div>
