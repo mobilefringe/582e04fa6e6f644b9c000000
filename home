@@ -104,11 +104,11 @@
             var all_events = getEventsList().sortBy(function(o){ return o.show_on_web_date });
             var event = all_events.reverse().slice(0,1);
             renderGeneral("#latest_events","#latest_events_template", event);
-            console.log(event);
             
             var all_promotions = getPromotionsList().sortBy(function(o){ return o.start_date});  
             var promotions = all_promotions.reverse().slice(0,2);
             renderPromotions("#latest_promos","#latest_promos_template", promotions);
+            console.log(promotions);
 
             $('.flexslider').flexslider({
                 animation: "slide",
