@@ -88,7 +88,7 @@
             var stores = getStoresList().sortBy(function(o){ return o.created_at });;
             var new_stores = stores.reverse().slice(0, 3);
             console.log(stores);
-            renderStoreList("#latest_stores", "#latest_stores_template", new_stores);
+            renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
             
             // show_content();
             $('.flexslider').flexslider({
