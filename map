@@ -5,7 +5,7 @@
             <select id="store_select_container" class="form-control select_store">
                 <option disabled selected>Select a Store</option>
                 <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option value="{{id}}" data-value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
+                    <option value="{{id}}" data-value="{{x_coordinate}},{{y_coordinate}},{{id}}" class="map_pin">{{name}}</option>
                 </script>
             </select>
         </div>
@@ -55,7 +55,7 @@
         			container: 'zoom_container'
         		});
         		
-        	show_png_pin(".map_pin_a", "#png_map");
+        	show_png_pin(".map_pin", "#png_map");
         }
         
         function show_png_pin(trigger, map){
