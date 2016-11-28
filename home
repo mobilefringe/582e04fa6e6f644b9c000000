@@ -72,7 +72,7 @@
                     </div>    
                 </script>   
             </div>
-            <div id="latest_prmoms">
+            <div id="latest_promos">
                 <script id="latest_promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
                         <a href="/promotions/{{slug}}">
