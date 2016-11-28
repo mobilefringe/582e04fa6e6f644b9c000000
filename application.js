@@ -154,9 +154,9 @@ function renderNewStorePage(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each(collection, function(key, val) {
-        // if(val.url.length === 0){
-        //     assets.url = "Hello!"
-        // }
+        if(val.gallery.length === 0){
+            gallery = "Hello!"
+        }
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
     });
