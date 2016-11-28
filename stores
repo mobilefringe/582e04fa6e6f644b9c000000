@@ -13,7 +13,7 @@
                         	    	<a name="{{initial}}">{{initial}}</a> 
                     				
                                     <a href="#top" class="pull-right stores_gotop">
-                                        <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                     </a>                    			
                                 </div>
                                 <div class="row cats_row" data-cat="{{cat_list}}">
