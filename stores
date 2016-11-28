@@ -147,7 +147,7 @@
             console.log(stores);
 
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-            renderStoreList("#store_cat_container", "#store_cat_template", stores);
+            renderStoreList("#store_cat_container", "#store_cat_template", stores, "stores");
             renderGeneral('#category_container', '#category_template', categories, stores);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
 
