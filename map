@@ -27,23 +27,7 @@
             </div>    
         </div>  
 	    
-	    <!--<div class="row">-->
-     <!--       <div class="map_area">-->
-                <div class="col-md-12" style="margin:0px 0 30px 0;">
-                    <div class="map">    
-                        <div class="map2" style="height:700px; border: solid 1px gray;">            
-                            <img id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/011/original/ucm_map_1.jpg?1435606610" />        		
-                    		<!--{% for store in stores %}  -->
-                    		<div class="marker" id="store_{{store.id}}" data-coords="{{store.x_coordinate | minus:19}}, {{store.y_coordinate | minus:58}}" style="display:none">
-                    			<!--{{ store.name }}-->
-                    		</div>	
-                    		<!--{% endfor %}-->
-                    	</div>
-            			
-                    </div>	        
-            	</div>
-            </div>
-        </div>
+
         
     </div>
 </div>
