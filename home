@@ -17,7 +17,7 @@
 </section>
 <section class="latest_fashion">
     <div class="trim_screen">
-        <div class="row home_content">
+        <div class="home_content">
             <h1>Latest in <span>fashion and style</span></h1>
         </div>
         <div class="row home_content">
@@ -37,7 +37,7 @@
 </section>
 <section class="latest_stores">
     <div class="trim_screen">
-        <div class="row home_content">
+        <div class="home_content">
             <h1>Latest in <span>new stores</span></h1>
         </div>
         <div class="row home_content">
@@ -57,7 +57,7 @@
 </section>
 <section class="latest_events">
     <div class="trim_screen">
-        <div class="row home_content">
+        <div class="home_content">
             <h1>Latest in <span>events & promotions</span></h1>
         </div>
         <div class="row">
@@ -88,14 +88,9 @@
             
             var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
             var new_stores = stores.reverse().slice(0, 3);
-            console.log(new_stores);
             renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
-            
-            // var stores = getStoresList().sortBy(function(o){ return o.created_at });
-            // var new_stores = stores.reverse().slice(0, 3);
-            // renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
-            
-            // show_content();
+
+
             $('.flexslider').flexslider({
                 animation: "slide",
             });
