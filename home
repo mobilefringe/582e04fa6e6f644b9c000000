@@ -51,7 +51,7 @@
                         </div>
                         <p class="fashion_title">{{name}}</p>
                         <p class="latest_info">{{description}}</p>
-                        <p><a href="{{url}}">Read More</a></p>
+                        <p class="latest_info"><a href="{{url}}">Read More</a></p>
                     </div> 
                 </script>
             </div>
