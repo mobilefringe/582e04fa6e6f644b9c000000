@@ -13,7 +13,7 @@
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var pages_json = "//ucm.mallmaverick.com/pages/" + slug + ".json"
+            var pages_json = "//www.uppercanadamall.com/pages/" + slug + ".json"
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
                 $('#page_body').html(data.body);
