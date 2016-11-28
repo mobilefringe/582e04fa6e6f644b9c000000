@@ -43,7 +43,7 @@
         		    width: 1389,
         		    initial_ZOOM: 0,
         			zoom_MIN: 0,
-        			zoom_MAX: 100,
+        			zoom_MAX: 300,
         			responsive: true,
         		    responsive_maintain_ratio: true,
         			zoom_BUTTONS_SHOW : 'YES',
@@ -51,6 +51,7 @@
         			pan_LIMIT_BOUNDARY : 'NO',
         			button_SIZE: 34,
         			button_ALIGN: "top right",
+        			zoom_OUT_TO_FIT: "NO",
         			container: 'zoom_container'
         		});
         		
