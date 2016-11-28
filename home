@@ -82,13 +82,13 @@
         function renderAll(){
             var banners = getBanners();
             var feature_items = getFeatureList();
-            console.log(feature_items);
             renderBanner('#home_banner_template','#home_banner', banners);
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             
             var stores = getStoresList().sortBy(function(o){ return o.created_at });;
+            var new_stores = stores.slice(1, 3);
             console.log(stores);
-            renderStoreList("#latest_stores", "#latest_stores_template", stores);
+            renderStoreList("#latest_stores", "#latest_stores_template", new_stores);
             
             // show_content();
             $('.flexslider').flexslider({
