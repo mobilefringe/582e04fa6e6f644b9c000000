@@ -7,8 +7,8 @@
 			    <div class="new_store_info">
 			        <h3><a href="/stores/{{slug}}">{{name}}</a></h3>                					
     				<p>{{description}}</p>
-                    <a href="/stores/ucm2-ardene-upper-level">
-                        <img src="https://www.mallmaverick.com/system/stores/store_fronts/000/030/620/original/04aa4d8f14e74559a75ef8f6191f4d26.png?1471029892" />     
+                    <a href="/stores/{{slug}}">
+                        <img src="{{store_front_url_abs}}" alt="Store Front Image"/>     
                     </a>    
             	</div>	   
             </script>			  
