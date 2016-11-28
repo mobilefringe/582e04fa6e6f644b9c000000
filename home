@@ -66,9 +66,11 @@
             <div id="latest_events" class="home_content">
                 <script id="latest_events_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
-                        <a href="/events/{{slug}}">
-                            <img alt="" src="{{event_image_url_abs}}">
-                        </a>   
+                        <div class="img_container">
+                            <a href="/events/{{slug}}">
+                                <img alt="" src="{{event_image_url_abs}}">
+                            </a> 
+                        </div>
                         <p class="fashion_title">{{name}}</p>
                         <p class="latest_info">{{description}} <a href="{{url}}">Read More</a></p>
                     </div>    
