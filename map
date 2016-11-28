@@ -23,9 +23,9 @@
 	    
 	    
 	    
-	    <div class="row-fluid">
+	    <div class="row">
             <div class="map_area">
-                <div class="span12" style="margin:0px 0 30px 0;">
+                <div class="col-md-12" style="margin:0px 0 30px 0;">
                     <div class="map">    
                         <div class="map2" style="height:700px; border: solid 1px gray;">            
                             <img id="map_image" src="{{site.property.map_image_path}}" />        		
