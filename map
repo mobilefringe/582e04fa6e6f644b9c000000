@@ -49,12 +49,12 @@
         			zoom_BUTTONS_SHOW : 'YES',
         			pan_BUTTONS_SHOW : 'NO',
         			pan_LIMIT_BOUNDARY : 'NO',
+        			button_SIZE: 34,
         			button_ALIGN: "top right",
         			container: 'zoom_container'
         		});
         		
         		show_png_pin(".map_pin_a", "#png_map");
-            
         }
         
         function show_png_pin(trigger, map){
