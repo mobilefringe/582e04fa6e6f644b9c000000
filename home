@@ -28,7 +28,7 @@
                             <img alt="" src="{{image_url}}">
                         </a>   
                         <p class="fashion_title">{{name}}</p>
-                        <p class="latest_info">{{description}}</p>
+                        <p class="latest_info">{{description}} <a href="{{url}}">READ MORE</a></p>
                     </div>
                 </script>    
             </div>
