@@ -55,11 +55,11 @@
         			container: 'zoom_container'
         		});
         		
-        		show_png_pin(".map_pin_a", "#png_map");
+        	show_png_pin(".map_pin_a", "#png_map");
         }
         
         function show_png_pin(trigger, map){
-            $("#store_select_container").change(function(e) {
+            $("#store_select_container").on("change", function(e) {
                 e.preventDefault()
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
                 coords = $(this).attr('data-value').split(",");
