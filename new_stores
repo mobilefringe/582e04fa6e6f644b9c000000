@@ -20,7 +20,7 @@
         function renderAll(){
             var new_stores = getNewStoresList();
             console.log(new_stores);
-            renderNewStores("#store_details_container","#store_details_template", new_stores);
+            renderNewStorePage("#store_details_container","#store_details_template", new_stores);
         }
         loadMallData(renderAll); 
     })
