@@ -2,7 +2,7 @@
     <div class="trim_screen">
         <h1>New Stores</h1>
         
-        <div id="store_details_container">
+        <div id="store_details_container" class="store_page">
             <script id="store_details_template" type="x-tmpl-mustache/text">                			  	
 			    <div class="new_store_info">
 			        <h3><a href="/stores/{{slug}}">{{name}}</a></h3>                					
