@@ -45,19 +45,12 @@
 </div>
 
 <script>
-
-    $(document).ready(function(e){
-        init(e);
-        loadMallDataCached(renderAll);
-    })
- 
-
+    $(document).ready(function(){
         function renderAll(){
             var stores = getStoresList();
             console.log(stores);
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
-            
-        
+
     		$('#map_image').smoothZoom({
     			initial_POSITION: "0 0",
     	    	pan_BUTTONS_SHOW: "NO",
@@ -125,5 +118,6 @@
     //             ]
     //         );
     // 	}
-
+        loadMallDataCached(renderAll); 
+    })
 </script>
