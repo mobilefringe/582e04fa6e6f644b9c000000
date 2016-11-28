@@ -128,7 +128,7 @@ function renderGeneral(container, template, collection){
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         if (val.description.length  >= 25) {
-            val.description = description.substring(0,24) + "...";
+            val.description = val.description.substring(0,24) + "...";
         }
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
