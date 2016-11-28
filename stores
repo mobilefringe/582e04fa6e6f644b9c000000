@@ -10,7 +10,7 @@
                         <div id="store_list_container">
                             <script id="store_list_template" type="x-tmpl-mustache/text">
                                 <div class="stores_table_headers" style="{{show}}">
-                        	    	<a name="{{categories}}">{{categories}</a> 
+                        	    	<a name="{{initial}}">{{initial}}</a> 
                     				
                                     <a href="#top" class="pull-right stores_gotop">
                                         <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
