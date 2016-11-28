@@ -19,7 +19,7 @@
     $(document).ready(function(e){
         function renderAll(){
             var new_stores = getNewStoresList(name);
-            console.log(new_stores);
+            console.log(new_stores.name);
             renderNewStorePage("#store_details_container","#store_details_template", new_stores);
         }
         loadMallData(renderAll); 
