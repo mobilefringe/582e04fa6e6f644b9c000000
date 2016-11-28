@@ -59,14 +59,7 @@
         }
         
         function show_png_pin(trigger, map){
-            $(trigger).bind("change", pinAction );
-        }
-        
-        
-        loadMallDataCached(renderAll); 
-    })
-    
-    function pinAction(e) {
+            $(trigger).bind("change", function(e) {
                 e.preventDefault()
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
                 coords = $(this).attr('data-value').split(",");
@@ -96,5 +89,10 @@
         			</div>'
         			]
         		);
-            }
+            });
+        }
+        
+        
+        loadMallDataCached(renderAll); 
+    })
 </script>
