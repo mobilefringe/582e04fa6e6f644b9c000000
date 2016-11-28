@@ -67,8 +67,8 @@
                             <a href="">
                                 <img alt="" src="">
                             </a>   
-                            <p class="fashion_title">{{}}</p>
-                            <p class="latest_info">{{}}</p>
+                            <p class="fashion_title">{{name}}</p>
+                            <p class="latest_info">{{description}}</p>
                     </div>    
                 </script>   
             </div>
