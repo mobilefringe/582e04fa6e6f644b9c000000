@@ -154,7 +154,7 @@ function renderNewStorePage(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each(collection, function(key, val) {
-        if(val.assets["0"].url.length === 0){
+        if(val.assets.url.length === 0){
             assets.url = "Hello!"
         }
         var repo_rendered = Mustache.render(template_html,val);
