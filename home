@@ -85,9 +85,14 @@
             var feature_items = getFeatureList();
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             
-            var stores = getStoresList().sortBy(function(o){ return o.created_at });;
-            var new_stores = stores.reverse().slice(0, 3);
+            
+            var new_stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
+            console.log(new_stores);
             renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
+            
+            // var stores = getStoresList().sortBy(function(o){ return o.created_at });
+            // var new_stores = stores.reverse().slice(0, 3);
+            // renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
             
             // show_content();
             $('.flexslider').flexslider({
