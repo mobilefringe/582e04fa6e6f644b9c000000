@@ -2,5 +2,35 @@
     <div class="trim_screen">
         <h1>New Stores</h1>
         
+        <ul class="media-list">
+                    
+            			  <li class="media">                			  	
+            			    <div class="media-body new_store_info">
+            			        <h3><a href="/stores/{{}}">{{}}</a></h3>                					
+                				<p>{{description}}</p>
+                                
+                                
+                                
+                                
+                                <!--
+                                    <a href="/stores/ucm2-ardene-upper-level">
+                                        <img src="https://www.mallmaverick.com/system/stores/store_fronts/000/030/620/original/04aa4d8f14e74559a75ef8f6191f4d26.png?1471029892" />     
+                                    </a>    
+                                -->
+            			    </div>
+            			  </li>
+
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        function renderAll(){
+            // var stores = getStoresList().sortBy(function(o){ return o.created_at });;
+            var new_stores = getNewStoresList();
+            console.log(new_stores);
+            renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
+
+        }
+        loadMallData(renderAll); 
+    })
+</script>
