@@ -20,8 +20,6 @@
         function renderAll(){
             var new_stores = getNewStoresList(name);
             console.log(new_stores);
-            var store_name = new_stores.name;
-            console.log(store_name);
             renderNewStorePage("#store_details_container","#store_details_template", new_stores);
         }
         loadMallData(renderAll); 
