@@ -7,7 +7,7 @@
 			    <div class="new_store_info">
 			        <h3><a href="/stores/{{slug}}">{{name}}</a></h3>                					
     				<p>{{description}}</p>
-                    <a href="/stores/{{slug}}"> {{show}}
+                    <a href="/stores/{{slug}}">
                         <img src="//mallmaverick.com/{{gallery}}" alt="Store Front Image" class="store_detail_images"/>     
                     </a>    
             	</div>	   
