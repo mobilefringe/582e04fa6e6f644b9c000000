@@ -37,6 +37,24 @@
             console.log(stores);
             // renderStoreList('#store_select_container','#store_select_template', stores, "stores");
             
+            $("#png_map").attr("src", getPNGMapURL())
+        		$('#png_map').smoothZoom({
+        		    height: 496,
+        		    width: 619,
+        		    initial_ZOOM: 0,
+        			zoom_MIN: 0,
+        			zoom_MAX: 100,
+        			responsive: true,
+        		    responsive_maintain_ratio: true,
+        			zoom_BUTTONS_SHOW : 'YES',
+        			pan_BUTTONS_SHOW : 'NO',
+        			pan_LIMIT_BOUNDARY : 'NO',
+        			button_ALIGN: "top left",
+        			container: 'zoom_container'
+        		});
+        		
+        		show_png_pin(".map_pin_a", "#png_map");
+            
         }
         loadMallDataCached(renderAll); 
     })
