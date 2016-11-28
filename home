@@ -106,7 +106,7 @@
             renderGeneral("#latest_events","#latest_events_template", event);
             
             var all_promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});  
-            var promotions = all_promotions.reverse().slice(0,2);
+            var promotions = all_promotions.slice(0,2);
             renderPromotions("#latest_promos","#latest_promos_template", promotions);
             console.log(promotions);
 
