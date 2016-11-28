@@ -43,11 +43,6 @@
                                             <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                         </a>                                
                                     </div>
-                                </script>
-                                
-                            </div>
-                            <div id="store_cat_container">
-                                <script id="store_cat_template" type="x-tmpl-mustache/text">
                                     <div class="row cats_row" data-cat="{{cat_list}}">
                                         <div class="col-md-7 col-xs-9">
                                             <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
@@ -62,9 +57,6 @@
                                     </div>
                                 </script>
                             </div>
-                            
-                           
-                        
                         </div>
                     </div>
                 </div>
@@ -124,7 +116,7 @@
 
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList("#store_cat_container", "#store_cat_template", stores);
-            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#category_container', '#category_template', categories, stores);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
 
         }
