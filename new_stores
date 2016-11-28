@@ -8,7 +8,7 @@
 			        <h3><a href="/stores/{{slug}}">{{name}}</a></h3>                					
     				<p>{{description}}</p>
                     <a href="/stores/{{slug}}">
-                        <img src="{{store_front_url_abs}}" alt="Store Front Image"/>     
+                        <img src="{{assets.url}}" alt="Store Front Image"/>     
                     </a>    
             	</div>	   
             </script>			  
