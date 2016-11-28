@@ -64,22 +64,22 @@
             <div id="latest_events">
                 <script id="latest_events_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
-                            <a href="">
-                                <img alt="" src="">
-                            </a>   
-                            <p class="fashion_title">{{name}}</p>
-                            <p class="latest_info">{{description}}</p>
+                        <a href="">
+                            <img alt="" src="">
+                        </a>   
+                        <p class="fashion_title">{{name}}</p>
+                        <p class="latest_info">{{description}}</p>
                     </div>    
                 </script>   
             </div>
             <div id="latest_prmoms">
                 <script id="latest_promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
-                            <a href="/events/{{slug}}">
-                                <img alt="" src="{{event_image_url_abs}}">
-                            </a>   
-                            <p class="fashion_title">{{name}}</p>
-                            <p class="latest_info">{{description}}</p>
+                        <a href="/events/{{slug}}">
+                            <img alt="" src="{{event_image_url_abs}}">
+                        </a>   
+                        <p class="fashion_title">{{name}}</p>
+                        <p class="latest_info">{{description}}</p>
                     </div>    
                 </script>   
             </div>
@@ -106,6 +106,9 @@
             renderGeneral("#latest_events","#latest_events_template", event);
             console.log(event);
             
+            var all_promotions = getPromotionsList().sortBy(function(o){ return o.start_date});  
+            var promotions = all_promotions.reverse().slice(0,2);
+            renderPromotions("#latest_promos","#latest_promos_template", promotions);
 
             $('.flexslider').flexslider({
                 animation: "slide",
