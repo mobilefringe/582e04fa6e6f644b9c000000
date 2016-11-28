@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="trim_screen">
+        <div>
+            <iframe width="100%" scrolling="no" height="500" frameborder="0" 
+            src="https://maps.google.ca/maps?q=uppercanadamall&layer=c&z=17&sll=44.054920,-79.480368&cid=11098694924997264288&panoid=8oo-cWmnzfwAAAGusfcmmw&cbp=13,272.79689847521172,,0,0&hl=en&ved=0CA8Q2wU&sa=X&ei=Qu5oU-C5KfDnwQGwxICYCA&source=embed&z=16&output=svembed" 
+            marginwidth="0" marginheight="0">
+            </iframe>
+        </div>
+    </div>
+</div>
