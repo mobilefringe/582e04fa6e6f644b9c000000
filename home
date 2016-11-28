@@ -86,6 +86,11 @@
             console.log(feature_items);
             renderBanner('#home_banner_template','#home_banner', banners);
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
+            
+            var stores = getStoreList();
+            console.log(stores);
+            renderStoreList(container, template, collection, type);
+            
             // show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
