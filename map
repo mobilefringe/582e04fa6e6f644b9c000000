@@ -59,7 +59,7 @@
         }
         
         function show_png_pin(trigger, map){
-            $(trigger).bind("change", );
+            $(trigger).bind("change", pinAction );
         }
         
         
