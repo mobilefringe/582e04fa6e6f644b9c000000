@@ -44,11 +44,11 @@
             <div id="latest_stores">
                 <script id="latest_stores_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4" >
-                        <a href="{{}}">
-                            <img alt="" src="{{}}">
+                        <a href="/stores/{{slug}}">
+                            <img alt="Store Logo" src="{{store_front_url_abs}}">
                         </a>   
-                        <p class="fashion_title">{{}}</p>
-                        <p class="latest_info">{{}}</p>
+                        <p class="fashion_title">{{name}}</p>
+                        <p class="latest_info">{{description}} <a href="{{url}}">Read More</a></p>
                     </div> 
                 </script>
             </div>
