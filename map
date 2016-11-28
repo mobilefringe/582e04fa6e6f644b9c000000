@@ -13,22 +13,16 @@
             <a href="http://uppercanadamall.com/system/site_images/photos/000/019/685/original/UCM16278-May-TearSheet-v6.pdf?1466701128" target="_blank" class="pull-right download_map_btn">Download Map</a>
         </div>
 	    
-	    <div class="row">
-            <div class="map_area">
-                <div class="col-md-12" style="margin:0px 0 30px 0;">
-                    <div class="map">    
-                        <div class="map2" style="border: solid 1px gray;">            
-                            <img id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/011/original/ucm_map_1.jpg?1435606610"/>        		
-
-                    		<!--<div class="marker" id="store_{{id}}" data-coords="{{x_coordinate | minus:19}}, {{y_coordinate | minus:58}}" style="display:none">-->
-                    			<!--{{ store.name }}-->
-                    		<!--</div>	-->
-                    	</div>
-            			
-                    </div>	        
+	    <div id="parent_div">
+    		<div id="zoom_container_directory"  >
+    			<img alt="Ucm_map_1" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/011/original/ucm_map_1.jpg?1435606610" />
+    			<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
+               
             	</div>
-            </div>
-        </div> 
+    			
+    		</div>
+    
+    	</div>
 	    
 
         
