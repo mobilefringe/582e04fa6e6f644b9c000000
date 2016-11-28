@@ -44,9 +44,11 @@
             <div id="latest_stores">
                 <script id="latest_stores_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4" >
-                        <a href="/stores/{{slug}}">
-                            <img alt="Store Logo" src="{{store_front_url_abs}}">
-                        </a>   
+                        <div class="img_container">
+                            <a href="/stores/{{slug}}">
+                                <img alt="Store Logo" src="{{store_front_url_abs}}">
+                            </a>   
+                        </div>
                         <p class="fashion_title">{{name}}</p>
                         <p class="latest_info">{{description}} <a href="{{url}}">Read More</a></p>
                     </div> 
