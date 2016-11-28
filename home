@@ -20,7 +20,7 @@
         <div class="row home_content">
             <h1>Latest in <span>fashion and style</span></h1>
         </div>
-        <div class="row">
+        <div class="row home_content">
             <div id="latest_fashion">
                 <script id="latest_fashion_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4" >
