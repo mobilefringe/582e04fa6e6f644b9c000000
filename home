@@ -61,7 +61,7 @@
             <h1>Latest in <span>events & promotions</span></h1>
         </div>
         <div class="row">
-            <div id="latest_events">
+            <div id="latest_events" class="home_content">
                 <script id="latest_events_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
                         <a href="/events/{{slug}}">
@@ -72,7 +72,7 @@
                     </div>    
                 </script>   
             </div>
-            <div id="latest_promos">
+            <div id="latest_promos" class="home_content">
                 <script id="latest_promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
                         <a href="/promotions/{{slug}}">
