@@ -17,7 +17,7 @@
             var pages_json = prefix + "/pages/" + slug + ".json"
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
-                $('#page_body').html(data.body);
+                $('#page_body').html(body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
