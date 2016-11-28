@@ -148,13 +148,13 @@ function renderNewStores(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderNewStorePage(container, template, collection){
+function renderNewStorePage(container, template, new_stores){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html); 
-    $.each( collection , function( key, val ) {
-        if(val.new_stores.assets.url.length === 0){
+    $.each( new_stores, function( key, val ) {
+        if(val.assets.url.length === 0){
             assets.url = "Hello!"
         }
         var repo_rendered = Mustache.render(template_html,val);
