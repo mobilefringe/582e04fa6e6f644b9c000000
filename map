@@ -21,10 +21,14 @@
 		   <!-- </div>-->
 	    <!--</div>-->
 	    
+	    <div id="zoom_container">
+            <img id="png_map" class="png_map" alt="center map" src="" />
+            <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
+            </div>    
+        </div>  
 	    
-	    
-	    <div class="row">
-            <div class="map_area">
+	    <!--<div class="row">-->
+     <!--       <div class="map_area">-->
                 <div class="col-md-12" style="margin:0px 0 30px 0;">
                     <div class="map">    
                         <div class="map2" style="height:700px; border: solid 1px gray;">            
@@ -51,18 +55,37 @@
             console.log(stores);
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
 
-    		$('#map_image').smoothZoom({
-    			initial_POSITION: "0 0",
-    	    	pan_BUTTONS_SHOW: "NO",
-    	    	zoom_OUT_TO_FIT: "NO",
-    	     	button_SIZE: 34,
-    	        button_ALIGN: "top right",    
-    	     	container: 'zoom_container_directory',
-    	     	responsive: true,
-    	     	responsive_maintain_ratio: false,
-    	     	zoom_MAX: 300,
-    	     	zoom_MIN: 0
-    		});
+            $("#png_map").attr("src", getPNGMapURL())
+        		$('#png_map').smoothZoom({
+        		    height: 496,
+        		    width: 619,
+        		    initial_ZOOM: 0,
+        			zoom_MIN: 0,
+        			zoom_MAX: 100,
+        			responsive: true,
+        		    responsive_maintain_ratio: true,
+        			zoom_BUTTONS_SHOW : 'YES',
+        			pan_BUTTONS_SHOW : 'NO',
+        			pan_LIMIT_BOUNDARY : 'NO',
+        			button_ALIGN: "top left",
+        			container: 'zoom_container'
+        		});
+		        show_png_pin(".map_pin_a", "#png_map")
+
+
+
+    // 		$('#map_image').smoothZoom({
+    // 			initial_POSITION: "0 0",
+    // 	    	pan_BUTTONS_SHOW: "NO",
+    // 	    	zoom_OUT_TO_FIT: "NO",
+    // 	     	button_SIZE: 34,
+    // 	        button_ALIGN: "top right",    
+    // 	     	container: 'zoom_container_directory',
+    // 	     	responsive: true,
+    // 	     	responsive_maintain_ratio: false,
+    // 	     	zoom_MAX: 300,
+    // 	     	zoom_MIN: 0
+    // 		});
         }
     	
     // 	$( ".mapper" ).change(function(e) {
