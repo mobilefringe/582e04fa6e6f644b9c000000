@@ -18,7 +18,6 @@
 <script>
     $(document).ready(function(e){
         function renderAll(){
-            // var stores = getStoresList().sortBy(function(o){ return o.created_at });;
             var new_stores = getNewStoresList();
             console.log(new_stores);
             renderStoreList("#store_details_container","#store_details_template", new_stores);
