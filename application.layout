@@ -155,7 +155,13 @@
                 <div class="col-md-12 ">
                     <div class="logo_right_btn hidden-xs">
                         <a class="logo_hour" href="/hours">
-                            <span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>
+                            <span id="home_hours_container">
+                                <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                    Today open until {{}}
+                                </script>
+                            </span>
+                        
+                            <!--<span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>-->
                         </a>
                         <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
                     </div>    
@@ -343,6 +349,15 @@
     <!--<div class="online_chat">-->
     <!--    <a href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/oxford-upper-canada-mall/guest-chat-page', 'Online Chat','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Upper Canada Mall Guest Services, how can we help you?</a>-->
     <!--</div>-->
+    <script>
+        $(document).ready(function(e){
+            function renderAll(){
+                var today_hours = getTodaysHours();
+                renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
+            }
+        loadMallDataCached(renderAll); 
+    })
+    </script>
 </body>
 
 </html>
