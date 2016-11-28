@@ -102,7 +102,7 @@
             renderNewStores("#latest_stores", "#latest_stores_template", new_stores);
             
             var all_events = getEventsList().sortBy(function(o){ return o.show_on_web_date });
-            var event = all_events.reverse().slice(0,0);
+            var event = all_events.reverse().slice(0);
             renderGeneral("#latest_events","#latest_events_template", event);
             console.log(event);
             
