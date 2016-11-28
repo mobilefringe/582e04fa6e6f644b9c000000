@@ -61,6 +61,17 @@
             <h1>Latest in <span>events & promotions</span></h1>
         </div>
         <div class="row">
+            <div id="latest_events">
+                <script id="latest_promos_template" type="x-tmpl-mustache/text">
+                    <div class="col-md-4">
+                            <a href="">
+                                <img alt="" src="">
+                            </a>   
+                            <p class="fashion_title">{{}}</p>
+                            <p class="latest_info">{{}}</p>
+                    </div>    
+                </script>   
+            </div>
             <div id="latest_prmoms">
                 <script id="latest_promos_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
@@ -89,7 +100,10 @@
             var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
             var new_stores = stores.reverse().slice(0, 3);
             renderNewStores("#latest_stores", "#latest_stores_template", new_stores);
-
+            
+            var events = getEventsList().sortBy(function(o){ return o.start_date });
+            console.log(events);
+            
 
             $('.flexslider').flexslider({
                 animation: "slide",
