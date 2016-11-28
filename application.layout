@@ -157,7 +157,7 @@
                         <a class="logo_hour" href="/hours">
                             <span id="home_hours_container">
                                 <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                    Today open until {%raw%}{{h}}{%endraw%}
+                                    Today open until {%raw%}{{close_time}}{%endraw%}
                                 </script>
                             </span>
                         
