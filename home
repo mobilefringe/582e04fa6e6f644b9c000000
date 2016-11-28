@@ -89,7 +89,7 @@
             
             var stores = getStoreList();
             console.log(stores);
-            renderStoreList(container, template, collection, type);
+            renderStoreList("#latest_stores", "#latest_stores_template", stores);
             
             // show_content();
             $('.flexslider').flexslider({
