@@ -1,6 +1,7 @@
 <div class="trim_screen">
     <div class="row">
         <div class="page_content">
+            <h1 id="page_title"></h1>
             <div id="page_body">
                 
             </div>
@@ -17,7 +18,8 @@
             var pages_json = prefix + "/pages/" + slug + ".json"
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
-                $('#page_body').html(body);
+                $('#page_title').html(data.title);
+                $('#page_body').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
