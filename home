@@ -62,7 +62,7 @@
         </div>
         <div class="row">
             <div id="latest_events">
-                <script id="latest_promos_template" type="x-tmpl-mustache/text">
+                <script id="latest_events_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4">
                             <a href="">
                                 <img alt="" src="">
@@ -103,7 +103,7 @@
             
             var all_events = getEventsList().sortBy(function(o){ return o.show_on_web_date });
             var event = all_events.reverse().slice(0);
-            renderGeneral("#events_container","#events_template", event);
+            renderGeneral("#latest_events","#latest_events_template", event);
             console.log(event);
             
 
