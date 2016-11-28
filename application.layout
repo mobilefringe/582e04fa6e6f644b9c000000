@@ -103,7 +103,7 @@
                         <ul>
                             <li class="drop_down">
                                 <a>Directory</a>
-                                <ul class="">
+                                <ul class="submenu">
                                     <li><a href="/stores">Store List</a></li>
                                     <li><a href="/map">Centre Map</a></li>
                                     <li><a href="/new_stores">New Stores</a></li>
@@ -111,20 +111,20 @@
                             </li>
                             <li class="drop_down">
                                 <a>Promotions</a>
-                                <ul class="">
+                                <ul class="submenu">
                                     <li><a href="/promotions">Store Promotions</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
                                 <a>Events</a>
-                                <ul class="">
+                                <ul class="submenu">
                                     <li><a href="/events">In-Mall Events</a></li>
                                     <li><a href="">Clubs</a></li>
                                 </ul>
                             </li>
                             <li class="drop_down">
                                 <a>Services</a>
-                                <ul class="">
+                                <ul class="submenu">
                                     <li><a href="">Services</a></li>
                                     <li><a href="">Gift Cards</a></li>
                                     <li><a href="">Accessibility</a></li>
@@ -132,7 +132,7 @@
                             </li>
                             <li class="drop_down">
                                 <a>Mall Info</a>
-                                <ul class="">
+                                <ul class="submenu">
                                     <li><a href="/hours">Mall Hours</a></li>
                                     <li><a href="">Parking & Directions</a></li>
                                     <li><a href="/jobs">Jobs</a></li>
