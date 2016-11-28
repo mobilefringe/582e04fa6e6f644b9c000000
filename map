@@ -67,59 +67,59 @@
     		});
         }
     	
-    	$( ".mapper" ).change(function(e) {
-    		var id = "#" + $(this).find(':selected')[0].id;
-    		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
-    		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
-    		var name = $(id).attr('data-name');
-    		$('#map_image').smoothZoom('focusTo',{
-    			x: x_coord,
-    			y: y_coord,
-    			zoom: 150,
-    			speed: 5
-    		});
-    		$('#map_image').smoothZoom('removeLandmark')
-    		$('#map_image').smoothZoom('addLandmark', 
-                [
-                '<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
-                    <div>\
-                        <div class="text">\
-                        <strong>'+name+'</strong>\
-                    </div>\
-                    <img src="/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
-                    </div>\
-                </div>'
-                ]
-            );
-    	});
+    // 	$( ".mapper" ).change(function(e) {
+    // 		var id = "#" + $(this).find(':selected')[0].id;
+    // 		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
+    // 		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
+    // 		var name = $(id).attr('data-name');
+    // 		$('#map_image').smoothZoom('focusTo',{
+    // 			x: x_coord,
+    // 			y: y_coord,
+    // 			zoom: 150,
+    // 			speed: 5
+    // 		});
+    // 		$('#map_image').smoothZoom('removeLandmark')
+    // 		$('#map_image').smoothZoom('addLandmark', 
+    //             [
+    //             '<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
+    //                 <div>\
+    //                     <div class="text">\
+    //                     <strong>'+name+'</strong>\
+    //                 </div>\
+    //                 <img src="/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
+    //                 </div>\
+    //             </div>'
+    //             ]
+    //         );
+    // 	});
         
-    	function custom_mapper(){
-    		var id =  "#";
-    		var id_js =  "";
-    		document.getElementById(id_js).selected = true
-    		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
-    		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
-    		var name = $(id).attr('data-name');
-    		$('#map_image').smoothZoom('focusTo',{
-    			x: x_coord,
-    			y: y_coord,
-    			zoom: 150,
-    			speed: 5
-    		});
-    		$('#map_image').smoothZoom('removeLandmark')
-    		$('#map_image').smoothZoom('addLandmark', 
-                [
-                '<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
-                    <div>\
-                        <div class="text">\
-                        <strong>'+name+'</strong>\
-                    </div>\
-                    <img src="/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
-                    </div>\
-                </div>'
-                ]
-            );
-    	}
+    // 	function custom_mapper(){
+    // 		var id =  "#";
+    // 		var id_js =  "";
+    // 		document.getElementById(id_js).selected = true
+    // 		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
+    // 		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
+    // 		var name = $(id).attr('data-name');
+    // 		$('#map_image').smoothZoom('focusTo',{
+    // 			x: x_coord,
+    // 			y: y_coord,
+    // 			zoom: 150,
+    // 			speed: 5
+    // 		});
+    // 		$('#map_image').smoothZoom('removeLandmark')
+    // 		$('#map_image').smoothZoom('addLandmark', 
+    //             [
+    //             '<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
+    //                 <div>\
+    //                     <div class="text">\
+    //                     <strong>'+name+'</strong>\
+    //                 </div>\
+    //                 <img src="/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
+    //                 </div>\
+    //             </div>'
+    //             ]
+    //         );
+    // 	}
         loadMallDataCached(renderAll); 
     })
 </script>
