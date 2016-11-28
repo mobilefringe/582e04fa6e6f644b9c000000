@@ -1,4 +1,4 @@
-<section class="home_banner container">
+<section class="home_banner">
     <div class="trim_screen">
         <div class="row">
             <div class="flexslider trim_screen">
@@ -17,7 +17,7 @@
 </section>
 <section class="latest_fashion container">
     <div class="trim_screen">
-        <div class="row">
+        <div class="row home_content">
             <h1>Latest in <span>fashion and style</span></h1>
         </div>
         <div class="row">
