@@ -1,7 +1,6 @@
 <div class="row">
     <div class="trim_screen job_page">
         <h1>Centre Map</h1>
-        
         <div class="col-md-4">
             <select id="store_select_container" class="form-control select_store">
                 <option disabled selected>Select a Store</option>
