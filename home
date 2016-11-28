@@ -86,7 +86,8 @@
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             
             
-            var new_stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
+            var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
+            var new_stores = stores.reverse().slice(0, 3);
             console.log(new_stores);
             renderGeneral("#latest_stores", "#latest_stores_template", new_stores);
             
