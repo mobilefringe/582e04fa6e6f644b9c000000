@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="logo_header trim_screen" id="main">
-            <div class="dropdown custom_dropdown visible-xs-inline-block" style="list-style-type:none;">
+            <div class="dropdown custom_dropdown visible-xs-block" style="list-style-type:none;">
                 <button type="button" data-toggle="dropdown" class="btn-prime" style="height:38px;width:50px;top:7px;">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
