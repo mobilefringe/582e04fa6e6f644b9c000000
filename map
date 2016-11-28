@@ -53,7 +53,7 @@
         function renderAll(){
             var stores = getStoresList();
             console.log(stores);
-            renderStoreList('#store_select_container','#store_select_template', stores, "stores");
+            // renderStoreList('#store_select_container','#store_select_template', stores, "stores");
 
             $("#png_map").attr("src", getPNGMapURL())
         		$('#png_map').smoothZoom({
