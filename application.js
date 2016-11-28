@@ -155,7 +155,7 @@ function renderNewStorePage(container, template, collection){
     Mustache.parse(template_html); 
     $.each(collection, function(key, val) {
         if(val.gallery == "" || val.gallery === null){
-            val.gallery = "";
+            val.show = "display:none;";
             // $(".store_detail_images").css("display: none")
         }
         var repo_rendered = Mustache.render(template_html,val);
