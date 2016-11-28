@@ -79,7 +79,7 @@
                             <img alt="" src="{{promo_image_url_abs}}">
                         </a>   
                         <p class="fashion_title">{{name}}</p>
-                        <p class="latest_info">{{description}}</p>
+                        <p class="latest_info"><a href="{{url}}">Read More</a></p>
                     </div>    
                 </script>   
             </div>
