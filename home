@@ -87,7 +87,7 @@
             renderBanner('#home_banner_template','#home_banner', banners);
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             
-            var stores = getStoreList();
+            var stores = getStoresList();
             console.log(stores);
             renderStoreList("#latest_stores", "#latest_stores_template", stores);
             
