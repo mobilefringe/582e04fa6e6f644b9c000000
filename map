@@ -45,7 +45,12 @@
 </div>
 
 <script>
-    $(document).ready(function(){
+
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderAll);
+    })
+ 
 
         function renderAll(){
             var stores = getStoresList();
@@ -120,6 +125,5 @@
     //             ]
     //         );
     // 	}
-        loadMallDataCached(renderAll); 
-    })
+
 </script>
