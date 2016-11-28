@@ -14,12 +14,32 @@
             <a href="http://uppercanadamall.com/system/site_images/photos/000/019/685/original/UCM16278-May-TearSheet-v6.pdf?1466701128" target="_blank" class="pull-right download_map_btn">Download Map</a>
         </div>
         
-        <div id="parent_div">
-		    <div id="zoom_container_directory"  >
-			    <img alt="Ucm_map_1" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/011/original/ucm_map_1.jpg?1435606610" />
-			    <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>
-		    </div>
-	    </div>
+     <!--   <div id="parent_div">-->
+		   <!-- <div id="zoom_container_directory"  >-->
+			  <!--  <img alt="Ucm_map_1" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/011/original/ucm_map_1.jpg?1435606610" />-->
+			  <!--  <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>-->
+		   <!-- </div>-->
+	    <!--</div>-->
+	    
+	    
+	    
+	    <div class="row-fluid">
+            <div class="map_area">
+                <div class="span12" style="margin:0px 0 30px 0;">
+                    <div class="map">    
+                        <div class="map2" style="height:700px; border: solid 1px gray;">            
+                            <img id="map_image" src="{{site.property.map_image_path}}" />        		
+                    		{% for store in stores %}  
+                    		<div class="marker" id="store_{{store.id}}" data-coords="{{store.x_coordinate | minus:19}}, {{store.y_coordinate | minus:58}}" style="display:none">
+                    			{{ store.name }}
+                    		</div>	
+                    		{% endfor %}
+                    	</div>
+            			
+                    </div>	        
+            	</div>
+            </div>
+        </div>
         
     </div>
 </div>
@@ -45,8 +65,9 @@
     	     	zoom_MAX: 300,
     	     	zoom_MIN: 0
     		});
+        }
     	
-        	$(".mapper").change(function(e) {
+        	$( ".mapper" ).change(function(e) {
         		var id = "#" + $(this).find(':selected')[0].id;
         		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
         		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
@@ -71,36 +92,34 @@
                     ]
                 );
         	});
-        }
         
-    //     function custom_mapper(){
-    // 		var id =  "#";
-    // 		var id_js =  "";
-    // 		document.getElementById(id_js).selected = true
-    // 		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
-    // 		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
-    // 		var name = $(id).attr('data-name');
-    // 		$('#map_image').smoothZoom('focusTo',{
-    // 			x: x_coord,
-    // 			y: y_coord,
-    // 			zoom: 150,
-    // 			speed: 5
-    // 		});
-    // 		$('#map_image').smoothZoom('removeLandmark')
-    // 		$('#map_image').smoothZoom('addLandmark', 
-    //             [
-    //             '<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
-    //                 <div>\
-    //                     <div class="text">\
-    //                     <strong>'+name+'</strong>\
-    //                 </div>\
-    //                 <img src="/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
-    //                 </div>\
-    //             </div>'
-    //             ]
-    //         );
-    // 	}
+        	function custom_mapper(){
+        		var id =  "#";
+        		var id_js =  "";
+        		document.getElementById(id_js).selected = true
+        		var x_coord = parseInt($(id).attr('data-coords').split(",")[0])+20;
+        		var y_coord = parseInt($(id).attr('data-coords').split(",")[1]);
+        		var name = $(id).attr('data-name');
+        		$('#map_image').smoothZoom('focusTo',{
+        			x: x_coord,
+        			y: y_coord,
+        			zoom: 150,
+        			speed: 5
+        		});
+        		$('#map_image').smoothZoom('removeLandmark')
+        		$('#map_image').smoothZoom('addLandmark', 
+                    [
+                    '<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
+                        <div>\
+                            <div class="text">\
+                            <strong>'+name+'</strong>\
+                        </div>\
+                        <img src="/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
+                        </div>\
+                    </div>'
+                    ]
+                );
+        	}
         loadMallDataCached(renderAll); 
-        // custom_mapper();
     })
 </script>
