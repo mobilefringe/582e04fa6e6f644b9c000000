@@ -52,7 +52,7 @@
                                         </a>
                                     </div>
                                     <div class="row">
-                                        <div class="col-xs-8 col-md-">
+                                        <div class="col-xs-8 col-md-6">
                                             <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                                         </div>
                                         <div class="col-xs-3 col-md-3">
