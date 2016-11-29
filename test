@@ -19,14 +19,10 @@
                                         <div class="col-md-7 col-xs-9">
                                             <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                                         </div>
-                                        <div class="col-md-3 col-xs-3">
+                                        <div class="col-md-5 col-xs-3">
                                             <p class="store_list_name pull-right">
                                                 <span style="{{new_store}}" class="has_new">New</span>
                                                 <span class="has_sale" style="{{promotion_exist}}">SALE</span>
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <p>
                                                 <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
                                             </p>
                                         </div>
@@ -121,7 +117,7 @@
             
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
-            renderStoreListCatetories('#category_list_container','#category_list_template', stores);
+            renderStoreListCatetories('#category_list_container','#category_list_template', leftSide, stores);
             renderStoreListCatetories('#category_list_container_right','#category_list_template_right', categories);
         }
         
