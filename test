@@ -16,16 +16,16 @@
                                         </a>
                                    </div>
                                     <div class="row">
-                                        <div class="col-xs-8 col-md-6 ">
+                                        <div class="col-md-7 col-xs-9">
                                             <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                                         </div>
-                                        <div class="col-xs-3 col-md-3">
+                                        <div class="col-md-3 col-xs-3">
                                             <p class="store_list_name pull-right">
                                                 <span style="{{new_store}}" class="has_new">New</span>
                                                 <span class="has_sale" style="{{promotion_exist}}">SALE</span>
                                             </p>
                                         </div>
-                                        <div class="col-xs-1 col-md-3">
+                                        <div class="col-md-3">
                                             <p>
                                                 <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
                                             </p>
@@ -122,7 +122,7 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
             renderStoreListCatetories('#category_list_container','#category_list_template', stores);
-            // renderGeneral('#category_list_container_right','#category_list_template_right', categories);
+            renderStoreListCatetories('#category_list_container_right','#category_list_template_right', categories);
         }
         
         loadMallDataCached(renderAll); 
@@ -140,38 +140,40 @@
         })
         
         function renderStoreListCatetories(container, template, category_list,stores){
-            var item_rendered = [];
-            var template_html = $(template).html();
-            Mustache.parse(template_html);   // optional, speeds up future use
-            var initial_id = 0;
-            var category_index = 0;
-            $.each(category_list , function( key, category ) {
-                var category_id = parseInt(category.id);
-                var category_name = category.name;
-                var current_id = category.id;
-                var count = 0;
-                
-                $.each( stores , function( i, store ) {
-                    var store_category = store.categories;
-                    var a = store.categories.indexOf(category_id);
-                    
-                    if(a > -1){
-                        if (count == 0){
-                            store.show  = "display:block"; 
-                        }else{
-                            store.show  = "display:none"; 
-                        }
-                        store.header = category_name;
-                        store.block = category.id;
-                        var rendered = Mustache.render(template_html,store);
-                        item_rendered.push(rendered);
-                        count += 1;
-                    }
-                    
-                });
-                category_index += 1;
-            });
-            $(container).html(item_rendered.join(''));
-        }
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future use
+    var initial_id = 0;
+    var category_index = 0;
+    $.each(category_list , function( key, category ) {
+        var category_id = parseInt(category.id);
+        var category_name = category.name;
+        var current_id = category.id;
+        var count = 0;
+        
+        $.each( stores , function( i, store ) {
+            var store_category = store.categories;
+            var a = store.categories.indexOf(category_id);
+            
+            if(a > -1){
+                if (count == 0){
+                    store.show  = "display:block"; 
+                }else{
+                    store.show  = "display:none"; 
+                }
+                store.header = category_name;
+                store.block = category.id;
+                var rendered = Mustache.render(template_html,store);
+                item_rendered.push(rendered);
+                count += 1;
+            }
+            
+        });
+        category_index += 1;
+    
+    });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
+}
     })
 </script>
