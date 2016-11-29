@@ -5,19 +5,28 @@
             <select id="store_select_container" class="form-control select_store">
                 <option value="None">Select a Store</option>
                 <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
+                    <option value="{{id}}" data-value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
                 </script>
             </select>
         </div>
         <div class="col-md-8">
             <a href="http://uppercanadamall.com/system/site_images/photos/000/019/685/original/UCM16278-May-TearSheet-v6.pdf?1466701128" target="_blank" class="pull-right download_map_btn">Download Map</a>
         </div>
+	    
+	    <!--<div id="parent_div">-->
+    	<!--	<div id="zoom_container_directory"  >-->
+    	<!--		<img alt="Ucm_map_1" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/011/original/ucm_map_1.jpg?1435606610" />-->
+    	<!--		<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>-->
+    	<!--	</div>-->
+    	<!--</div>-->
 	    <div class="">
             <div id="zoom_container">
                 <img id="png_map" class="png_map" alt="center map" src="" />
                 <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>    
             </div>
         </div>
+
+        
     </div>
 </div>
 <script src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
@@ -57,12 +66,11 @@
                 console.log(selectedOption);
                 
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
-                // coords = $(selectedOption).attr('value').split(",");
+                coords = $(selectedOption).attr('data-value').split(",");
                 var zoomData = $(map).smoothZoom('getZoomData');
-                x_coord = parseInt(selectedOption[0]);
-                console.log(x_coord);
-                y_coord = parseInt(selectedOption[1])
-                floor = (selectedOption[3])
+                x_coord = parseInt(coords[0])
+                y_coord = parseInt(coords[1])
+                floor = (coords[3])
                 
                 name = $(selectedOption).text();
                 $(map).smoothZoom('removeLandmark')
@@ -74,7 +82,7 @@
                 
                 $(map).smoothZoom('addLandmark', 
         			[
-        			'<div class="item mark" data-show-at-zoom="0" data-position="'+ x_coord + ',' + y_coord + '">\
+        			'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
         				<div>\
         					<div class="text">\
         					<strong>'+ name+ '</strong>\
