@@ -11,7 +11,7 @@
                                     <div class="store_list_content">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <a style="{{show}}" name="{{initial}}">{{initial}}</a>
+                                                <p class="store_initial hstc" style="{{show}}" id="{{initial}}">{{initial}}</p>
                                                 <a href="#top" class="pull-right stores_gotop">
                                                     <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                                 </a>
