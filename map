@@ -59,9 +59,9 @@
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
                 // coords = $(selectedOption).attr('data-value').split(",");
                 var zoomData = $(map).smoothZoom('getZoomData');
-                x_coord = parseInt(selectedOption[0]) + 10;
+                x_coord = parseInt(selectedOption[0]);
                 console.log(x_coord);
-                y_coord = parseInt(selectedOption[1]) + 33;
+                y_coord = parseInt(selectedOption[1]);
                 console.log(y_coord);
                 // floor = (selectedOption[3])
                 
