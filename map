@@ -5,7 +5,7 @@
             <select id="store_select_container" class="form-control select_store">
                 <option value="None">Select a Store</option>
                 <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
+                    <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
                 </script>
             </select>
         </div>
@@ -64,7 +64,7 @@
                 console.log(y_coord);
                 // floor = (selectedOption[3])
                 
-                var name = $(selectedOption).html();
+                var name = $(selectedOption).attr('data-value');
                 $(map).smoothZoom('removeLandmark')
                 if (isMobile) {
                     $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
