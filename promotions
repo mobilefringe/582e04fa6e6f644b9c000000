@@ -23,6 +23,38 @@
                 </div>
             </script>
         </div>
+        
+        
+        
+        
+        <ul class="media-list" id="promos_container">
+        <script id="promos_template" type="x-tmpl-mustache/text">
+    	  <li class="media">
+    	  		<div href="/promotions/{{slug}}" class="span3">      
+                    <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class='lightbox-content'>
+                            <img ALT="store_promo" src="{{promo_image_url_abs}}" />                 
+                        </div>
+                    </div>
+                    <a data-toggle="lightbox" href="#img{{slug}}">                
+                        <img ALT="promo.slug" src="{{promo_image_url_abs}}"/>                
+                    </a>
+    	  		</div>
+    	  	<!--{% endif %}-->
+    		    <div class="media-body span9">
+                    <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
+                    <h4><a href="/promotions/{{slug}}">{{name}}</a></h4>
+                    <h4 class="promo_date">{{dates}}</h4>
+                    <p>{{{rich_description}}}</p>
+    		    </div>
+    	  </li>
+    	<!--{% endfor %}-->
+    	</script>
+        </ul>
+        
+        
+        
+        
         <div class="col-md-12">
             <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
         </div>
