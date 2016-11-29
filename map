@@ -5,7 +5,7 @@
             <select id="store_select_container" class="form-control select_store">
                 <option value="None">Select a Store</option>
                 <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option  data-value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
+                    <option value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
                 </script>
             </select>
         </div>
