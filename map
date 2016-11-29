@@ -55,7 +55,7 @@
                 var selectedOption = $("select.select_store").val().split(",");
                 console.log(selectedOption);
                 
-                var selectedOptionName = $("select.select_store").text();
+                var selectedOptionName = $(this).text();
                 console.log(selectedOptionName);
                 
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
