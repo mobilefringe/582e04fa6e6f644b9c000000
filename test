@@ -6,7 +6,7 @@
                 <a class="active hstc" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a>
                 <a class="hstc" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a>
 
-             <div class="tab-content">
+             <!--<div class="tab-content">-->
                 <!--<div role="tabpanel" class="tab-pane active" id="alphabetical">-->
                     <p class="alpha_list">
                         <a href="#A">A</a>
@@ -36,6 +36,7 @@
                         <a href="#Y">Y</a>
                         <a href="#Z">Z</a>
                     </p>
+            <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="alphabetical">
                     <div class="row">
                         <div class="col-md-9">
