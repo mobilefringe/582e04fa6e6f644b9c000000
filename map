@@ -63,7 +63,7 @@
                 console.log(x_coord);
                 y_coord = parseInt(selectedOption[1])
                 console.log(y_coord);
-                floor = (selectedOption[3])
+                // floor = (selectedOption[3])
                 
                 name = $(selectedOption).text();
                 $(map).smoothZoom('removeLandmark')
