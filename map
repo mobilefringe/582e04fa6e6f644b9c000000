@@ -61,7 +61,7 @@
                 var zoomData = $(map).smoothZoom('getZoomData');
                 x_coord = parseInt(selectedOption[0]) + 20;
                 console.log(x_coord);
-                y_coord = parseInt(selectedOption[1])
+                y_coord = parseInt(selectedOption[1]);
                 console.log(y_coord);
                 // floor = (selectedOption[3])
                 
