@@ -1,3 +1,9 @@
+<style>
+    .store_initial {
+        display: inline-block;
+    }
+</style>
+
 <div class="row">
     <div class="trim_screen">
         <h1>Store List</h1>
