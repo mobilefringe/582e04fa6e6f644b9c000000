@@ -19,7 +19,7 @@
                                         <div class="col-xs-8 col-md-7">
                                             <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                                         </div>
-                                        <div class="col-xs-3 col-md-5">
+                                        <div class="col-xs-3 col-md-3">
                                             <p class="store_list_name pull-right">
                                                 <span style="{{new_store}}" class="has_new">New</span>
                                                 <span class="has_sale" style="{{promotion_exist}}">SALE</span>
