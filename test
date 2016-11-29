@@ -1,0 +1,115 @@
+<div class="row">
+    <div class="trim_screen">
+        <h1>Store List</h1>
+        <div class="col-md-9">
+            <div class="tabbable">                
+                <div class="tab-content">
+        
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="store_list" id="category_list_container">
+                                <script id="category_list_template" type="x-tmpl-mustache/text">
+                                    <div class="store_list_content {{block}}">
+                                        <p class="store_initial" style="{{show}}">{{header}}</p>
+                                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                    </div>
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="store_list" id="category_list_container_right">
+                                <script id="category_list_template_right" type="x-tmpl-mustache/text">
+                                    <div class="store_list_content {{block}}">
+                                        <p class="store_initial" style="{{show}}">{{header}}</p>
+                                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                    </div>
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>    
+        </div>
+        
+        <div class="col-md-3">
+            <a href="#list" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
+                <h3>Store A-Z</h3>
+            </a>
+            <div class="alphabet_bg switch_store">
+                <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                <button class="btn-secondary" onClick="location.href='Z'">Z</button>
+            </div>
+            <a href="#category" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
+                <h3>Categories</h3>
+            </a>
+            <div class="switch_category" id="category_container_phone">
+                <script id="category_template_phone" type="x-tmpl-mustache/text">
+                    <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
+                </script>
+            </div>
+        </div>                
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        function renderAll (){
+            var stores = getStoresList();
+            var categories = getStoreCategories();
+            var half = Math.ceil(categories.length / 2)
+            var leftSide = categories.splice(0, half);
+            var rightSide = categories
+            
+            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
+            renderStoreListCatetories('#category_list_container','#category_list_template', leftSide, stores);
+            renderStoreListCatetories('#category_list_container_right','#category_list_template_right', rightSide, stores);
+            show_content();
+        }
+        
+        loadMallDataCached(renderAll); 
+        
+        $(".switch_store button").click(function(){
+            $("#category").hide();
+            $("#list").show();    
+            location.hash = "#" + $(this).text();
+        })
+        
+        $(".switch_category button").click(function(){            
+            $("#list").hide();            
+            $("#category").show();
+            location.hash = "#" + $(this).attr("name");
+        })
+    })
+</script>
