@@ -8,8 +8,22 @@
                             <div class="store_list" id="store_list_container">
                                 <script id="store_list_template" type="x-tmpl-mustache/text">
                                     <div class="store_list_content">
-                                        <p class="store_initial hstc" style="{{show}}" id="{{initial}}">{{initial}}</p>
-                                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                        <div class="">
+                                            <p class="store_initial hstc" style="{{show}}" id="{{initial}}">{{initial}}</p>
+                                            <a href="#top" class="pull-right stores_gotop">
+                                                <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-7 col-xs-9">
+                                            <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                                        </div>
+                                        <div class="col-md-5 col-xs-3">
+                                            <p class="store_list_name pull-right">
+                                                <span style="{{new_store}}" class="has_new">New</span>
+                                                <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                                <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </script>
                             </div>
