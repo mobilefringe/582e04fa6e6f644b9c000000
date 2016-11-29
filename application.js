@@ -1,5 +1,9 @@
 /*Created 2015-02-28 by CodeCloud Team*/
 
+var today_hours = getTodaysHours();
+renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
+
+
 function renderBanner(home_banner_template, home_banner, banners){
     var item_list = [];
     var item_rendered = [];
