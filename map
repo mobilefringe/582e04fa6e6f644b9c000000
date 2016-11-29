@@ -53,21 +53,14 @@
                 e.preventDefault()
                 
                 var selectedOption = $("select.select_store").val().split(",");
-                console.log(selectedOption);
-                
                 var selectedOptionName = $(".select_store option:selected").text();
-                console.log(selectedOptionName);
                 
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
                 // coords = $(selectedOption).attr('data-value').split(",");
                 var zoomData = $(map).smoothZoom('getZoomData');
                 x_coord = parseInt(selectedOption[0]);
-                console.log(x_coord);
                 y_coord = parseInt(selectedOption[1]);
-                console.log(y_coord);
-                // floor = (selectedOption[3])
-                
-                // var name = $(selectedOption).val('data-value');
+            
                 $(map).smoothZoom('removeLandmark')
                 if (isMobile) {
                     $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
