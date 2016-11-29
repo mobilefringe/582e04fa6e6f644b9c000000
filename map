@@ -5,7 +5,7 @@
             <select id="store_select_container" class="form-control select_store">
                 <option value="None">Select a Store</option>
                 <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option value="{{id}}" data-value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
+                    <option  data-value="{{x_coordinate}},{{y_coordinate}},{{id}}">{{name}}</option>
                 </script>
             </select>
         </div>
@@ -62,7 +62,7 @@
             $(trigger).bind("change", function(e) {
                 e.preventDefault()
                 
-                var selectedOption = $("select.select_store").val('data-value');
+                var selectedOption = $("select.select_store").val();
                 console.log(selectedOption);
                 
                 var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
