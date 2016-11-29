@@ -74,7 +74,7 @@
                 
                 $(map).smoothZoom('addLandmark', 
         			[
-        			'<div class="item mark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
+        			'<div class="landmark" data-show-at-zoom="0" data-position="'+x_coord+','+y_coord+'">\
         				<div>\
         					<div class="text">\
         					<strong>'+ name+ '</strong>\
