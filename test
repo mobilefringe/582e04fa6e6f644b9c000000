@@ -64,7 +64,7 @@
                         <a href="#A" style="visibility:hidden">A</a>
                     </p>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-9">
                             <div class="store_list" id="category_list_container">
                                 <script id="category_list_template" type="x-tmpl-mustache/text">
                                     <div class="store_list_content {{block}}">
@@ -74,16 +74,16 @@
                                 </script>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="store_list" id="category_list_container_right">
-                                <script id="category_list_template_right" type="x-tmpl-mustache/text">
-                                    <div class="store_list_content {{block}}">
-                                        <p class="store_initial" style="{{show}}">{{header}}</p>
-                                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                                    </div>
-                                </script>
-                            </div>
-                        </div>
+                        <!--<div class="col-md-6">-->
+                        <!--    <div class="store_list" id="category_list_container_right">-->
+                        <!--        <script id="category_list_template_right" type="x-tmpl-mustache/text">-->
+                        <!--            <div class="store_list_content {{block}}">-->
+                        <!--                <p class="store_initial" style="{{show}}">{{header}}</p>-->
+                        <!--                <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>-->
+                        <!--            </div>-->
+                        <!--        </script>-->
+                        <!--    </div>-->
+                        <!--</div>-->
                     </div>
                 </div>
             </div>
