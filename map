@@ -1,16 +1,18 @@
 <div class="row">
     <div class="trim_screen job_page">
         <h1>Centre Map</h1>
-        <div class="col-md-4">
-            <select id="store_select_container" class="form-control select_store">
-                <option value="None">Select a Store</option>
-                <script id="store_select_template" type="x-tmpl-mustache/text">
-                    <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
-                </script>
-            </select>
-        </div>
-        <div class="col-md-8">
-            <a href="http://uppercanadamall.com/system/site_images/photos/000/019/685/original/UCM16278-May-TearSheet-v6.pdf?1466701128" target="_blank" class="pull-right download_map_btn">Download Map</a>
+        <div class="row">
+            <div class="col-md-4">
+                <select id="store_select_container" class="form-control select_store">
+                    <option value="None">Select a Store</option>
+                    <script id="store_select_template" type="x-tmpl-mustache/text">
+                        <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
+                    </script>
+                </select>
+            </div>
+            <div class="col-md-8">
+                <a href="http://uppercanadamall.com/system/site_images/photos/000/019/685/original/UCM16278-May-TearSheet-v6.pdf?1466701128" target="_blank" class="pull-right download_map_btn">Download Map</a>
+            </div>
         </div>
 	    <div class="">
             <div id="zoom_container">
