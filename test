@@ -2,12 +2,12 @@
     <div class="trim_screen">
         <h1>Store List</h1>
         
-        <p class="mini_nav_2">
+        <!--<p class="mini_nav_2">-->
                 <a class="active hstc" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">ALPHABETICAL</a>
                 <a class="hstc" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">CATEGORY</a>
-            </p>
-             <div class="tab-content ">
-                <div role="tabpanel" class="tab-pane active" id="alphabetical">
+            <!--</p>-->
+             <div class="tab-content">
+                <!--<div role="tabpanel" class="tab-pane active" id="alphabetical">-->
                     <p class="alpha_list">
                         <a href="#A">A</a>
                         <a href="#B">B</a>
@@ -36,6 +36,7 @@
                         <a href="#Y">Y</a>
                         <a href="#Z">Z</a>
                     </p>
+                <div role="tabpanel" class="tab-pane active" id="alphabetical">
                     <div class="row">
                         <div class="col-md-9">
                             <div class="store_list" id="store_list_container">
@@ -60,9 +61,9 @@
                     </div>
                 </div>
                 <div role="tabpanel" class="tab-pane" id="categories">
-                    <p class="alpha_list">
-                        <a href="#A" style="visibility:hidden">A</a>
-                    </p>
+                    <!--<p class="alpha_list">-->
+                    <!--    <a href="#A" style="visibility:hidden">A</a>-->
+                    <!--</p>-->
                     <div class="row">
                         <div class="col-md-9">
                             <div class="store_list" id="category_list_container">
