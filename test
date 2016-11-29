@@ -46,13 +46,17 @@
                                         </a>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-7 col-xs-9">
+                                        <div class="col-xs-8 col-md-7">
                                             <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                                         </div>
-                                        <div class="col-md-5 col-xs-3">
+                                        <div class="col-xs-3 col-md-3">
                                             <p class="store_list_name pull-right">
                                                 <span style="{{new_store}}" class="has_new">New</span>
                                                 <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                            </p>
+                                        </div>
+                                        <div class="col-xs-1 col-md-3">
+                                            <p>
                                                 <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
                                             </p>
                                         </div>
