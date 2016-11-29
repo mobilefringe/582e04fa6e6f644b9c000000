@@ -45,7 +45,6 @@
         			zoom_OUT_TO_FIT: "NO",
         			container: 'zoom_container'
         		});
-        		
         	show_png_pin(".select_store", "#png_map");
         }
         
@@ -65,7 +64,7 @@
                 console.log(y_coord);
                 // floor = (selectedOption[3])
                 
-                // name = $(selectedOption).text();
+                var name = $(selectedOption).attr("text");
                 $(map).smoothZoom('removeLandmark')
                 if (isMobile) {
                     $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
@@ -78,7 +77,7 @@
         			'<div class="item mark" data-show-at-zoom="0" data-position="' + x_coord + ',' + y_coord + '">\
         				<div>\
         					<div class="text">\
-        					<strong>'+ name+ '</strong>\
+        					<strong>'+ name + '</strong>\
         				</div>\
         				<img src="//codecloud.cdn.speedyrails.net/sites/54cfab316e6f6433ad020000/530d3a9b7bc13ce4a511089c23463f99/10dundas_pin.png" width="40px" height="59px" alt="marker" />\
         				</div>\
