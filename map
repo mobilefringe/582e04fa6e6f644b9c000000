@@ -64,7 +64,7 @@
                 console.log(y_coord);
                 // floor = (selectedOption[3])
                 
-                var name = $(selectedOption).attr("text");
+                var name = $(selectedOption).text();
                 $(map).smoothZoom('removeLandmark')
                 if (isMobile) {
                     $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
