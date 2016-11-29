@@ -91,8 +91,8 @@
             var leftSide = categories.splice(0, half);
             var rightSide = categories
             
-            renderStoreList('#store_list_container','#store_list_template', stores);
-            renderStoreList('#store_list_container_right','#store_list_template_right', stores);
+            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
             renderGeneral('#category_list_container','#category_list_template', stores);
             renderGeneral('#category_list_container_right','#category_list_template_right', stores);
         }
