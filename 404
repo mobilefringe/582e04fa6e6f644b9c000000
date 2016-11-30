@@ -7,11 +7,11 @@
         border-right-color: #999;
         border-bottom-color: #999;
         background: oldlace;
-        h1 {
-            font-size: 1.8em;
-            color: #f00;
-            line-height: 1.5em;
-        }
+    }
+    .404_error h1 {
+        font-size: 1.8em;
+        color: #f00;
+        line-height: 1.5em;
     }
 </style>
 <div class="row">
