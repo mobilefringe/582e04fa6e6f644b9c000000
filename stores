@@ -49,7 +49,7 @@
                     <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                     <button class="btn-secondary" onClick="location.href='Z'">Z</button>
                 </div>
-                <a class="store_tab_toggle" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">
+                <a class="store_tab" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">
                     <h3>Catetegories</h3>
                 </a>
                 <div class="switch_category" id="category_container_phone">
