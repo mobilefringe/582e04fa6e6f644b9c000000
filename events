@@ -35,8 +35,8 @@
 
 <script>
     $(document).ready(function(e){
+        init();
         function renderAll(){
-            renderHomeHours();
             var events = getEventsList().sortBy(function(o){ return o.start_date });
             console.log(events);
             var prop = getPropertyDetails();
