@@ -2,6 +2,9 @@
     .store_initial {
         display: inline-block;
     }
+    .store_row_name p{
+        display: inline-block;
+    }
 </style>
 
 <div class="row">
