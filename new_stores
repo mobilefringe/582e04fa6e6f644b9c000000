@@ -22,7 +22,6 @@
         init(e);
         function renderAll(){
             var new_stores = getNewStoresList(name);
-            console.log(new_stores);
             renderNewStorePage("#store_details_container","#store_details_template", new_stores);
         }
         loadMallData(renderAll); 
