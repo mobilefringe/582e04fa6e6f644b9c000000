@@ -78,7 +78,7 @@
                                             <span class="has_new" style="{{new_store}}">New</span>
                                             <span class="store_phone hidden-xs">{{phone}}</span>
                                             <a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
-                                                <img src="//www.mallmaverick.com/system/site_images/photos/000/000/009/original/icon_call_stores.png?1364701611"
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
                                             </a>
                                         </div>
                                     </div>
