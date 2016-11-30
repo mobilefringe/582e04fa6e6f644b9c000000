@@ -73,7 +73,7 @@
                                     </h3>
                                     <div class="store_row_name">
                                         <p class=><a href="/stores/{{slug}}">{{name}}</a></p>
-                                        <div class="store_list_name pull-right">
+                                        <div class="stores_row pull-right">
                                             <span style="{{new_store}}" class="has_new">New</span>
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
                                             <span class="store_phone hidden-xs">{{phone}}</span>
