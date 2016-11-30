@@ -1,156 +1,136 @@
+<style>
+    .stores_table_headers {
+        width: 90%;
+    }
+    .store_initial {
+        display: inline-block;
+    }
+    .store_row_name p {
+        display: inline-block;
+    }
+    i.fa.fa-phone {
+        font-size: 24px;
+    }
+</style>
+
 <div class="row">
     <div class="trim_screen">
         <h1>Store List</h1>
-        <div class="col-md-9">
-            <div class="tabbable">                
+        <div class="row">
+            <div class="col-md-3 col-md-push-9">
+                <a class="store_tab_toggle" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">
+                    <h3>Stores A-Z</h3>
+                </a>    
+                <div class="alphabet_bg switch_store">
+                    <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                    <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                    <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                    <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                    <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                    <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                    <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                    <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                    <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                    <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                    <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                    <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                    <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                    <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                    <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                    <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                    <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                    <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                    <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                    <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                    <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                    <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                    <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                    <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                    <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                    <button class="btn-secondary" onClick="location.href='Z'">Z</button>
+                </div>
+                <a class="store_tab_toggle" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">
+                    <h3>Catetegories</h3>
+                </a>
+                <div class="switch_category" id="category_container_phone">
+                    <script id="category_template_phone" type="x-tmpl-mustache/text">
+                        <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
+                    </script>
+                </div>
+            </div>    
+            <div class="col-md-9 col-md-pull-3">    
                 <div class="tab-content">
-        
-                    <div id="list" class="tab-pane active">   
-                        <h4 class="visible-phone">Store A-Z</h4>
-                        <div id="store_list_container">
+                    <div role="tabpanel" class="tab-pane active" id="alphabetical">
+                        <!--<h4 class="">Stores A-Z</h4>-->
+                        <div class="store_list" id="store_list_container">
                             <script id="store_list_template" type="x-tmpl-mustache/text">
-                                <div class="stores_table_headers" style="{{show}}">
-                        	    	<a name="{{initial}}">{{initial}}</a> 
-                                    <a href="#top" class="pull-right stores_gotop">
-                                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
-                                    </a>                    			
-                                </div>
-                                <div class="row cats_row" data-cat="{{cat_list}}">
-                                    <div class="col-md-7 col-xs-9">
-                                        <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                                    </div>
-                                    <div class="col-md-5 col-xs-3">
-                                        <p class="store_list_name pull-right">
-                                            <span style="{{new_store}}" class="has_new">New</span>
+                                <div class="store_list_content">
+                                    <h3 class="stores_table_headers" style="{{show}}">
+                                        <a class="store_initial"  id="{{initial}}">{{initial}}</a>
+                                        <a href="#top" class="pull-right stores_gotop">
+                                            <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                        </a>
+                                    </h3>
+                                    <div class="store_row_name">
+                                        <a href="/stores/{{slug}}">{{name}}</a>
+                                        <div class="stores_row pull-right">
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
-                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
-                                        </p>
+                                            <span class="has_new" style="{{new_store}}">New</span>
+                                            <span class="store_phone hidden-xs">{{phone}}</span>
+                                            <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </a></span>
+                                        </div>
                                     </div>
                                 </div>
                             </script>
                         </div>
                     </div>
-                    
-                    <!--<div id="category" class="tab-pane">-->
-                    <!--    <div class="alphabet_bg switch_category visible-phone">-->
-                    <!--        <h4 class="visible-phone">Categories</h4>-->
-                    <!--        <div id="category_container">-->
-                    <!--            <script id="category_template" type="x-tmpl-mustache/text">-->
-                    <!--                <div class="stores_table_headers" style="{{show}}">-->
-                    <!--                    <a name="{{id}}">{{name}}</a> -->
-                    <!--                    <a href="#top" class="pull-right stores_gotop">-->
-                    <!--                        <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">-->
-                    <!--                    </a>                                -->
-                    <!--                </div>-->
-                    <!--                <div class="row cats_row" data-cat="{{cat_list}}">-->
-                    <!--                    <div class="col-md-7 col-xs-9">-->
-                    <!--                        <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="col-md-5 col-xs-3">-->
-                    <!--                        <p class="store_list_name pull-right">-->
-                    <!--                            <span style="{{new_store}}" class="has_new">New</span>-->
-                    <!--                            <span class="has_sale" style="{{promotion_exist}}">SALE</span>-->
-                    <!--                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>-->
-                    <!--                        </p>-->
-                    <!--                    </div>-->
-                    <!--                </div>-->
-                    <!--            </script>-->
-                    <!--        </div>-->
-                    <!--    </div>-->
-                    <!--</div>-->
-                    <div id="category_container" class="hidden_phone">
-                            <script id="category_template" type="x-tmpl-mustache/text">
-                                <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
-                            </script>
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <span class="store_initial hidden_now" id="cat_name"></span>
-                        <div id="store_cat_container">
-                            <script id="store_cat_template" type="x-tmpl-mustache/text">
-                                <span style="{{show}}" class="store_initial">{{initial}}</span>
-                                <div class="row cats_row" data-cat="{{cat_list}}">
-                                    <div class="col-md-5 col-xs-6">
-                                        <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                                    </div>
-                                    <div class="col-md-7 col-xs-6">
-                                        <p class="store_list_name pull-right">
-                                            <span style="{{new_store}}" class="new_store">New</span>
-                                            <span style="{{coming_soon_store}}" class="new_store">Coming soon</span>
-                                            <a href="{{promo_btn}}"><span class="new_store" style="{{promotion_exist}}">SALE</span></a>
-                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1446046952000/telephone66.png" class="" alt="phone"><span class="phone_field">{{phone}}</a>
-                                        </p>
+                    <div role="tabpanel" class="tab-pane" id="categories">
+                        <div class="store_list" id="category_list_container">
+                            <script id="category_list_template" type="x-tmpl-mustache/text">
+                                <div class="store_list_content {{block}}">
+                                    <h3 class="stores_table_headers" style="{{show}}">
+                                        <a class="store_initial" id="{{id}}">{{header}}</a>
+                                        <a href="#top" class="pull-right stores_gotop">
+                                            <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                        </a>
+                                    </h3>
+                                    <div class="store_row_name">
+                                        <a href="/stores/{{slug}}">{{name}}</a>
+                                        <div class="stores_row pull-right">
+                                            <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                            <span class="has_new" style="{{new_store}}">New</span>
+                                            <span class="store_phone hidden-xs">{{phone}}</span>
+                                            <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </a></span>
+                                        </div>
                                     </div>
                                 </div>
                             </script>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
-                    
                 </div>
             </div>    
         </div>
-        
-        <div class="col-md-3">
-            <a href="#list" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
-                <h3>Store A-Z</h3>
-            </a>
-            <div class="alphabet_bg switch_store">
-                <button class="btn-secondary" onClick="parent.location='#A'">A</button>
-                <button class="btn-secondary" onClick="parent.location='#B'">B</button>
-                <button class="btn-secondary" onClick="parent.location='#C'">C</button>
-                <button class="btn-secondary" onClick="parent.location='#D'">D</button>
-                <button class="btn-secondary" onClick="parent.location='#E'">E</button>
-                <button class="btn-secondary" onClick="parent.location='#F'">F</button>
-                <button class="btn-secondary" onClick="parent.location='#G'">G</button>
-                <button class="btn-secondary" onClick="parent.location='#H'">H</button>
-                <button class="btn-secondary" onClick="parent.location='#I'">I</button>
-                <button class="btn-secondary" onClick="parent.location='#J'">J</button>
-                <button class="btn-secondary" onClick="parent.location='#K'">K</button>
-                <button class="btn-secondary" onClick="parent.location='#L'">L</button>
-                <button class="btn-secondary" onClick="parent.location='#M'">M</button>
-                <button class="btn-secondary" onClick="parent.location='#N'">N</button>
-                <button class="btn-secondary" onClick="parent.location='#O'">O</button>
-                <button class="btn-secondary" onClick="parent.location='#P'">P</button>
-                <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
-                <button class="btn-secondary" onClick="parent.location='#R'">R</button>
-                <button class="btn-secondary" onClick="parent.location='#S'">S</button>
-                <button class="btn-secondary" onClick="parent.location='#T'">T</button>
-                <button class="btn-secondary" onClick="parent.location='#U'">U</button>
-                <button class="btn-secondary" onClick="parent.location='#V'">V</button>
-                <button class="btn-secondary" onClick="parent.location='#W'">W</button>
-                <button class="btn-secondary" onClick="parent.location='#X'">X</button>
-                <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
-                <button class="btn-secondary" onClick="location.href='Z'">Z</button>
-            </div>
-            <a href="#category" data-toggle="tab" class="store_tab_toggle" style="padding: 0px;">
-                <h3>Categories</h3>
-            </a>
-            <div class="switch_category" id="category_container_phone">
-                <script id="category_template_phone" type="x-tmpl-mustache/text">
-                    <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
-                </script>
-            </div>
-        </div>                
     </div>
 </div>
 <script>
     $(document).ready(function(e){
-        function renderAll(){
-            var categories = getStoreCategories();
-            console.log(categories);
+        function renderAll (){
             var stores = getStoresList();
-            console.log(stores);
-
+            var categories = getStoreCategories();
+            var half = Math.ceil(categories.length / 2)
+            var leftSide = categories.splice(0, half);
+            var rightSide = categories
+            
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-            renderStoreList("#store_cat_container", "#store_cat_template", stores, "stores");
-            renderGeneral('#category_container', '#category_template', categories, stores);
+            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
+            renderStoreListCatetories('#category_list_container','#category_list_template', leftSide, stores);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
-
         }
+        
         loadMallDataCached(renderAll); 
         
         $(".switch_store button").click(function(){
