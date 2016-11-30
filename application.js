@@ -538,8 +538,8 @@ function renderHomeHours(container, template, collection){
     });
     $('#home_hours_container').html(item_rendered.join(''));
 }
-var today_hours = getTodaysHours();
-renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
+// var today_hours = getTodaysHours();
+// renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
 // function init_home_hours(){
 //     var hours = getPropertyHours();
 //     var d = moment();
