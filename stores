@@ -90,12 +90,12 @@
                         <div class="store_list" id="category_list_container">
                             <script id="category_list_template" type="x-tmpl-mustache/text">
                                 <div class="store_list_content {{block}}">
-                                    <h3 class="stores_table_headers" style="{{show}}">
-                                        <a class="store_initial" id="{{id}}">{{header}}</a>
+                                    <div class="stores_table_headers" style="{{show}}">
+                                        <a id="{{id}}">{{header}}</a>
                                         <a href="#top" class="pull-right stores_gotop">
                                             <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                         </a>
-                                    </h3>
+                                    </div>
                                     <div class="store_row_name">
                                         <a href="/stores/{{slug}}">{{name}}</a>
                                         <div class="stores_row pull-right">
