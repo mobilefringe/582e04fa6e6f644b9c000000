@@ -5,8 +5,11 @@
     .store_initial {
         display: inline-block;
     }
-    .store_row_name p{
+    .store_row_name p {
         display: inline-block;
+    }
+    i.fa.fa-phone {
+        font-size: 24px;
     }
 </style>
 
