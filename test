@@ -64,21 +64,15 @@
                                         <a href="#top" class="pull-right stores_gotop">
                                             <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                         </a>
-                                   </h3>
-                                   <div class="store_row_name">
-                                        
-                                            <p class=><a href="/stores/{{slug}}">{{name}}</a></p>
-                                       
+                                    </h3>
+                                    <div class="store_row_name">
+                                        <p class=><a href="/stores/{{slug}}">{{name}}</a></p>
                                         <div class="store_list_name pull-right">
-                                           
                                             <span style="{{new_store}}" class="has_new">New</span>
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
                                             <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
-                                          
                                         </div>
-                                        
                                     </div>
-                                    
                                 </div>
                             </script>
                         </div>
@@ -87,26 +81,18 @@
                         <div class="store_list" id="category_list_container">
                             <script id="category_list_template" type="x-tmpl-mustache/text">
                                 <div class="store_list_content {{block}}">
-                                    <div class="stores_table_headers" style="{{show}}">
-                                        <p class="store_initial">{{header}}</p>
+                                    <h3 class="stores_table_headers" style="{{show}}">
+                                        <a class="store_initial">{{header}}</a>
                                         <a href="#top" class="pull-right stores_gotop">
                                             <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                         </a>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-xs-8 col-md-6">
-                                            <p class="store_row_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                                        </div>
-                                        <div class="col-xs-3 col-md-3">
-                                            <p class="store_list_name pull-right">
-                                                <span style="{{new_store}}" class="has_new">New</span>
-                                                <span class="has_sale" style="{{promotion_exist}}">SALE</span>
-                                            </p>
-                                        </div>
-                                        <div class="col-xs-1 col-md-3">
-                                            <p>
-                                                <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
-                                            </p>
+                                    </h3>
+                                    <div class="store_row_name">
+                                        <p class=><a href="/stores/{{slug}}">{{name}}</a></p>
+                                        <div class="store_list_name pull-right">
+                                            <span style="{{new_store}}" class="has_new">New</span>
+                                            <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
                                         </div>
                                     </div>
                                 </div>
