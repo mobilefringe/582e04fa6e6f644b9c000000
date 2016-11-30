@@ -12,34 +12,34 @@
                 <a class="store_tab_toggle" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">
                     <h3>Stores A-Z</h3>
                 </a>    
-                <p class="alpha_list">
-                    <a href="#A">A</a>
-                    <a href="#B">B</a>
-                    <a href="#C">C</a>
-                    <a href="#D">D</a>
-                    <a href="#E">E</a>
-                    <a href="#F">F</a>
-                    <a href="#G">G</a>
-                    <a href="#H">H</a>
-                    <a href="#I">I</a>
-                    <a href="#J">J</a>
-                    <a href="#K">K</a>
-                    <a href="#L">L</a>
-                    <a href="#M">M</a>
-                    <a href="#N">N</a>
-                    <a href="#O">O</a>
-                    <a href="#P">P</a>
-                    <a href="#Q">Q</a>
-                    <a href="#R">R</a>
-                    <a href="#S">S</a>
-                    <a href="#T">T</a>
-                    <a href="#U">U</a>
-                    <a href="#V">V</a>
-                    <a href="#W">W</a>
-                    <a href="#X">X</a>
-                    <a href="#Y">Y</a>
-                    <a href="#Z">Z</a>
-                </p>
+                <div class="alphabet_bg switch_store">
+                    <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                    <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                    <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                    <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                    <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                    <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                    <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                    <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                    <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                    <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                    <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                    <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                    <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                    <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                    <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                    <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                    <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                    <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                    <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                    <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                    <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                    <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                    <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                    <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                    <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                    <button class="btn-secondary" onClick="location.href='Z'">Z</button>
+                </div>
                 <a class="store_tab_toggle" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">
                     <h3>Catetegories</h3>
                 </a>
