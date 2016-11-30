@@ -513,70 +513,70 @@ function renderEventDetails(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderHomeHours(container, template, collection){
-    var today_hours = getTodaysHours();
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $('#home_hours_template').html();
-    Mustache.parse(template_html);   // optional, speeds up future uses
-    item_list.push(today_hours);    
-    $.each(item_list, function(key, val) {
-        val.day = moment().date();
-        var d = moment();
-        val.month = moment().month();
-        val.weekday = moment().day();
-        if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-            var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-            var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-            val.h = open_time.format("h:mma") + " - " + close_time.format("h:mma");
-            val.close_time = close_time.format("h:mma");
-        } else {
-            val.h = "Closed";
-        }
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
-    });
-    $('#home_hours_container').html(item_rendered.join(''));
-}
-var today_hours = getTodaysHours();
-renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
-// function init_home_hours(){
-//     var hours = getPropertyHours();
-//     var d = moment();
-//     var n = moment().day();
-//     var hours_today = [];
-//     $.each(hours, function(key, val){
-//         if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
-//             hours_today.push(val);
-//         } 
-//     });
+// function renderHomeHours(container, template, collection){
+//     var today_hours = getTodaysHours();
 //     var item_list = [];
 //     var item_rendered = [];
 //     var template_html = $('#home_hours_template').html();
 //     Mustache.parse(template_html);   // optional, speeds up future uses
-//     $.each( hours_today , function( key, val ) {
-//         var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-//         var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-//         val.open = check_open_time(open_time, close_time);
-//         val.close = close_time.format("h:mma");
-       
+//     item_list.push(today_hours);    
+//     $.each(item_list, function(key, val) {
+//         val.day = moment().date();
+//         var d = moment();
+//         val.month = moment().month();
+//         val.weekday = moment().day();
+//         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
+//             var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+//             var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+//             val.h = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+//             val.close_time = close_time.format("h:mma");
+//         } else {
+//             val.h = "Closed";
+//         }
 //         var rendered = Mustache.render(template_html,val);
 //         item_rendered.push(rendered);
-        
-// });
+//     });
 //     $('#home_hours_container').html(item_rendered.join(''));
-    
-//     $.each( getPropertyHours(), function(i,v){
-//         if(v.is_holiday == true || v.is_closed == true){
-//             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
-//             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
-//                 $('#home_hours_container').text("Closed Today")
-//                 $('.chat_link').hide()
-//             }
-            
-//         } 
-//     })
 // }
+// var today_hours = getTodaysHours();
+// renderHomeHours('#home_hours_container', '#home_hours_template', today_hours);
+function init_home_hours(){
+    var hours = getPropertyHours();
+    var d = moment();
+    var n = moment().day();
+    var hours_today = [];
+    $.each(hours, function(key, val){
+        if (val.day_of_week == n && val.is_closed == false && val.is_holiday == false){
+            hours_today.push(val);
+        } 
+    });
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $('#home_hours_template').html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( hours_today , function( key, val ) {
+        var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+        var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+        val.open = check_open_time(open_time, close_time);
+        val.close = close_time.format("h:mma");
+       
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+        
+});
+    $('#home_hours_container').html(item_rendered.join(''));
+    
+    $.each( getPropertyHours(), function(i,v){
+        if(v.is_holiday == true || v.is_closed == true){
+            var hours_day = new Date(v.holiday_date + "T05:00:00Z")
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+                $('#home_hours_container').text("Closed Today")
+                $('.chat_link').hide()
+            }
+            
+        } 
+    })
+}
 function renderStoreListCatetories(container, template, category_list,stores){
     var item_rendered = [];
     var template_html = $(template).html();
