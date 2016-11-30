@@ -64,7 +64,7 @@
         <div class="header">    
         <!--Top Nav Dynamic-->
             <div class="top_nav custom_dropdown full_header">
-                <div class="container-fluid trim_screen">              
+                <div class="trim_screen">              
                     <div class="row">
                         <div class="col-md-6">
                             <div class="header_menu">
