@@ -76,7 +76,7 @@
             
             
             
-            <div class="col-md-3">
+            <div class="col-xs-push-12 col-md-3 ">
                 <a class="store_tab_toggle" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">
                     <h3>Stores A-Z</h3>
                 </a>    
