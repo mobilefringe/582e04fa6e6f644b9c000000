@@ -77,7 +77,7 @@
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
                                             <span class="has_new" style="{{new_store}}">New</span>
                                             <span class="store_phone hidden-xs">{{phone}}</span>
-                                            <a class="hidden-xs"style="{{phone_exist}}" href="tel:{{phone}}">
+                                            <a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
                                                 <i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i>
                                             </a>
                                         </div>
