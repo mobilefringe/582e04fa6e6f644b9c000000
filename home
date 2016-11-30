@@ -103,7 +103,6 @@
             var feature_items = getFeatureList();
             renderFeatureItems('#latest_fashion','#latest_fashion_template', feature_items);
             
-            
             var stores = getNewStoresList().sortBy(function(o){ return o.created_at });;
             var new_stores = stores.reverse().slice(0, 3);
             renderNewStores("#latest_stores", "#latest_stores_template", new_stores);
@@ -115,7 +114,6 @@
             var all_promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});  
             var promotions = all_promotions.slice(0,2);
             renderPromotions("#latest_promos","#latest_promos_template", promotions);
-            console.log(promotions);
 
             $('.flexslider').flexslider({
                 animation: "slide",
