@@ -1,4 +1,7 @@
 <style>
+    .stores_table_headers {
+        width: 90%;
+    }
     .store_initial {
         display: inline-block;
     }
