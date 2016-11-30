@@ -1,17 +1,15 @@
 <section class="home_banner">
     <div class="trim_screen">
-        <div class="row">
-            <div class="flexslider trim_screen">
-                <ul class="slides" id="home_banner">            
-                    <script id="home_banner_template" type="x-tmpl-mustache/text">
-                        <li>
-                            <a class="banner_image_li" href="{{url}}" >
-                                <img src="{{image_url}}" alt="banner"/>
-                            </a>
-                        </li>
-                    </script>                
-                </ul>        
-            </div>
+        <div class="flexslider trim_screen">
+            <ul class="slides" id="home_banner">            
+                <script id="home_banner_template" type="x-tmpl-mustache/text">
+                    <li>
+                        <a class="banner_image_li" href="{{url}}" >
+                            <img src="{{image_url}}" alt="banner"/>
+                        </a>
+                    </li>
+                </script>                
+            </ul>        
         </div>
     </div>
 </section>
