@@ -80,9 +80,9 @@
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
                                             <span class="has_new" style="{{new_store}}">New</span>
                                             <span class="store_phone hidden-xs">{{phone}}</span>
-                                            <a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                            <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
                                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                            </a>
+                                            </a></span>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@
                                         <div class="store_list_name pull-right">
                                             <span style="{{new_store}}" class="has_new">New</span>
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
-                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</span></a>
+                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</a></span>
                                         </div>
                                     </div>
                                 </div>
