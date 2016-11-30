@@ -95,10 +95,9 @@
 </section>
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
-            renderHomeHours();
-            
             var banners = getBanners();
             renderBanner('#home_banner_template','#home_banner', banners);
             var feature_items = getFeatureList();
