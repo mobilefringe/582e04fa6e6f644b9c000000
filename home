@@ -97,7 +97,7 @@
 <script>
     $(document).ready(function(){
         function renderAll(){
-            init_home_hours();
+            renderHomeHours();
             
             var banners = getBanners();
             renderBanner('#home_banner_template','#home_banner', banners);
