@@ -100,11 +100,14 @@
                                         </a>
                                     </h3>
                                     <div class="store_row_name">
-                                        <p class=><a href="/stores/{{slug}}">{{name}}</a></p>
-                                        <div class="store_list_name pull-right">
-                                            <span style="{{new_store}}" class="has_new">New</span>
+                                        <a href="/stores/{{slug}}">{{name}}</a>
+                                        <div class="stores_row pull-right">
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
-                                            <a style="{{phone_exist}}" href="tel:{{phone}}"><i class="fa fa-phone visible-xs-inline-block" aria-hidden="true"></i><span class="store_phone hidden-xs">{{phone}}</a></span>
+                                            <span class="has_new" style="{{new_store}}">New</span>
+                                            <span class="store_phone hidden-xs">{{phone}}</span>
+                                            <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </a></span>
                                         </div>
                                     </div>
                                 </div>
