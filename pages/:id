@@ -1,5 +1,5 @@
 <style>
-    h3#error_msg {
+    #error_msg {
         text-align: center;
     }
 </style>
