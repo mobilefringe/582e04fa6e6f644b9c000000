@@ -116,7 +116,7 @@
                 animation: "slide",
             });
         }
-        renderHomeHours();
+        // renderHomeHours();
         loadMallData(renderAll); 
     })
 </script>
