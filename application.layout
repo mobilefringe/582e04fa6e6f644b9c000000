@@ -272,7 +272,7 @@
                         <div class="site_map_menu">
                             <a href="/stores" class="site_map_title">DIRECTORY</a>
                             <a href="/stores">Store List</a>
-                            <a href="/mapv2">Centre Map</a>
+                            <a href="/map">Centre Map</a>
                             <a href="/new_stores">New Stores</a>
                         </div>    
                     </div>
