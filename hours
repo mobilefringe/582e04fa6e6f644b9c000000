@@ -5,17 +5,18 @@
         <h2 class="">Regular Hours</h2> 
         <div class="hours_container">
             <div class="row">
-            <div id="reg_hours_container">
-                <script id="reg_hours_template" type="x-tmpl-mustache/text">
-                    <div class="col-xs-4 col-md-3">
-                        <span class="hours_day">{{day}}</span>
-                        <span class="dashes"></span>
-                    </div>   
-                    <div class="col-xs-8 col-md-9">
-                        <span class="hours_time">{{h}}</span>
-                    </div>
-                </script>    
-            </div>
+                <div id="reg_hours_container">
+                    <script id="reg_hours_template" type="x-tmpl-mustache/text">
+                        <div class="col-xs-4 col-md-3">
+                            <span class="hours_day">{{day}}</span>
+                            <span class="dashes"></span>
+                        </div>   
+                        <div class="col-xs-8 col-md-9">
+                            <span class="hours_time">{{h}}</span>
+                        </div>
+                    </script>    
+                </div>
+            </div
         </div>
             <div class="line_break ">&nbsp;</div>
             <h2 class="">Holiday Hours</h2>  
