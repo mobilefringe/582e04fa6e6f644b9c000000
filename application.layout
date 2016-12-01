@@ -313,7 +313,7 @@
             </div>    
         </div>  
         <!--Footer Content-->
-        <div class="hidden-sm footer">
+        <div class="hidden-xs hidden-sm footer">
             <div class="trim_screen">
                 <div class="row">
                     <div class="col-md-8">
