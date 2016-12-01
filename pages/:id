@@ -14,7 +14,7 @@
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var pages_json = "//www.uppercanadamall.com/pages/" + slug + ".json"
+            var pages_json = "//uppercanadamall.com/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 $('#page_body').html(data.body);
             }).fail(function(jqXHR) {
