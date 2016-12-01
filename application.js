@@ -461,7 +461,7 @@ function renderEvents(container, template, collection){
         }
         else{
             val.store_name = "Upper Canada Mall";
-            val.event_image_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
+            val.event_image_url = val.event_image_url_abs;
         }
         if(val.event_image_url.indexOf('missing.png') < 0){
             val.event_image_url = val.logo;
