@@ -5,7 +5,7 @@
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
                 <div class="media">
-                    <div class="col-md-3" href="/promotions/{{slug}}">
+                    <div class="col-md-3 remove_padding" href="/promotions/{{slug}}">
                         <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                             <div class='lightbox-content'>
                   	            <img src="{{event_image_url_abs}}" alt="store_promo"/>    
