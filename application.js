@@ -372,19 +372,19 @@ function renderPromotions(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html); 
-    $.each(collection, function(key, val) {
+    $.each( collection , function( key, val ) {
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
-            val.image_url = store_details.image_url;
+            val.image_url = store_details.store_front_url_abs;
         }
         else{
             val.store_name = "Upper Canada Mall";
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         
-        if(image_url.indexOf('') > 0){
+        if(val.image_url.indexOf('missing.png') > 0){
             val.image_url  = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";;
         }
         
@@ -397,6 +397,7 @@ function renderPromotions(container, template, collection){
         else{
             val.dates = start.format("MMM D") + " - " + end.format("MMM D")
         }
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
