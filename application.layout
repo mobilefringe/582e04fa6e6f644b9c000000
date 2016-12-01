@@ -158,8 +158,6 @@
                                     Today open until {%raw%}{{close_time}}{%endraw%}
                                 </script>
                             </span>
-                        
-                            <!--<span data-hour="2000-01-01 10:00:00 -0500---1999-12-31 21:00:00 -0500" id="data-hour">Today open until  9:00 PM</span>-->
                         </a>
                         <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
                     </div>    
@@ -260,14 +258,11 @@
     <section class="container">
         {{yield}}
     </section>
-    
     <footer>
         <div class="site_map hidden-xs">
-            
             <div class="trim_screen">
                 <h2 class="">site map</h2>
                 <div class="row">
-                
                     <div class="col-xs-2">
                         <div class="site_map_menu">
                             <a href="/stores" class="site_map_title">DIRECTORY</a>
@@ -276,7 +271,6 @@
                             <a href="/new_stores">New Stores</a>
                         </div>    
                     </div>
-                    
                     <div class="col-xs-2">                     
                         <div class="site_map_menu">
                             <a href="/promotions" class="site_map_title">PROMOTIONS</a>
@@ -316,8 +310,7 @@
                     </div>
                 </div>
             </div>    
-        </div>   
-
+        </div>  
         <!--Footer Content-->
         <div class="hidden-xs footer">
             <div class="container-fluid ">
