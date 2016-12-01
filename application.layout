@@ -150,7 +150,7 @@
                 </div>
             </div>
             <div class="trim_screen">
-                <div class="logo_right_btn hidden-xs">
+                <div class="logo_right_btn hidden-sm">
                     <a class="logo_hour" href="/hours">
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
@@ -169,7 +169,7 @@
             </div>
             <div class="trim_screen">
                 <div class="row">
-                    <div class="logo_menu hidden-xs">
+                    <div class="logo_menu hidden-sm">
                         <nav id="site_nav">
                             <ul>
                                 <li class="drop_down">
@@ -260,7 +260,7 @@
         {{yield}}
     </section>
     <footer>
-        <div class="site_map hidden-xs">
+        <div class="site_map hidden-sm">
             <div class="trim_screen">
                 <h2 class="">site map</h2>
                 <div class="row">
@@ -313,7 +313,7 @@
             </div>    
         </div>  
         <!--Footer Content-->
-        <div class="hidden-xs footer">
+        <div class="hidden-sm footer">
             <div class="trim_screen">
                 <div class="row">
                     <div class="col-md-8">
