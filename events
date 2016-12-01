@@ -36,6 +36,7 @@
         init();
         function renderAll(){
             var events = getEventsList().sortBy(function(o){ return o.start_date });
+            console.log(events);
             var prop = getPropertyDetails();
             var published_events = [];
             $.each(events, function(key, val){
