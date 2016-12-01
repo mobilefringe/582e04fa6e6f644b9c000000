@@ -64,8 +64,8 @@
         <div class="header">    
         <!--Top Nav Dynamic-->
             <div class="top_nav custom_dropdown full_header">
-                <!--<div class="row">              -->
-                    <div class="trim_screen">
+                <div class="trim_screen">              
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="header_menu">
                                 <a style="display:none" class="accessible" href="#main">[Skip to Content]</a>
@@ -88,7 +88,7 @@
                             </div>     
                         </div>
                     </div>  
-                <!--</div>                 -->
+                </div>                 
             </div>
         </div>
         <div class="logo_header trim_screen" id="main">
@@ -149,23 +149,25 @@
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 ">
-                    <div class="logo_right_btn hidden-xs">
-                        <a class="logo_hour" href="/hours">
-                            <span id="home_hours_container">
-                                <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                    Today open until {%raw%}{{close_time}}{%endraw%}
-                                </script>
-                            </span>
-                        </a>
-                        <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
-                    </div>    
-                    <div class="site_logo">
-                        <a href="/">
-                            <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
-                        </a>
-                    </div>    
+            <div class="trim_screen"
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="logo_right_btn hidden-xs">
+                            <a class="logo_hour" href="/hours">
+                                <span id="home_hours_container">
+                                    <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                        Today open until {%raw%}{{close_time}}{%endraw%}
+                                    </script>
+                                </span>
+                            </a>
+                            <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
+                        </div>    
+                        <div class="site_logo">
+                            <a href="/">
+                                <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
+                            </a>
+                        </div>    
+                    </div>
                 </div>
             </div>
             <div class="logo_menu hidden-xs">
@@ -313,24 +315,22 @@
         </div>  
         <!--Footer Content-->
         <div class="hidden-xs footer">
-            <!--<div class="container-fluid ">-->
-                <div class="trim_screen">
-                    <div class="row">
-                        <div class="col-md-8">
-                          <p class="footer_text">
-                          UpperCanadaMall 2013 &copy; All rights Reserved | <a target="_self" href="/pages/uppercanada-privacy-policy">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
-                          </p>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="property_manager_logo">
-                                <a target="_blank" href="http://www.oxfordproperties.com">
-                                    <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/263/original/oxford_logo.png?1369772908" alt="oxford_properties"/>
-                                </a>"    
-                            </div>                 
-                        </div>    
+            <div class="trim_screen">
+                <div class="row">
+                    <div class="col-md-8">
+                      <p class="footer_text">
+                      UpperCanadaMall 2013 &copy; All rights Reserved | <a target="_self" href="/pages/uppercanada-privacy-policy">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+                      </p>
                     </div>
+                    <div class="col-md-4">
+                        <div class="property_manager_logo">
+                            <a target="_blank" href="http://www.oxfordproperties.com">
+                                <img src="https://www.mallmaverick.com/system/site_images/photos/000/000/263/original/oxford_logo.png?1369772908" alt="oxford_properties"/>
+                            </a>"    
+                        </div>                 
+                    </div>    
                 </div>
-            <!--</div>-->
+            </div>
         </div>
         <div class="footer visible-xs-inline-block" style="padding-top: 10px;">
             <div class="trim_screen">
