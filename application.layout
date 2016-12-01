@@ -331,7 +331,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer visible-sm-inline-block" style="padding-top: 10px;">
+        <div class="footer visible-xs-inline-block visible-sm-block" style="padding-top: 10px;">
             <div class="trim_screen">
                 <div class="row">
                       UpperCanadaMall 2013 &copy; All rights Reserved 2013 | <a target="_self" href="/pages/uppercanada-privacy-policy--2">Privacy Policy</a> | Powered by <a target="_blank" href="http://www.mobilefringe.com/">Mobile Fringe</a> 
