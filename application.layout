@@ -150,8 +150,8 @@
                 </div>
             </div>
             <div class="trim_screen">
-                <div class="row">
-                    <div class="col-md-12 ">
+                <!--<div class="row">-->
+                    <!--<div class="col-md-12 ">-->
                         <div class="logo_right_btn hidden-xs">
                             <a class="logo_hour" href="/hours">
                                 <span id="home_hours_container">
@@ -161,68 +161,70 @@
                                 </span>
                             </a>
                             <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
-                        </div>    
+                        </div>   
+                        
                         <div class="site_logo">
                             <a href="/">
                                 <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
                             </a>
                         </div>    
-                    </div>
-                </div>    
+                    <!--</div>-->
+                <!--</div>    -->
             </div>
-            
-            <div class="logo_menu hidden-xs">
-                <div class="row">  
-                    <nav id="site_nav">
-                        <ul>
-                            <li class="drop_down">
-                                <a>Directory</a>
-                                <ul class="sub_menu">
-                                    <li><a href="/stores">Store List</a></li>
-                                    <li><a href="/map">Centre Map</a></li>
-                                    <li><a href="/new_stores">New Stores</a></li>
-                                </ul>
-                            </li>
-                            <li class="drop_down">
-                                <a>Promotions</a>
-                                <ul class="sub_menu">
-                                    <li><a href="/promotions">Store Promotions</a></li>
-                                </ul>
-                            </li>
-                            <li class="drop_down">
-                                <a>Events</a>
-                                <ul class="sub_menu">
-                                    <li><a href="/events">In-Mall Events</a></li>
-                                    <li><a href="/pages/ucm2-clubs">Clubs</a></li>
-                                </ul>
-                            </li>
-                            <li class="drop_down">
-                                <a>Services</a>
-                                <ul class="sub_menu">
-                                    <li><a href="pages/ucm2-services">Services</a></li>
-                                    <li><a href="/pages/ucm2-gift-cards">Gift Cards</a></li>
-                                    <li><a href="pages/ucm2-accessibility">Accessibility</a></li>
-                                </ul>
-                            </li>
-                            <li class="drop_down">
-                                <a>Mall Info</a>
-                                <ul class="sub_menu">
-                                    <li><a href="/hours">Mall Hours</a></li>
-                                    <li><a href="/pages/ucm2-directions">Parking & Directions</a></li>
-                                    <li><a href="/jobs">Jobs</a></li>
-                                    <li><a href="/pages/ucm2-leasing">Leasing</a></li>
-                                    <li><a href="/newsletter">Newsletter</a></li>
-                                    <li><a href="/virtual_tour">Virtual Tour</a></li>
-                                </ul>
-                            </li>
-                            <li class="drop_down">
-                                <a href="//gorgeous.uppercanadamall.com/">Blog</a>
-                            </li>
-                            <li class="drop_down">
-                                <a href="/pages/ucm2-agorgeousholiday">#AGorgeousHoliday</a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="trim_screen">
+                <div class="row">
+                    <div class="logo_menu hidden-xs">
+                        <nav id="site_nav">
+                            <ul>
+                                <li class="drop_down">
+                                    <a>Directory</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="/stores">Store List</a></li>
+                                        <li><a href="/map">Centre Map</a></li>
+                                        <li><a href="/new_stores">New Stores</a></li>
+                                    </ul>
+                                </li>
+                                <li class="drop_down">
+                                    <a>Promotions</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="/promotions">Store Promotions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="drop_down">
+                                    <a>Events</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="/events">In-Mall Events</a></li>
+                                        <li><a href="/pages/ucm2-clubs">Clubs</a></li>
+                                    </ul>
+                                </li>
+                                <li class="drop_down">
+                                    <a>Services</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="pages/ucm2-services">Services</a></li>
+                                        <li><a href="/pages/ucm2-gift-cards">Gift Cards</a></li>
+                                        <li><a href="pages/ucm2-accessibility">Accessibility</a></li>
+                                    </ul>
+                                </li>
+                                <li class="drop_down">
+                                    <a>Mall Info</a>
+                                    <ul class="sub_menu">
+                                        <li><a href="/hours">Mall Hours</a></li>
+                                        <li><a href="/pages/ucm2-directions">Parking & Directions</a></li>
+                                        <li><a href="/jobs">Jobs</a></li>
+                                        <li><a href="/pages/ucm2-leasing">Leasing</a></li>
+                                        <li><a href="/newsletter">Newsletter</a></li>
+                                        <li><a href="/virtual_tour">Virtual Tour</a></li>
+                                    </ul>
+                                </li>
+                                <li class="drop_down">
+                                    <a href="//gorgeous.uppercanadamall.com/">Blog</a>
+                                </li>
+                                <li class="drop_down">
+                                    <a href="/pages/ucm2-agorgeousholiday">#AGorgeousHoliday</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>        
                 </div>    
             </div>    
         </div>            
