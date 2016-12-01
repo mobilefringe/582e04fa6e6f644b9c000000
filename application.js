@@ -608,7 +608,7 @@ function show_png_pin(trigger, map){
         if (isMobile) {
             $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});    
         } else {
-            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:200});
+            $(map).smoothZoom('focusTo', {x:x_coord, y:y_coord, zoom:100});
         }
         
         $(map).smoothZoom('addLandmark', 
