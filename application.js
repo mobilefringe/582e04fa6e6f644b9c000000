@@ -459,7 +459,7 @@ function renderEvents(container, template, collection){
             val.store_name = store_details.name;
             val.event_image_url = store_details.store_front_url_abs;
         }
-        else{
+        else {
             val.store_name = "Upper Canada Mall";
             val.event_image_url = val.event_image_url_abs;
         }
