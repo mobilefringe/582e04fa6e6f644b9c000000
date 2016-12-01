@@ -384,7 +384,7 @@ function renderPromotions(container, template, collection){
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         
-        if(val.image_url.indexOf('missing.png') > 0){
+        if(val.image_url.indexOf('') > 0){
             val.image_url  = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";;
         }
         
