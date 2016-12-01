@@ -264,9 +264,11 @@
     
     <footer>
         <div class="site_map hidden-xs">
-            <h2 class="trim_screen">site map</h2>
+            
             <div class="row">
+                
                 <div class="trim_screen">
+                <h2 class="">site map</h2>
                     <div class="col-xs-2">
                         <div class="site_map_menu">
                             <a href="/stores" class="site_map_title">DIRECTORY</a>
