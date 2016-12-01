@@ -64,31 +64,29 @@
         <div class="header">    
         <!--Top Nav Dynamic-->
             <div class="top_nav custom_dropdown full_header">
-                <!--<div class="row">              -->
-                    <div class="trim_screen">
-                        <div class="col-md-6">
-                            <div class="header_menu">
-                                <a style="display:none" class="accessible" href="#main">[Skip to Content]</a>
-                                <a href="/" id="HOME">HOME</a>
-                                <a href="/pages/ucm2-press-releases" id="ABOUT">ABOUT</a>
-                                <a href="/jobs" id="JOBS">JOBS</a>
-                                <a href="/pages/ucm2-contact-us" id="CONTACT US">CONTACT US</a>
-                            </div>    
-                        </div>
-                        <div class="col-md-6">
-                            <div class="social_bar">
-                                <a class="accessible" href="#main">[Skip to Content]</a>
-                                <a class="media_icon" target="_blank" href="//www.twitter.com/uppercanadamall"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a class="media_icon" target="_blank" href="//www.facebook.com/uppercanadamall"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a class="media_icon" target="_blank" href="//www.pinterest.com/uppercanadamall"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                                <a class="media_icon" target="_blank" href="//www.youtube.com/user/UpperCanadaMall"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                <a class="media_icon" target="_blank" href="//www.instagram.com/uppercanadamall"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a class="media_icon" target="_blank" href="//gorgeous.uppercanadamall.com"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
-                                <a class="media_icon" href="/newsletter"><i class="fa fa-envelope" aria-hidden="true"></i></a>                  
-                            </div>     
-                        </div>
-                    </div>  
-                <!--</div>                 -->
+                <div class="trim_screen">
+                    <div class="col-md-6">
+                        <div class="header_menu">
+                            <a style="display:none" class="accessible" href="#main">[Skip to Content]</a>
+                            <a href="/" id="HOME">HOME</a>
+                            <a href="/pages/ucm2-press-releases" id="ABOUT">ABOUT</a>
+                            <a href="/jobs" id="JOBS">JOBS</a>
+                            <a href="/pages/ucm2-contact-us" id="CONTACT US">CONTACT US</a>
+                        </div>    
+                    </div>
+                    <div class="col-md-6">
+                        <div class="social_bar">
+                            <a class="accessible" href="#main">[Skip to Content]</a>
+                            <a class="media_icon" target="_blank" href="//www.twitter.com/uppercanadamall"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a class="media_icon" target="_blank" href="//www.facebook.com/uppercanadamall"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="media_icon" target="_blank" href="//www.pinterest.com/uppercanadamall"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                            <a class="media_icon" target="_blank" href="//www.youtube.com/user/UpperCanadaMall"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a class="media_icon" target="_blank" href="//www.instagram.com/uppercanadamall"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="media_icon" target="_blank" href="//gorgeous.uppercanadamall.com"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
+                            <a class="media_icon" href="/newsletter"><i class="fa fa-envelope" aria-hidden="true"></i></a>                  
+                        </div>     
+                    </div>
+                </div>  
             </div>
         </div>
         <div class="logo_header trim_screen" id="main">
