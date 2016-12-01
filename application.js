@@ -43,6 +43,9 @@ function renderFeatureItems(latest_fashion, latest_fashion_template, feature_ite
     var template_html = $(latest_fashion_template).html();
     Mustache.parse(template_html); 
     $.each(feature_items, function(key, val) {
+        if (val.description.length  >= 100) {
+            val.description = val.description.substring(0,99) + "...";
+        }
         if(val.url == "" || val.url === null){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
