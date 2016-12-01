@@ -1,5 +1,5 @@
 <style>
-    @media (max-width: 767px)
+    @media (max-width: 767px) {
         .trim_screen {
             padding: 0 10px;
         }
