@@ -66,25 +66,25 @@ function renderHours(container, template, collection, type){
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
                     case 0:
-                        val.day = "Monday";
+                        val.day = "Sunday";
                         break;
                     case 1:
-                        val.day = "Tuesday";
+                        val.day = "Monday";
                         break;
                     case 2:
-                        val.day = "Wednesday";
+                        val.day = "Tuesday";
                         break;
                     case 3:
-                        val.day = "Thursday";
+                        val.day = "Wednesday";
                         break;
                     case 4:
-                        val.day = "Friday";
+                        val.day = "Thursday";
                         break;
                     case 5:
-                        val.day = "Saturday";
+                        val.day = "Friday";
                         break;
                     case 6:
-                        val.day = "Sunday";
+                        val.day = "Saturday";
                         break;
                 }
                 if (val.open_time && val.close_time && val.is_closed == false){
