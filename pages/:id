@@ -1,5 +1,5 @@
 <style>
-    h3#404_msg {
+    h3#error_msg {
         text-align: center;
     }
 </style>
@@ -8,7 +8,7 @@
         <div id="page_body">
             
         </div>
-        <h3 id="404_msg">The page you were looking for doesn't exist.</h3>
+        <h3 id="error_msg">The page you were looking for doesn't exist.</h3>
     </div>
 </div>
 <script>
@@ -22,7 +22,7 @@
                 $('#page_body').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
-                    $("#404_msg").fadeIn("fast");
+                    $("#error_msg").fadeIn("fast");
                 }
             }); 
         }
