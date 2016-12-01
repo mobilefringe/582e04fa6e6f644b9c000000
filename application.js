@@ -146,8 +146,8 @@ function renderNewStores(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
-        if (val.description.length  >= 100) {
-            val.description = val.description.substring(0,99) + "...";
+        if (val.description.length  >= 50) {
+            val.description = val.description.substring(0,49) + "...";
         }
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
