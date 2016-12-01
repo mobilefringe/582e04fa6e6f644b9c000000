@@ -2,7 +2,7 @@
     <div class="page_content">
         <h1>Shopping Hours</h1>
         <h2 class="">Regular Hours</h2> 
-        <div class="hours_container">
+        <div>
             <div class="reg_hours_container">
                 <div class="row">
                     <div id="reg_hours_container" class>
