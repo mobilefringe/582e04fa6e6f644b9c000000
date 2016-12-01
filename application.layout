@@ -149,25 +149,28 @@
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 ">
-                    <div class="logo_right_btn hidden-xs">
-                        <a class="logo_hour" href="/hours">
-                            <span id="home_hours_container">
-                                <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                    Today open until {%raw%}{{close_time}}{%endraw%}
-                                </script>
-                            </span>
-                        </a>
-                        <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
-                    </div>    
-                    <div class="site_logo">
-                        <a href="/">
-                            <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
-                        </a>
-                    </div>    
-                </div>
+            <div class="trim_screen">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="logo_right_btn hidden-xs">
+                            <a class="logo_hour" href="/hours">
+                                <span id="home_hours_container">
+                                    <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                        Today open until {%raw%}{{close_time}}{%endraw%}
+                                    </script>
+                                </span>
+                            </a>
+                            <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
+                        </div>    
+                        <div class="site_logo">
+                            <a href="/">
+                                <img alt="site_logo" src="https://www.mallmaverick.com/system/site_images/photos/000/002/293/original/UCM_logo.png?1397148084" />
+                            </a>
+                        </div>    
+                    </div>
+                </div>    
             </div>
+            
             <div class="logo_menu hidden-xs">
                 <div class="row">  
                     <nav id="site_nav">
