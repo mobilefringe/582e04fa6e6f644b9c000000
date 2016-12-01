@@ -1,7 +1,6 @@
 <div class="row">
     <div class="trim_screen">
         <h1>Events</h1>
-        
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
                 <div class="media">
@@ -23,11 +22,9 @@
                 </div>
             </script>
         </div>
-       
         <div class="col-md-12">
             <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
         </div>
-        
     </div>
 </div>
 
