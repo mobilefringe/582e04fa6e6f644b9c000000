@@ -1,15 +1,7 @@
-<style>
-    @media (max-width: 767px) {
-        .trim_screen {
-            padding: 0 10px;
-        }
-    }
-</style>
-
 <div class="row">
     <div class="trim_screen">
         <h1>Store List</h1>
-        <div class="row">
+        <!--<div class="row">-->
             <div class="col-md-3 col-md-push-9">
                 <a class="store_tab" href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">
                     <h3>Stores A-Z</h3>
@@ -54,7 +46,7 @@
             <div class="col-md-9 col-md-pull-3">    
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="alphabetical">
-                        <!--<h4 class="">Stores A-Z</h4>-->
+
                         <div class="store_list" id="store_list_container">
                             <script id="store_list_template" type="x-tmpl-mustache/text">
                                 <div class="store_list_content">
@@ -106,7 +98,7 @@
                     </div>
                 </div>
             </div>    
-        </div>
+        <!--</div>-->
     </div>
 </div>
 <script>
