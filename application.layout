@@ -64,7 +64,7 @@
         <div class="header">    
         <!--Top Nav Dynamic-->
             <div class="top_nav custom_dropdown full_header">
-                <div class="row">              
+                <!--<div class="row">              -->
                     <div class="trim_screen">
                         <div class="col-md-6">
                             <div class="header_menu">
@@ -88,7 +88,7 @@
                             </div>     
                         </div>
                     </div>  
-                </div>                 
+                <!--</div>                 -->
             </div>
         </div>
         <div class="logo_header trim_screen" id="main">
@@ -149,7 +149,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="row">
+            <!--<div class="row">-->
                 <div class="col-md-12 ">
                     <div class="logo_right_btn hidden-xs">
                         <a class="logo_hour" href="/hours">
@@ -167,7 +167,7 @@
                         </a>
                     </div>    
                 </div>
-            </div>
+            <!--</div>-->
             <div class="logo_menu hidden-xs">
                 <div class="row">  
                     <nav id="site_nav">
