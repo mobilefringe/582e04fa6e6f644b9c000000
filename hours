@@ -1,4 +1,3 @@
-
 <div class="trim_screen">
     <div class="page_content">
         <h1>Shopping Hours</h1>
@@ -17,30 +16,30 @@
                     </script>    
                 </div>
             </div
-        </div>
-        <div class="line_break ">&nbsp;</div>
-        <h2 class="">Holiday Hours</h2>  
-        <div class="holiday_hours">
-            <div class="row">
-                <div id="holiday_hours_container">
-                    <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-                        <div class="row">
-                            <div class="col-xs-4 col-md-3">
-                                <span class="hours_day">{{holiday_name}} </span>
+
+            <div class="line_break ">&nbsp;</div>
+            <h2 class="">Holiday Hours</h2>  
+            <div class="holiday_hours">
+                <div class="row">
+                    <div id="holiday_hours_container">
+                        <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+                            <div class="row">
+                                <div class="col-xs-4 col-md-3">
+                                    <span class="hours_day">{{holiday_name}} </span>
+                                </div>
+                                <div class="col-xs-3 col-md-3">
+                                    <span class="hours_time">{{formatted_date}}</span><span class="dashes"></span>
+                                </div>  
+                                <div class="col-xs-5">
+                                    <span class="hours_time">{{h}}</span>
+                                </div>
                             </div>
-                            <div class="col-xs-3 col-md-3">
-                                <span class="hours_time">{{formatted_date}}</span><span class="dashes"></span>
-                            </div>  
-                            <div class="col-xs-5">
-                                <span class="hours_time">{{h}}</span>
-                            </div>
-                        </div>
-                    </script>
-                </div>  
+                        </script>
+                    </div>  
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <script>
