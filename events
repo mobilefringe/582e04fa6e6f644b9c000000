@@ -8,11 +8,11 @@
                     <div class="col-md-3" href="/promotions/{{slug}}">
                         <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
                             <div class='lightbox-content'>
-                  	            <img src="{{logo}}" alt="store_promo"/>    
+                  	            <img src="{{event_image_url}}" alt="store_promo"/>    
                             </div>
                         </div>
                         <a data-toggle="lightbox" href="#img{{slug}}">                
-              		        <img src="{{logo}}"/>    
+              		        <img src="{{event_image_url}}"/>    
                         </a>
                     </div>
                     <div class="col-md-9 promo_content">
