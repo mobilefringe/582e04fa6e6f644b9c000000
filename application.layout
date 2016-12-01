@@ -64,8 +64,8 @@
         <div class="header">    
         <!--Top Nav Dynamic-->
             <div class="top_nav custom_dropdown full_header">
-                <div class="trim_screen">              
-                    <div class="row">
+                <div class="row">              
+                    <div class="trim_screen">
                         <div class="col-md-6">
                             <div class="header_menu">
                                 <a style="display:none" class="accessible" href="#main">[Skip to Content]</a>
