@@ -8,7 +8,7 @@
         <div id="page_body">
             
         </div>
-        <h3 id="error_msg">The page you were looking for doesn't exist.</h3>
+        <h3 id="error_msg" style="display: none;">The page you were looking for doesn't exist.</h3>
     </div>
 </div>
 <script>
