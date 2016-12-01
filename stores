@@ -1,15 +1,8 @@
 <style>
-    .stores_table_headers {
-        width: 90%;
-    }
-    .store_initial {
-        display: inline-block;
-    }
-    .store_row_name p {
-        display: inline-block;
-    }
-    i.fa.fa-phone {
-        font-size: 24px;
+    @media (max-width: 767px)
+        .trim_screen {
+            padding: 0 10px;
+        }
     }
 </style>
 
