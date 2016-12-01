@@ -22,9 +22,11 @@
             <div id="latest_fashion">
                 <script id="latest_fashion_template" type="x-tmpl-mustache/text">
                     <div class="col-md-4" >
-                        <a href="{{url}}">
-                            <img alt="" src="{{image_url}}">
-                        </a>   
+                        <div class="img_container">
+                            <a href="{{url}}">
+                                <img alt="" src="{{image_url}}">
+                            </a>
+                        </div>
                         <p class="fashion_title">{{name}}</p>
                         <p class="latest_info">{{description}} <a href="{{url}}">Read More</a></p>
                     </div>
