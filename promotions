@@ -7,11 +7,11 @@
                   	<div href="/promotions/{{slug}}" class="col-md-3 remove_padding">      
                         <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true" stle="position: fixed; left: 400px; top: 244.5px; display: none;">
                             <div class='lightbox-content'>
-                  	            <img src="{{image_url}}" />    
+                  	            <img src="{{promo_image_url_abs}}" />    
                             </div>
                         </div>
-                        <a data-lightbox="{{image_url}}" href="#img{{slug}}">                
-              		        <img src="{{image_url}}" />    
+                        <a data-lightbox="{{promo_image_url_abs}}" href="#img{{slug}}">                
+              		        <img src="{{promo_image_url_abs}}" />    
                         </a>
               		</div>
                     <div class="col-md-9 promo_content">
