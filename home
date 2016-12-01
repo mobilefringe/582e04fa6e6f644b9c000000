@@ -77,7 +77,7 @@
             </div>
             <div id="latest_promos" class="home_content">
                 <script id="latest_promos_template" type="x-tmpl-mustache/text">
-                    <div class="col-md-4">
+                    <div class="col-sm-4 col-md-4">
                         <div class="img_container">
                             <a href="/promotions/{{slug}}">
                                 <img alt="" src="{{promo_image_url_abs}}">
