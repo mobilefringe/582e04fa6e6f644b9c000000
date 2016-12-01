@@ -265,51 +265,53 @@
     <footer>
         <div class="site_map hidden-xs">
             <h2 class="trim_screen">site map</h2>
-            <div class="row trim_screen">  
-                <div class="col-xs-2">
-                    <div class="site_map_menu">
-                        <a href="/stores" class="site_map_title">DIRECTORY</a>
-                        <a href="/stores">Store List</a>
-                        <a href="/mapv2">Centre Map</a>
-                        <a href="/new_stores">New Stores</a>
+            <div class="row">
+                <div class="trim_screen">
+                    <div class="col-xs-2">
+                        <div class="site_map_menu">
+                            <a href="/stores" class="site_map_title">DIRECTORY</a>
+                            <a href="/stores">Store List</a>
+                            <a href="/mapv2">Centre Map</a>
+                            <a href="/new_stores">New Stores</a>
+                        </div>    
+                    </div>
+                    
+                    <div class="col-xs-2">                     
+                        <div class="site_map_menu">
+                            <a href="/promotions" class="site_map_title">PROMOTIONS</a>
+                            <a href="/promotions">Store Promotions</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">                     
+                        <div class="site_map_menu">
+                            <a href="/events" class="site_map_title">EVENTS</a>
+                            <a href="/events">In-Mall Events</a>
+                            <a href="/pages/ucm2-clubs">Clubs</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">                     
+                        <div class="site_map_menu">
+                            <a href="/pages/ucm2-services" class="site_map_title">SERVICES</a>
+                            <a href="/pages/ucm2-services">Services</a>
+                            <a href="/pages/ucm2-gift-cards">Gift Cards</a>
+                            <a href="/pages/ucm2-accessibility">Accessibility</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="site_map_menu">
+                            <a href="/hours" class="site_map_title">MALL INFO</a>
+                            <a href="/hours">Mall Hours</a>
+                            <a href="/pages/ucm2-directions">Parking & Directions</a>
+                            <a href="/jobs">Jobs</a>
+                            <a href="/pages/ucm2-leasing">Leasing</a>
+                            <a href="/newsletter">Newsletter</a>
+                            <a href="/virtual_tour">Virtual Tour</a>
+                        </div>
                     </div>    
-                </div>
-                
-                <div class="col-xs-2">                     
-                    <div class="site_map_menu">
-                        <a href="/promotions" class="site_map_title">PROMOTIONS</a>
-                        <a href="/promotions">Store Promotions</a>
-                    </div>
-                </div>
-                <div class="col-xs-2">                     
-                    <div class="site_map_menu">
-                        <a href="/events" class="site_map_title">EVENTS</a>
-                        <a href="/events">In-Mall Events</a>
-                        <a href="/pages/ucm2-clubs">Clubs</a>
-                    </div>
-                </div>
-                <div class="col-xs-2">                     
-                    <div class="site_map_menu">
-                        <a href="/pages/ucm2-services" class="site_map_title">SERVICES</a>
-                        <a href="/pages/ucm2-services">Services</a>
-                        <a href="/pages/ucm2-gift-cards">Gift Cards</a>
-                        <a href="/pages/ucm2-accessibility">Accessibility</a>
-                    </div>
-                </div>
-                <div class="col-xs-2">
-                    <div class="site_map_menu">
-                        <a href="/hours" class="site_map_title">MALL INFO</a>
-                        <a href="/hours">Mall Hours</a>
-                        <a href="/pages/ucm2-directions">Parking & Directions</a>
-                        <a href="/jobs">Jobs</a>
-                        <a href="/pages/ucm2-leasing">Leasing</a>
-                        <a href="/newsletter">Newsletter</a>
-                        <a href="/virtual_tour">Virtual Tour</a>
-                    </div>
-                </div>    
-                <div class="col-xs-2">                     
-                    <div class="site_map_menu">
-                        <a href="http://gorgeous.uppercanadamall.com/" class="site_map_title">BLOG</a>
+                    <div class="col-xs-2">                     
+                        <div class="site_map_menu">
+                            <a href="http://gorgeous.uppercanadamall.com/" class="site_map_title">BLOG</a>
+                        </div>
                     </div>
                 </div>
             </div>    
