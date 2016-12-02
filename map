@@ -4,8 +4,9 @@
         <div class="row">
             <div class="col-md-4">
                 <select id="store_select_container" class="form-control select_store">
-                    <option selected>Select a Store</option>
+                    
                     <script id="store_select_template" type="x-tmpl-mustache/text">
+                        <option selected>Select a Store</option>
                         <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>
                     </script>
                 </select>
