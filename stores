@@ -106,6 +106,7 @@
         init();
         function renderAll (){
             var stores = getStoresList();
+            console.log(stores);
             var categories = getStoreCategories();
             console.log(categories);
             // var half = Math.ceil(categories.length / 2)
@@ -114,7 +115,7 @@
             
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
-            renderStoreListCatetories('#category_list_container','#category_list_template', categories);
+            renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
             renderGeneral('#category_container_phone', '#category_template_phone', categories);
         }
         
