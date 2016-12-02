@@ -21,7 +21,7 @@
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
                 <div class="col-sm-3 col-md-3 remove_padding">
-                    <a class="example-image-link" href="{{event_image_url_abs}}" data-lightbox="{{name}}">
+                    <a class="lightbox-content" href="{{event_image_url_abs}}" data-lightbox="{{name}}">
                         <img src="{{event_image_url_abs}}">
                     </a>   
                 </div>
