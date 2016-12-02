@@ -37,7 +37,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getJobsList();
+            var jobs = getJobsList().sortBy(function(o){ return o.store_name});
             console.log(jobs);
             var published_jobs = [];
             $.each(jobs, function(key, val){
@@ -47,10 +47,8 @@
                     published_jobs.push(val);
                 } 
             });
-            var sorted_jobs = published_jobs.sortBy(function(o){ return o.store_name});
-            console.log(sorted_jobs);
-            if(sorted_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', sorted_jobs);
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
             }
             else{
                 $('#no_jobs').show()
