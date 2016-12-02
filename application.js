@@ -66,25 +66,25 @@ function renderHours(container, template, collection, type){
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
                     
-                    case 0:
+                    case 1:
                         val.day = "Monday";
                         break;
-                    case 1:
+                    case 2:
                         val.day = "Tuesday";
                         break;
-                    case 2:
+                    case 3:
                         val.day = "Wednesday";
                         break;
-                    case 3:
+                    case 4:
                         val.day = "Thursday";
                         break;
-                    case 4:
+                    case 5:
                         val.day = "Friday";
                         break;
-                    case 5:
+                    case 6:
                         val.day = "Saturday";
                         break;
-                    case 6:
+                    case 0:
                         val.day = "Sunday";
                         break;
                 }
