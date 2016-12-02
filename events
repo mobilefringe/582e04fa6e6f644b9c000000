@@ -36,7 +36,7 @@
         </div>
     </div>
 </div>
-<script src="//s3.amazonaws.com/kodekloud/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></script><script src="//s3.amazonaws.com/kodekloud/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></script>
+<script src="//s3.amazonaws.com/kodekloud/sites/582e04fa6e6f644b9c000000/text/javascript/1478472594000/lightbox.min.js"></script>
 <script>
     $(document).ready(function(e){
         init();
