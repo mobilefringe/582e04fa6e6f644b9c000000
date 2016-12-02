@@ -18,7 +18,7 @@
         <h1>Events</h1>
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
-                // <div class="media">
+ 
                     <div class="col-sm-3 col-md-3 remove_padding">
                     
                     
@@ -35,7 +35,7 @@
                         <h4 class="promo_date">{{dates}}</h4>
         				<p>{{{rich_description}}}</p>
                     </div>
-                // </div>
+           
             </script>
         </div>
         <div class="col-md-12">
