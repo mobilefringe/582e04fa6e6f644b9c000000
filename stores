@@ -107,6 +107,7 @@
         function renderAll (){
             var stores = getStoresList();
             var categories = getStoreCategories();
+            console.log(categories);
             var half = Math.ceil(categories.length / 2)
             var leftSide = categories.splice(0, half);
             var rightSide = categories
