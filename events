@@ -4,7 +4,7 @@
         <h1>Events</h1>
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
-                <div class="promo_content">
+                <div class="row promo_content">
                     <div class="col-sm-3 col-md-3 remove_padding">
                         <a  href="{{event_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{event_image_url_abs}}">
