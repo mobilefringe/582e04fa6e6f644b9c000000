@@ -40,8 +40,6 @@
             var jobs = getJobsList();
             // .sortBy(function(o){ return o.store_name});
             console.log(jobs);
-            var info = getStoreDetailsByID(jobs.jobable_id);
-            console.log(info);
             var published_jobs = [];
             $.each(jobs, function(key, val){
                 today = moment();
@@ -52,7 +50,8 @@
             });
             if(published_jobs.length > 0){
                 console.log(published_jobs);
-                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+                sorted_jobs = published_jobs.sortBy(function(o){ return o.store_name});
+                renderJobs('#jobs_container', '#jobs_template', sorted_jobs);
             }
             else{
                 $('#no_jobs').show()
