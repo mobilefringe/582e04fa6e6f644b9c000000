@@ -37,7 +37,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getJobsList().sortBy(store_name);
+            var jobs = getJobsList();
             console.log(jobs);
             var published_jobs = [];
             $.each(jobs, function(key, val){
@@ -48,7 +48,8 @@
                 } 
             });
             if(published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+                var sorted_jobs = published_jobs.sortBy(function(o){ return o.store_name});
+                renderJobs('#jobs_container', '#jobs_template', sorted_jobs);
             }
             else{
                 $('#no_jobs').show()
