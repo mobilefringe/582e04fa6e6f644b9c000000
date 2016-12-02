@@ -23,9 +23,6 @@
                     <a class="example-image-link" href="{{event_image_url_abs}}" data-lightbox="{{name}}">
                         <img src="{{event_image_url_abs}}">
                     </a>   
-                    
-                    
- 
                 </div>
                 <div class="col-sm-9 col-md-9 promo_content">
                     <h3><a href="/events/{{slug}}">{{name}}</a></h4>
