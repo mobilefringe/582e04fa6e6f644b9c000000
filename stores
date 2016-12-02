@@ -39,7 +39,7 @@
                 </a>
                 <div class="switch_category" id="category_container_phone">
                     <script id="category_template_phone" type="x-tmpl-mustache/text">
-                        <button class="btn-secondary category_btn" onClick="parent.location='#{{header}}'" name="{{header}}">{{name}}</button>
+                        <button class="btn-secondary category_btn" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>
                     </script>
                 </div>
             </div>    
