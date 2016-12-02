@@ -167,7 +167,7 @@
             </div>
             <div class="trim_screen">
                 <div class="row">
-                    <div class="logo_menu hidden-sm">
+                    <div class="logo_menu hidden-xs hidden-sm">
                         <nav id="site_nav">
                             <ul>
                                 <li class="drop_down">
