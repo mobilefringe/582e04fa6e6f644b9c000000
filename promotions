@@ -10,7 +10,6 @@
                             <img src="{{promo_image_url_abs}}">
                         </a>   
                     </div>
-                        
                     <div class="col-sm-9 col-md-9">
                         <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
                         <h4><a href="/promotions/{{slug}}">{{name}}</a></h4>
