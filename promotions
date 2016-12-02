@@ -4,14 +4,14 @@
         <h1>Promotions</h1>
         <div id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="row">
+                <div class="promo_content">
               		<div class="col-sm-3 col-md-3 remove_padding">
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
                             <img src="{{promo_image_url_abs}}">
                         </a>   
                     </div>
                         
-                    <div class="col-sm-9 col-md-9 promo_content">
+                    <div class="col-sm-9 col-md-9">
                         <h3><a href="/stores/{{store_detail_btn}}">{{store_name}}</a></h3>
                         <h4><a href="/promotions/{{slug}}">{{name}}</a></h4>
                         <h4 class="promo_date">{{dates}}</h4>
