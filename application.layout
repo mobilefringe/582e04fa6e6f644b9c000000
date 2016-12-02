@@ -37,7 +37,7 @@
     <!--Javascript-->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>-->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/5639075d6e6f647b9f020000/text/javascript/1446569669000/instafeed.min.js"></script>
@@ -149,13 +149,13 @@
             </div>
             <div class="trim_screen">
                 <div class="logo_right_btn hidden-xs hidden-sm">
-                    <!--<a class="logo_hour" href="/hours">-->
-                    <!--    <span id="home_hours_container">-->
-                    <!--        <script id="home_hours_template" type="x-tmpl-mustache/text">-->
-                    <!--            Today open until {%raw%}{{close_time}}{%endraw%}-->
-                    <!--        </script>-->
-                    <!--    </span>-->
-                    <!--</a>-->
+                    <a class="logo_hour" href="/hours">
+                        <span id="home_hours_container">
+                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                Today open until {%raw%}{{close_time}}{%endraw%}
+                            </script>
+                        </span>
+                    </a>
                     <a class="logo_newsletter" href="/newsletter">Get Our Newsletter</a>
                 </div>   
                 
