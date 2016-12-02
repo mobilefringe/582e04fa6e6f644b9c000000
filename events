@@ -1,6 +1,6 @@
 <link href="http://assets.codecloudapp.com/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css" rel="stylesheet"><link href="http://assets.codecloudapp.com/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css" rel="stylesheet">
-<div class="trim_screen">
-    <div class="row">
+<div class="row">
+    <div class="trim_screen">
         <h1>Events</h1>
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
