@@ -47,10 +47,9 @@
                     published_jobs.push(val);
                 } 
             });
-            all_jobs = published_jobs.sortBy(function(o){ return o.store_name});
-            console.log(all_jobs)
-            if(published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', all_jobs);
+            var sorted_jobs = published_jobs.sortBy(function(o){ return o.store_name});
+            if(sorted_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', sorted_jobs);
             }
             else{
                 $('#no_jobs').show()
