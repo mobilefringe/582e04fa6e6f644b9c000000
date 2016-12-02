@@ -86,7 +86,7 @@
                                         <div class="stores_row pull-right">
                                             <span class="has_sale" style="{{promotion_exist}}">SALE</span>
                                             <span class="has_new" style="{{new_store}}">New</span>
-                                            <span class="store_phone hidden-xs">{{phone}}</span>
+                                            <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
                                             <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
                                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                             </a></span>
