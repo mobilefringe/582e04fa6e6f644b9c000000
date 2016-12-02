@@ -307,11 +307,11 @@ function renderJobs(container, template, collection){
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         if(val.jobable_type == "Store"){
-            val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            val.store_name = getStoreDetailsByID(val.jobable_id).store_name;
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
-            val.store_name = "Upper Canada Mallz";
+            val.store_name = "Upper Canada Mall";
         }
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
