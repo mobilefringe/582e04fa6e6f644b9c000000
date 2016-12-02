@@ -48,7 +48,7 @@
                 } 
             });
             if(published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+                renderJobsDetails('#jobs_container', '#jobs_template', published_jobs);
             }
             else{
                 $('#no_jobs').show()
