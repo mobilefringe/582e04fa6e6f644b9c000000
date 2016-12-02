@@ -39,7 +39,7 @@
                 </a>
                 <div class="switch_category" id="category_container_phone">
                     <script id="category_template_phone" type="x-tmpl-mustache/text">
-                        <button class="btn-secondary category_btn" onClick="parent.location='#{{id}}'" name="{{id}}">{{name}}</button>
+                        <button class="btn-secondary category_btn" onClick="parent.location='#{{name}}'" name="{{id}}">{{name}}</button>
                     </script>
                 </div>
             </div>    
@@ -76,7 +76,7 @@
                             <script id="category_list_template" type="x-tmpl-mustache/text">
                                 <div class="store_list_content {{block}}">
                                     <div class="stores_table_headers bold" style="{{show}}">
-                                        <a id="{{id}}">{{header}}</a>
+                                        <a id="{{name}}">{{header}}</a>
                                         <a href="#top" class="pull-right stores_gotop">
                                             <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
                                         </a>
