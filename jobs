@@ -50,7 +50,7 @@
             });
             if(published_jobs.length > 0){
                 console.log(published_jobs);
-                sorted_jobs = published_jobs.sortBy(function(o){ return o.store_name});
+                sorted_jobs = published_jobs.sortBy(function(o){ return o.id});
                 renderJobs('#jobs_container', '#jobs_template', sorted_jobs);
             }
             else{
