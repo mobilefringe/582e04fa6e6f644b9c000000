@@ -19,10 +19,8 @@
         <h1>Events</h1>
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
- 
-                    <div class="col-sm-3 col-md-3 remove_padding">
-                    
-                        
+                <div class="col-sm-3 col-md-3 remove_padding">
+                    <a href="{{event_image_url_abs}}" data-lightbox="{{name}}">Hello</a>   
                     
                     
                     
