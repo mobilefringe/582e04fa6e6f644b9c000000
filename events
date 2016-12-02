@@ -22,7 +22,7 @@
  
                     <div class="col-sm-3 col-md-3 remove_padding">
                     
-                     <a href="{{event_image_url_abs}}" data-lightbox="image-1" data-title="My caption">Image #1</a>   
+                        
                     
                     
                     
