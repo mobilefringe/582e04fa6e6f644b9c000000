@@ -103,7 +103,7 @@
 </div>
 <script>
     $(document).ready(function(e){
-        // init(e);
+        init(e);
         function renderAll (){
             var stores = getStoresList();
             var categories = getStoreCategories();
