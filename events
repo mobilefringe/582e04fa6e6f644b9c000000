@@ -21,12 +21,12 @@
  
                     <div class="col-sm-3 col-md-3 remove_padding">
                     
-                    
+                        
                     
                     
                     
               
-                        <a href="#img{{slug}}" data-lightbox="{{event_image_url_abs}}" class="example-image-link">                
+                        <a href="{{event_image_url_abs}}" data-lightbox="{{name}}" class="example-image-link">                
               		        <img src="{{event_image_url_abs}}" alt="Promotion Image" class="example-image"/>    
                         </a>
                     </div>
