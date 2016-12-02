@@ -1,20 +1,4 @@
 <link href="http://assets.codecloudapp.com/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css" rel="stylesheet"><link href="http://assets.codecloudapp.com/sites/582e04fa6e6f644b9c000000/text/css/1478472594000/lightbox.min.css" rel="stylesheet">
-<style>
-    .example-image-link {
-        display: inline-block;
-        padding: 10px;
-        background-color: #fff;
-        border: 1px solid rgba(0,0,0,0.3);
-        border-radius: 6px;
-        box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-        background-clip: padding-box;
-        transition: background-color 0.5s ease-out;
-    }
-    .example-image {
-        width: 7rem;
-        border-radius: 4px;
-    }
-</style>
 <div class="row">
     <div class="trim_screen">
         <h1>Events</h1>
