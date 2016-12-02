@@ -3,15 +3,17 @@
         <h1>Events</h1>
         <div id="events_container">
             <script id="events_template" type="x-tmpl-mustache/text">
-                <div class="media">
-                    <div class="col-sm-3 col-md-3 remove_padding" href="/promotions/{{slug}}">
-                        <div id="img{{slug}}" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class='lightbox-content'>
-                  	            <img src="{{event_image_url_abs}}" alt="store_promo"/>    
-                            </div>
-                        </div>
-                        <a data-toggle="lightbox" href="#img{{slug}}">                
-              		        <img src="{{event_image_url_abs}}"/>    
+                
+                    <div class="col-sm-3 col-md-3 remove_padding">
+                    
+                        
+                    
+                    
+                    
+                    
+              
+                        <a href="#img{{slug}}" data-lightbox="{{event_image_url_abs}}">                
+              		        <img src="{{event_image_url_abs}}" alt="Promotion Image"/>    
                         </a>
                     </div>
                     <div class="col-sm-9 col-md-9 promo_content">
@@ -19,7 +21,7 @@
                         <h4 class="promo_date">{{dates}}</h4>
         				<p>{{{rich_description}}}</p>
                     </div>
-                </div>
+               
             </script>
         </div>
         <div class="col-md-12">
