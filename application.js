@@ -308,7 +308,7 @@ function renderJobs(container, template, collection){
     $.each( collection , function( key, val ) {
         if(val.jobable_type == "Store"){
             // val.store_name = getStoreDetailsByID(val.jobable_id).name;
-            var store_name = val.store_name
+            val.store_name = val.store_name;
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
