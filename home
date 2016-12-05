@@ -115,8 +115,9 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
+            renderHomeHours();
         }
-        renderHomeHours();
+        
         loadMallData(renderAll); 
     })
 </script>
