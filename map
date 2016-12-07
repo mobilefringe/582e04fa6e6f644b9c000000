@@ -31,6 +31,7 @@
         function renderAll(){
             var stores = getStoresList();
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
+            $(".select_store").prepend("<option disabled selected>Select a Store</option>");
             
             $("#png_map").attr("src", getPNGMapURL())
         		$('#png_map').smoothZoom({
