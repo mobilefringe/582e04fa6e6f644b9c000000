@@ -114,7 +114,7 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
             renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
-            renderGeneral('#category_container_phone', '#category_template_phone', categories, stores);
+            //renderGeneral('#category_container_phone', '#category_template_phone', categories, stores);
         }
         
         loadMallDataCached(renderAll); 
