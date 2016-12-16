@@ -38,9 +38,9 @@
                     <h3>Catetegories</h3>
                 </a>
                 <div class="switch_category" id="category_container_phone">
-                    <!--<script id="category_template_phone" type="x-tmpl-mustache/text">-->
-                    <!--    <button class="btn-secondary category_btn" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>-->
-                    <!--</script>-->
+                    <script id="category_template_phone" type="x-tmpl-mustache/text">
+                        <button class="btn-secondary category_btn" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>
+                    </script>
                 </div>
             </div>    
             <div class="col-md-9 col-md-pull-3">    
@@ -48,27 +48,27 @@
                     <div role="tabpanel" class="tab-pane active" id="alphabetical">
 
                         <div class="store_list" id="store_list_container">
-                            <!--<script id="store_list_template" type="x-tmpl-mustache/text">-->
-                            <!--    <div class="store_list_content">-->
-                            <!--        <div class="stores_table_headers" style="{{show}}">-->
-                            <!--            <a id="{{initial}}">{{initial}}</a>-->
-                            <!--            <a href="#top" class="pull-right stores_gotop">-->
-                            <!--                <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">-->
-                            <!--            </a>-->
-                            <!--        </div>-->
-                            <!--        <div class="store_row_name">-->
-                            <!--            <a href="/stores/{{slug}}">{{name}}</a>-->
-                            <!--            <div class="stores_row pull-right">-->
-                            <!--                <span class="has_sale" style="{{promotion_exist}}">SALE</span>-->
-                            <!--                <span class="has_new" style="{{new_store}}">New</span>-->
-                            <!--                <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>-->
-                            <!--                <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">-->
-                            <!--                    <i class="fa fa-phone" aria-hidden="true"></i>-->
-                            <!--                </a></span>-->
-                            <!--            </div>-->
-                            <!--        </div>-->
-                            <!--    </div>-->
-                            <!--</script>-->
+                            <script id="store_list_template" type="x-tmpl-mustache/text">
+                                <div class="store_list_content">
+                                    <div class="stores_table_headers" style="{{show}}">
+                                        <a id="{{initial}}">{{initial}}</a>
+                                        <a href="#top" class="pull-right stores_gotop">
+                                            <img src="//www.mallmaverick.com/system/site_images/photos/000/000/280/original/icon_gotop.png?1370370003">
+                                        </a>
+                                    </div>
+                                    <div class="store_row_name">
+                                        <a href="/stores/{{slug}}">{{name}}</a>
+                                        <div class="stores_row pull-right">
+                                            <span class="has_sale" style="{{promotion_exist}}">SALE</span>
+                                            <span class="has_new" style="{{new_store}}">New</span>
+                                            <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
+                                            <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </script>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="categories">
@@ -106,15 +106,17 @@
         init();
         function renderAll (){
             var stores = getStoresList();
+            console.log(stores);
             var categories = getStoreCategories();
+            console.log(categories);
             // var half = Math.ceil(categories.length / 2)
             // var leftSide = categories.splice(0, half);
             // var rightSide = categories
             
-            renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
-            renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
-            //renderGeneral('#category_container_phone', '#category_template_phone', categories, stores);
+            // renderStoreList('#store_list_container','#store_list_template', stores, "stores");
+            // renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
+            // renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
+            // renderGeneral('#category_container_phone', '#category_template_phone', categories, stores);
         }
         
         loadMallDataCached(renderAll); 
