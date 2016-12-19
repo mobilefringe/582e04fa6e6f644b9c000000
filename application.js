@@ -190,7 +190,6 @@ function renderStoreList(container, template, collection, type){
     $.each( collection , function( key, val ) {
         
         var rendered = Mustache.render(template_html,val);
-        var upper_current_initial = current_initial.toUpperCase();
         item_rendered.push(rendered);
     });
     $(container).show();
