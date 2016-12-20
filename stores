@@ -37,8 +37,8 @@
                 <a class="store_tab" href="#categories" aria-controls="categories" role="tab" data-toggle="tab">
                     <h3>Catetegories</h3>
                 </a>
-                <div class="switch_category" id="category_container_phone">
-                    <script id="category_template_phone" type="x-tmpl-mustache/text">
+                <div class="switch_category" id="category_container_right">
+                    <script id="category_template_right" type="x-tmpl-mustache/text">
                         <button class="btn-secondary category_btn" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>
                     </script>
                 </div>
@@ -110,9 +110,9 @@
 
             
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
-            renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
+            // renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
             renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
-            renderGeneral('#category_container_phone', '#category_template_phone', categories, stores);
+            renderGeneral('#category_container_right', '#category_template_right', categories, stores);
         }
         
         loadMallDataCached(renderAll); 
